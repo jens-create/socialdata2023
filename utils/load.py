@@ -2,7 +2,7 @@
 import pandas as pd
 
 
-def load_sf():
+def load_sf(start_year):
     df = pd.read_csv(
         "/Users/jenspt/Desktop/git/socialdata2023/assignments/data/"
         + "Police_Department_Incident_Reports__Historical_2003_to_May_2018.csv"
