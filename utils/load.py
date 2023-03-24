@@ -2,7 +2,7 @@
 import pandas as pd
 
 
-def load_sf(start_year):
+def load_sf():
     df = pd.read_csv(
         "/Users/jenspt/Desktop/git/socialdata2023/assignments/data/"
         + "Police_Department_Incident_Reports__Historical_2003_to_May_2018.csv"
@@ -17,4 +17,22 @@ def load_sf(start_year):
     df["month"] = df["Timestamp"].dt.month
     df["dow"] = df["Timestamp"].dt.dayofweek
     df["how"] = df["Timestamp"].dt.dayofweek * 24 + df["Timestamp"].dt.hour
-    return df
+
+    focuscrimes = [
+        "WEAPON LAWS",
+        "PROSTITUTION",
+        "DRIVING UNDER THE INFLUENCE",
+        "ROBBERY",
+        "BURGLARY",
+        "ASSAULT",
+        "DRUNKENNESS",
+        "DRUG/NARCOTIC",
+        "TRESPASS",
+        "LARCENY/THEFT",
+        "VANDALISM",
+        "VEHICLE THEFT",
+        "STOLEN PROPERTY",
+        "DISORDERLY CONDUCT",
+    ]
+
+    return df, focuscrimes
