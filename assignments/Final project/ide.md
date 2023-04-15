@@ -42,9 +42,37 @@ Vi vil gerne lave følgende plots:
 Make sure you answer the questions;
 
 - What genre is it? (for Genres, see section 4.3 of the Segel and Heer paper)
-
 - Why is that genre right for telling the story you want to communicate with the data
 - A walk-through of your preliminary data-analysis, addressing
 - What is the total size of your data? (MB, number of rows, number of variables, etc)
 - What are other properties? (What is the date range? Is is it geo-data?, then a quick plot of locations, etc.)
 - Show the fundamental distributions of the data (similar to the work we did on SF crime data for lecture 3)
+
+
+
+## Storyline
+
+### Formål: (10 sec)
+Vi vil gerne undersøge hvordan at sikkerheden på vejene i NYC har udviklet sig gennem årene, og hvordan at sikkerheden kan forbedres.
+
+### Hvordan vil vi gøre det? (25 sec)
+
+Vi vil belyse følgende spørgsmål:
+- Hvordan har udviklingen af dødelige ulykker udviklet sig gennem årene? (Time series plot grupperet på alvorlighed af ulykke)
+- Hvilke typer ulykker er mest hyppige?
+- Hvilke tidspunkter er mest dødelige? ()
+- Hvilke lyskryds er mest dødelige? (cloropleth map)
+- Hvordan påvirker vejrforholdene antallet af dødelige ulykker? (Time series: antal ulykker vs vejrforhold)
+
+
+
+### Hvordan kan vi svare på det? (15 sec)
+Data:
+- Traffic data
+- Vejr data
+
+Show fundamental distributions of the data, and other information about the data.
+
+
+### Hvordan vil vi formidle det?  (10 sec)
+- Hjemmeside der følger `Magazine` genre med flere faner og interaktive plots.
