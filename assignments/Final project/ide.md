@@ -59,10 +59,15 @@ Vi vil gerne undersøge hvordan at sikkerheden på vejene i NYC har udviklet sig
 
 Vi vil belyse følgende spørgsmål:
 - Hvordan har udviklingen af dødelige ulykker udviklet sig gennem årene? (Time series plot grupperet på alvorlighed af ulykke - DONE)
+![image](./figures/Fatal_traffic_accidents.png)
 - Hvilke typer ulykker er mest hyppige? (DONE)
+![image](./figures/TypeAccident.png)
 - Hvilke tidspunkter er mest dødelige? (DONE)
+> Samme som 1.
 - Hvilke lyskryds er mest dødelige? (cloropleth map - DONE)
+> Må være cloropleth map :))
 - Hvordan påvirker vejrforholdene antallet af dødelige ulykker? (Time series: antal ulykker vs vejrforhold) (DONE)
+![image](./figures/weather.png)
 
 
 
@@ -73,7 +78,9 @@ Data:
 
 Show fundamental distributions of the data, and other information about the data.
  - Bar plot over summen af ulykker per HOUR, DAY, MONTH, YEAR, HOUR OF WEEK
+ > Samme som 1.
  - Boxplot af summen af ulykker per borough
+ ![image](./figures/boxplot.png)
 
 
 
