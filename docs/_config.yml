@@ -19,14 +19,14 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Making NYC Streets Safer - Analyzing Traffic Accidents Dataset
-description: This webpage aims to raise awareness about traffic accidents in New York City and explore ways to make the streets safer for everyone. We will dive into the latest traffic accidents dataset and analyze the trends, patterns, and factors that contribute to these accidents. By understanding the data, we hope to identify potential solutions and initiatives that can help reduce the number of traffic accidents and improve road safety in NYC.
+description: Our webpage aims to raise awareness and explore solutions to make New York City streets safer by analyzing the latest traffic accidents dataset for trends, patterns, and contributing factors. Our goal is to identify potential initiatives to reduce the number of accidents and improve road safety in NYC.
 url: "https://jens-create.github.io/socialdata2023"
 
 #for github pages - whenever you push to the repo below line should be uncommented.
-baseurl: "socialdata2023"
+#baseurl: "socialdata2023"
 
 #for local development - only change temporarily.
-#baseurl: ""
+baseurl: ""
 
 
 remote_theme: pages-themes/cayman@v0.2.0
