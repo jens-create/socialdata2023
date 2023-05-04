@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Interactive Map</title>
+<script>
+function update_map() {
+    var selected_metric = document.getElementById("metric_dropdown").value;
+    document.getElementById("map_iframe").src = "temp_map_" + selected_metric + ".html";
+}
+</script>
+</head>
+<body>
+    <select id="metric_dropdown" onchange="update_map()">
+        <option value="accidents_per_sqkm">Accidents per sq. km</option>
+        <option value="accidents_per_capita">Accidents per capita</option>
+        <option value="annual_total_accidents">Annual total accidents</option>
+         <option value="annual_fatal_accidents">Annual fatal accidents</option>
+    </select>
+    <iframe id="map_iframe" src="temp_map_accidents_per_sqkm.html" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+</body>
+</html>
