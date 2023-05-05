@@ -8,7 +8,35 @@
 function update_map() {
     var selected_metric = document.getElementById("metric_dropdown").value;
     document.getElementById("map_iframe").src = "{{site.url}}/assets/temp_map_" + selected_metric + ".html";
+    update_analysis();
 }
+
+function update_analysis() {
+    var selected_metric = document.getElementById("metric_dropdown").value;
+    var analysis_text = "";
+    if (selected_metric === "accidents_per_sqkm") {
+        analysis_text = `The number of traffic incidents per sq. km. follows the same pattern as the population density of the boroighs in NYC. 
+        During the period of 2013-2023 Manhatten has had 431 traffic incidents per sq. km. 
+        This is signinficantly higher compared to the remaining boroughs of NYC, where Brooklyn in the same period has the second highest number of traffic incidents per sq. km. with 202. Bronx has the third highest number with 154 incidents per sq. km.
+        The three boroughs are ranked in the same order in terms of population density. 
+        `;
+    } else if (selected_metric === "accidents_per_capita") {
+        analysis_text = "Here is the analysis for accidents per capita...";
+    } else if (selected_metric === "total_accidents") {
+        analysis_text = "Here is the analysis for total accidents...";
+     } else if (selected_metric === "severe_accident_rate") {
+        analysis_text = "Here is the analysis for severe accidents...";
+    }
+
+    
+    document.getElementById("map_analysis").innerHTML = analysis_text;
+}
+
+window.onload = function() {
+  update_analysis();
+};
+
+
 </script>
 </head>
 <body>
@@ -19,5 +47,6 @@ function update_map() {
          <option value="severe_accident_rate">Severe accident rate</option>
     </select>
     <iframe id="map_iframe" src="{{site.url}}/assets/temp_map_accidents_per_sqkm.html" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+    <div id="map_analysis" style="padding-top: 20px;"></div>
 </body>
 </html>
