@@ -9,6 +9,7 @@ In this page, we will explore the latest traffic accidents dataset and uncover i
 yada yada yada this and this
 
 
+{% include nyc_accidents_map.html %}
 ## Investigating the factors that contribute to accidents
 
 Crashes on NYC streets are caused by various factors, some of which are more obvious than others. It could be a driver's distraction, fatigue, or even aggressive behavior. Pedestrians who jaywalk or cyclists who ride recklessly can also contribute to crashes.
