@@ -1,3 +1,6 @@
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+
 # Welcome to our webpage on Making NYC Streets Safer!
 
 Did you know that every year, thousands of traffic accidents occur on the streets of New York City, causing injuries and fatalities to drivers, passengers, and pedestrians alike? These accidents not only impact the lives of those involved but also affect the overall safety and well-being of our city.
@@ -35,8 +38,9 @@ The following chart shows the top 8 factors that contribute to accidents in NYC 
 
 <div id="tab-content">
   <!-- Content for the tabs will be added here -->
-  {% include factor_plot_text/tab1.md %}
+  {{ site.data.tab1.content | markdownify }}
 </div>
+
 
 
 

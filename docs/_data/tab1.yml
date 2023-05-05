@@ -1,0 +1,9 @@
+---
+title: Tab 1
+content: For now you only write directly in html formatting...<br>
+  This is the content for tab 1, written in markdown.
+  It can contain **bold** and *italic* text, as well as
+  links [like this](https://example.com).<br>
+  <p> This is a paragraph </p>
+  <h3> This is a header </h3>
+---
