@@ -7,9 +7,7 @@ Did you know that every year, thousands of traffic accidents occur on the street
 
 In this page, we will explore the latest traffic accidents dataset and uncover insights that can help us make our streets safer. Together, we can work towards a future where accidents are less frequent, and everyone can feel confident and secure on NYC's roads. Let's get started!
 
-## The Data
-
-But where do the accidents occur?????
+## Where in NYC do Traffic Incidents Occur?
 
 {% include nyc_accidents_map.html %}
 
