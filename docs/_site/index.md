@@ -6,8 +6,9 @@ In this page, we will explore the latest traffic accidents dataset and uncover i
 
 ## The Data
 
-yada yada yada this and this
+But where do the accidents occur?????
 
+{% include nyc_accidents_map.html %}
 
 
 ## Investigating the factors that contribute to accidents
