@@ -4,8 +4,6 @@ Did you know that every year, thousands of traffic accidents occur on the street
 
 In this page, we will explore the latest traffic accidents dataset and uncover insights that can help us make our streets safer. Together, we can work towards a future where accidents are less frequent, and everyone can feel confident and secure on NYC's roads. Let's get started!
 
-{{site.baseurl}}
-{{site.url}}
 ## The Data
 
 But where do the accidents occur?????
@@ -34,6 +32,11 @@ Ideas:
 The following chart shows the top 8 factors that contribute to accidents in NYC for the three categories.
 
 {% include factor_plot.html %}
+
+<div id="tab-content">
+  <!-- Content for the tabs will be added here -->
+  {% include factor_plot_text/tab1.md %}
+</div>
 
 
 
