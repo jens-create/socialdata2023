@@ -18,7 +18,7 @@ To run the webpage locally with live-updates when developing change the followin
 
 ```
 #for github pages - whenever you push to the repo below line should be uncommented.
-baseurl: "socialdata2023-assignment2"
+baseurl: "socialdata2023"
 
 #for local development - only change temporarily.
 baseurl: ""
