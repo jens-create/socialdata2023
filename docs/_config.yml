@@ -23,7 +23,7 @@ description: Our webpage aims to raise awareness and explore solutions to make N
 url: "https://jens-create.github.io/"
 
 #for github pages - whenever you push to the repo below line should be uncommented.
-baseurl: "socialdata2023/"
+baseurl: "socialdata2023"
 
 #for local development - only change temporarily.
 #baseurl: ""
