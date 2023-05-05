@@ -9,10 +9,6 @@ repos:
     rev: 22.10.0
     hooks:
     -   id: black
--   repo: https://github.com/fastai/nbdev
-    rev: 2.3.4
-    hooks:
-    - id: nbdev_clean
 -   repo: https://github.com/pycqa/flake8
     rev: 4.0.1
     hooks:
