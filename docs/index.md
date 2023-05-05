@@ -24,16 +24,13 @@ Ideas:
 - How have these factors changed over time?
 - What can we do to prevent these factors from happening in the future?
 
-
-
-
-
 ### The most common factors that contribute to accidents
 
-The following chart shows the top 10 factors that contribute to accidents in NYC. The data is based on the latest dataset from NYC Open Data, which contains information about all traffic accidents reported by the NYPD since 2012.
+The following chart shows the top 8 factors that contribute to accidents in NYC for the three categories.
 
 {% include factor_plot.html %}
 
-As you can see, the most common factor is "Driver Inattention/Distraction", followed by "Failure to Yield Right-of-Way" and "Backing Unsafely". These three factors account for more than half of all accidents in NYC.
+
+
 
 ### How do these factors relate to each other?

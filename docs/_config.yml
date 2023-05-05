@@ -20,10 +20,10 @@
 
 title: Making NYC Streets Safer - Analyzing Traffic Accidents Dataset
 description: Our webpage aims to raise awareness and explore solutions to make New York City streets safer by analyzing the latest traffic accidents dataset for trends, patterns, and contributing factors. Our goal is to identify potential initiatives to reduce the number of accidents and improve road safety in NYC.
-url: "https://jens-create.github.io/socialdata2023"
+url: "https://jens-create.github.io/"
 
 #for github pages - whenever you push to the repo below line should be uncommented.
-baseurl: "socialdata2023"
+baseurl: "socialdata2023/"
 
 #for local development - only change temporarily.
 #baseurl: ""
