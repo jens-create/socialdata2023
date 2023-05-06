@@ -100,3 +100,5 @@ target/
 assignments/Final project/Data/Motor_Vehicle_Collisions_Crashes.csv
 assignments/Final project/Data/collision_weather.pkl
 assignments/Final project/Data/collision_weather.csv
+
+_site/
