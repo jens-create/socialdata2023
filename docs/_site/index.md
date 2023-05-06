@@ -57,6 +57,10 @@ In this page, we will explore the latest traffic accidents dataset and uncover i
 {% include nyc_accidents_map.html %}
 
 
+map num. 2
+{% include accidents_locations_map.html %}
+
+
 
 
 ## Investigating the factors that contribute to accidents
