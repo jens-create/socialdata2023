@@ -38,7 +38,7 @@ The following chart shows the top 8 factors that contribute to accidents in NYC 
 
 <div id="tab-content">
   <!-- Content for the tabs will be added here -->
-  {{ site.data.tab1.content | markdownify }}
+  {{ site.data.tab1.content }}
 </div>
 
 
@@ -46,3 +46,18 @@ The following chart shows the top 8 factors that contribute to accidents in NYC 
 
 
 ### How do these factors relate to each other?
+
+![Vehicle 1 factor vs Vehicle 2 factor](/assets/top_8_contributing_factors.png)
+
+
+**Forklaring**:
+
+Ovenstående plot:
+
+Viser top 8 årsager der er mest hyppige for ulykker. Størrelsen af cirklen indikerer hvor mange ulykker der er sket med den pågældende årsag og farven indikerer hvor mange der er såret eller døde i ulykken.
+
+Der er mange pointer der kan drages fra plottet:
+- Driver Inattention/Distraction er den hyppigste årsag til ulykker, og at det er den årsag der har flest sårede og døde i ulykkerne.
+- Af en eller grund så hvis begge biler har samme årsag så er ulykken slemmere; er det fejlrapportering eller er det fordi at samme årsag er mere alvorlig hvis begge biler har hver deres årsag?
+- Unsafe speed fremgår som ret slem i forhold til hvor få crashes.
+- Backing unsafely er ikke slem...

@@ -1,6 +1,2 @@
----
 title: Tab 3
-content: This is the content for tab 1, written in markdown.
-  It can contain **bold** and *italic* text, as well as
-  links [like this](https://example.com).
----
+content: <p> This is the text for tab 3 </p>
