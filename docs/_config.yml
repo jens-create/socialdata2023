@@ -23,10 +23,10 @@ description: Our webpage aims to raise awareness and explore solutions to make N
 url: "https://jens-create.github.io/socialdata2023"
 
 #for github pages - whenever you push to the repo below line should be uncommented.
-#baseurl: "socialdata2023"
+baseurl: "socialdata2023"
 
 #for local development - only change temporarily.
-baseurl: ""
+#baseurl: ""
 
 
 remote_theme: pages-themes/cayman@v0.2.0
