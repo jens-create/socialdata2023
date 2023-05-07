@@ -53,7 +53,6 @@ In this page, we will explore the latest traffic accidents dataset and uncover i
 
 {% include nyc_accidents_map.html %}
 
-<<<<<<< HEAD
 ### Most dangerous areas in NYC
 
 
@@ -62,14 +61,11 @@ Atlantic Avenue in Brooklyn is the most dangerous street in New York City. It ha
 
 
 An article from 2021, ,sheds light upon the fact there has been renovation projects on improving the safety of `Atlantic Avenue` since 2014. The project, which aimed to improve safety for pedestrians and cyclists, involved adding high visibility crosswalks and curb extensions, but critics state that it has not fundamentally altered the geometry of the street or provided traffic calming measures. The article argues that despite the renovation, the number of injuries on the roadway has remained high, and the project's Phase II does not even have funding. Thus, we highly recommend that the city should prioritize the renovation of Atlantic Avenue to improve the safety of the street.
-=======
-and lets have a closer look at specific locations
->>>>>>> 82dea1f8d60f15dc9ee559c2fb454f55e78937b0
 
 {% include accidents_locations_map.html %}
 
 
-## Investigating the factors that contribute to accidents
+# Investigating the factors that contribute to accidents
 
 Crashes on NYC streets are caused by various factors, some of which are more obvious than others. It could be a driver's distraction, fatigue, or even aggressive behavior. Pedestrians who jaywalk or cyclists who ride recklessly can also contribute to crashes.
 
@@ -81,9 +77,9 @@ Ideas:
 - How do these factors vary depending on the severity of the accident? - OK
 - How do these factors vary depending on the type of transportation method? - OK
 - How have these factors changed over time?
-- What can we do to prevent these factors from happening in the future?
+- What can we do to prevent these factors from happening in the future? - OK
 
-### The most common factors that contribute to accidents
+## The most common factors that contribute to accidents
 
 The following chart shows the top 8 factors that contribute to accidents in NYC for the three categories.
 
@@ -96,7 +92,7 @@ The following chart shows the top 8 factors that contribute to accidents in NYC 
 </div>
 
 
-#### Recommendation suggestions:
+### Recommendation suggestions:
 Based on the analysis of the three plots, there are several recommendations that could be made to improve road safety in New York City:
 
 - Address driver inattention and distraction: This is the leading contributing factor to both material damage-only accidents and pedestrian fatalities, and is a common factor in crashes involving injuries to motorists, cyclists, and pedestrians. Strategies to address this issue could include increased public education campaigns, stricter enforcement of distracted driving laws, and the development and promotion of new technologies that reduce driver distraction.
@@ -112,7 +108,7 @@ Overall, a multi-faceted approach is needed to improve road safety in New York C
 
 
 
-### How do these factors relate to each other?
+## How do these factors relate to each other?
 
 ![Vehicle 1 factor vs Vehicle 2 factor](/assets/top_8_contributing_factors.png)
 
@@ -129,7 +125,7 @@ Finally, the plot reveals that crashes involving backing unsafely are relatively
 
 Overall, this scatter plot provides valuable insights into the correlation between contributing factors in crashes, highlighting the importance of addressing driver inattention and distraction and the need to focus on risky behaviors when both drivers are engaging in them. By taking these insights into account, policymakers and safety advocates can make more informed decisions about how to improve road safety in New York City.
 
-### Conclusion on factors...
+## Conclusion on factors...
 
 To conclude on the four plots, the policymakers in NYC should focus on addressing the most common contributing factors to crashes and the factors that lead to the most severe crashes.
 
