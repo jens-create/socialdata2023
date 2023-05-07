@@ -7,7 +7,7 @@
 <script>
 function update_map1() {
     var selected_metric = document.getElementById("metric_dropdown").value;
-    document.getElementById("map_iframe").src = "{{site.url}}/assets/temp_map_" + selected_metric + ".html";
+    document.getElementById("map_iframe1").src = "{{site.url}}/assets/temp_map_" + selected_metric + ".html";
     update_analysis1();
 }
 
@@ -23,11 +23,11 @@ function update_analysis1() {
      } else if (selected_metric === "severe_accident_rate") {
         analysis_text = "Here is the analysis for severe accidents...";
     }
-    document.getElementById("map_analysis").innerHTML = analysis_text;
+    document.getElementById("map_analysis1").innerHTML = analysis_text;
 }
 
 window.onload = function() {
-  update_analysi1s();
+  update_analysis1();
 };
 
 
@@ -41,6 +41,6 @@ window.onload = function() {
          <option value="severe_accident_rate">Severe accident rate</option>
     </select>
     <iframe id="map_iframe1" src="{{site.url}}/assets/temp_map_accidents_per_sqkm.html" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
-    <div id="map_analysis" style="padding-top: 20px;"></div>
+    <div id="map_analysis1" style="padding-top: 20px;"></div>
 </body>
 </html>
