@@ -6,6 +6,19 @@ Did you know that every year, thousands of traffic accidents occur on the street
 In this page, we will explore the latest traffic accidents dataset and uncover insights that can help us make our streets safer. Together, we can work towards a future where accidents are less frequent, and everyone can feel confident and secure on NYC's roads. Let's get started!
 
 
+# Summary statistics
+
+
+## Boxplot
+
+{% include boxplot_collisions_per_day.html %}
+
+
+## Time series x2
+Not currently working with the setup...
+
+
+
  <div class="row" style="margin-top:20px;">
 
         <div class="col-md-2">
@@ -48,24 +61,27 @@ In this page, we will explore the latest traffic accidents dataset and uncover i
 
 
 
-## Where in NYC do Traffic Incidents Occur?
+# Where in NYC do Traffic Incidents Occur?
 
 
 {% include nyc_accidents_map.html %}
 
-### Most dangerous areas in NYC
 
 
-#### Atlantic Avenue in Brooklyn
-Atlantic Avenue in Brooklyn is the most dangerous street in New York City. It has the highest number of accidents, injuries, and fatalities of any street in the city. The street is a major thoroughfare that runs through several neighborhoods, including Bedford-Stuyvesant, Crown Heights, and Prospect Heights. It is also home to many businesses and residential buildings, making it a popular destination for pedestrians and cyclists. However, the street lacks adequate infrastructure for these users, with narrow sidewalks and bike lanes that are often blocked by parked cars or delivery trucks. This leads to conflicts between different modes of transportation, resulting in collisions and injuries.
-
-
-An article from 2021, ,sheds light upon the fact there has been renovation projects on improving the safety of `Atlantic Avenue` since 2014. The project, which aimed to improve safety for pedestrians and cyclists, involved adding high visibility crosswalks and curb extensions, but critics state that it has not fundamentally altered the geometry of the street or provided traffic calming measures. The article argues that despite the renovation, the number of injuries on the roadway has remained high, and the project's Phase II does not even have funding. Thus, we highly recommend that the city should prioritize the renovation of Atlantic Avenue to improve the safety of the street.
 
 {% include accidents_locations_map.html %}
 
 
-# Investigating the factors that contribute to accidents
+## Most dangerous areas in NYC
+
+### Atlantic Avenue in Brooklyn
+Atlantic Avenue in Brooklyn is the most dangerous street in New York City. It has the highest number of accidents, injuries, and fatalities of any street in the city. The street is a major thoroughfare that runs through several neighborhoods, including Bedford-Stuyvesant, Crown Heights, and Prospect Heights. It is also home to many businesses and residential buildings, making it a popular destination for pedestrians and cyclists. However, the street lacks adequate infrastructure for these users, with narrow sidewalks and bike lanes that are often blocked by parked cars or delivery trucks. This leads to conflicts between different modes of transportation, resulting in collisions and injuries.
+
+
+An article from 2021, [SAFETY THIRD: Hit-and-Run Driver Kills Deaf Man on Notorious Speedway that DOT Failed to Fix](https://nyc.streetsblog.org/2021/10/16/safety-third-hit-and-run-driver-kills-deaf-man-on-notorious-speedway-that-dot-failed-to-fix/), sheds light upon the fact there has been renovation projects on improving the safety of `Atlantic Avenue` since 2014. The project, which aimed to improve safety for pedestrians and cyclists, involved adding high visibility crosswalks and curb extensions, but critics state that it has not fundamentally altered the geometry of the street or provided traffic calming measures. The article argues that despite the renovation, the number of injuries on the roadway has remained high, and the project's Phase II does not even have funding. Thus, we highly recommend that the city should prioritize the renovation of Atlantic Avenue to improve the safety of the street.
+
+
+# Investigating the causes of accidents
 
 Crashes on NYC streets are caused by various factors, some of which are more obvious than others. It could be a driver's distraction, fatigue, or even aggressive behavior. Pedestrians who jaywalk or cyclists who ride recklessly can also contribute to crashes.
 

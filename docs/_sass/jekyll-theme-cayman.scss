@@ -105,6 +105,8 @@ a {
   }
 }
 
+
+
 .page-header {
   color: $header-heading-color;
   text-align: center;
@@ -164,6 +166,7 @@ a {
 
 .main-content {
   word-wrap: break-word;
+  margin-top: 80px; /* add a margin value to shift content down by the same amount as navbar padding */
 
   :first-child {
     margin-top: 0;
