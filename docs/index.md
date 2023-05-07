@@ -1,14 +1,10 @@
-<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-
 
 # Welcome to our webpage on Making NYC Streets Safer!
 
 Did you know that every year, thousands of traffic accidents occur on the streets of New York City, causing injuries and fatalities to drivers, passengers, and pedestrians alike? These accidents not only impact the lives of those involved but also affect the overall safety and well-being of our city.
 
 In this page, we will explore the latest traffic accidents dataset and uncover insights that can help us make our streets safer. Together, we can work towards a future where accidents are less frequent, and everyone can feel confident and secure on NYC's roads. Let's get started!
-{% include boxplot_collisions_per_day.html %}
-{% include time_series_plot1.html %}
-{% include time_series_plot2.html %}
+
 
  <div class="row" style="margin-top:20px;">
 
@@ -56,6 +52,14 @@ In this page, we will explore the latest traffic accidents dataset and uncover i
 
 {% include nyc_accidents_map.html %}
 
+### Most dangerous areas in NYC
+
+
+#### Atlantic Avenue in Brooklyn
+Atlantic Avenue in Brooklyn is the most dangerous street in New York City. It has the highest number of accidents, injuries, and fatalities of any street in the city. The street is a major thoroughfare that runs through several neighborhoods, including Bedford-Stuyvesant, Crown Heights, and Prospect Heights. It is also home to many businesses and residential buildings, making it a popular destination for pedestrians and cyclists. However, the street lacks adequate infrastructure for these users, with narrow sidewalks and bike lanes that are often blocked by parked cars or delivery trucks. This leads to conflicts between different modes of transportation, resulting in collisions and injuries.
+
+
+An article from 2021, ,sheds light upon the fact there has been renovation projects on improving the safety of `Atlantic Avenue` since 2014. The project, which aimed to improve safety for pedestrians and cyclists, involved adding high visibility crosswalks and curb extensions, but critics state that it has not fundamentally altered the geometry of the street or provided traffic calming measures. The article argues that despite the renovation, the number of injuries on the roadway has remained high, and the project's Phase II does not even have funding. Thus, we highly recommend that the city should prioritize the renovation of Atlantic Avenue to improve the safety of the street.
 
 
 
@@ -81,9 +85,23 @@ The following chart shows the top 8 factors that contribute to accidents in NYC 
 
 <div id="tab-content">
   <!-- Content for the tabs will be added here -->
-  {{ site.data.tab1.content }}
+  Driver inattention/distraction is the leading contributing factor in material damage-only accidents, accounting for over 54,681 crashes. This is likely due to the fact that a split second of inattention can easily lead to subsequent actions that result in a collision with another car or object.
+  Following too closely is the second most common contributing factor, with approximately 14,369 accidents. Other common factors include passing too closely, improper passing or lane usage, backing unsafely, and failure to yield right-of-way. These factors may result from various causes, such as drivers attempting to pass or change lanes without signaling or checking blind spots, or backing up in areas with limited visibility. They may also occur when drivers misjudge the speed or distance of other vehicles, fail to properly anticipate their movements, or use lanes inappropriately. By identifying these factors and developing targeted strategies to reduce their occurrence, we can improve traffic safety and reduce the number of material damage-only accidents.
 </div>
 
+
+#### Recommendation suggestions:
+Based on the analysis of the three plots, there are several recommendations that could be made to improve road safety in New York City:
+
+- Address driver inattention and distraction: This is the leading contributing factor to both material damage-only accidents and pedestrian fatalities, and is a common factor in crashes involving injuries to motorists, cyclists, and pedestrians. Strategies to address this issue could include increased public education campaigns, stricter enforcement of distracted driving laws, and the development and promotion of new technologies that reduce driver distraction.
+
+- Improve pedestrian safety: Pedestrians are disproportionately affected by crashes leading to injuries and fatalities, and are often the victims of crashes involving failure to yield right of way. To address this issue, policies could focus on improving pedestrian infrastructure, such as adding more crosswalks and pedestrian signals, and redesigning streets to slow down traffic and increase visibility.
+
+- Address speeding: Unsafe speed is the leading contributing factor to fatal crashes, particularly among motorists. Strategies to address this issue could include stricter enforcement of speed limits, the use of automated speed cameras, and roadway design changes such as road narrowing or speed humps.
+
+- Focus on vulnerable road users: Cyclists and pedestrians are particularly vulnerable to injury and death in crashes, and thus policies could be implemented to protect these users. For example, this could include the promotion of protected bike lanes and the implementation of pedestrian-friendly designs such as sidewalks, crosswalks, and traffic calming measures.
+
+Overall, a multi-faceted approach is needed to improve road safety in New York City, involving collaboration between policymakers, law enforcement agencies, transportation professionals, and the general public. By addressing the contributing factors to crashes, particularly those that result in injuries and fatalities, the city can work towards a safer and more sustainable transportation system.
 
 
 
@@ -93,14 +111,24 @@ The following chart shows the top 8 factors that contribute to accidents in NYC 
 ![Vehicle 1 factor vs Vehicle 2 factor](/assets/top_8_contributing_factors.png)
 
 
-**Forklaring**:
+The plot includes the top nine contributing factors, with the size of the circle indicating the number of crashes and the color indicating the number of injuries or deaths.
 
-Ovenstående plot:
+The plot reveals several important insights. Firstly, crashes involving driver inattention/distraction for both vehicle 1 and vehicle 2 have the highest crash count and are associated with the highest number of injuries and deaths. This highlights the importance of addressing driver inattention and distraction in efforts to make New York City roads safer.
 
-Viser top 8 årsager der er mest hyppige for ulykker. Størrelsen af cirklen indikerer hvor mange ulykker der er sket med den pågældende årsag og farven indikerer hvor mange der er såret eller døde i ulykken.
+Secondly, the diagonal items of the scatter plots, which indicate when the same contributing factor is listed for both vehicle 1 and vehicle 2, are more frequent and more dangerous in terms of injuries and deaths. This finding suggests that when both drivers are engaging in the same risky behavior, the consequences are more severe.
 
-Der er mange pointer der kan drages fra plottet:
-- Driver Inattention/Distraction er den hyppigste årsag til ulykker, og at det er den årsag der har flest sårede og døde i ulykkerne.
-- Af en eller grund så hvis begge biler har samme årsag så er ulykken slemmere; er det fejlrapportering eller er det fordi at samme årsag er mere alvorlig hvis begge biler har hver deres årsag?
-- Unsafe speed fremgår som ret slem i forhold til hvor få crashes.
-- Backing unsafely er ikke slem...
+Additionally, the plot shows that crashes involving unsafe speed and failure to yield right of way, as well as crashes involving unsafe speed and traffic control disregarded, are not highly frequent but are very dangerous. These factors may require additional attention and intervention to prevent crashes from occurring.
+
+Finally, the plot reveals that crashes involving backing unsafely are relatively rare and rarely result in injuries or deaths. This suggests that addressing this contributing factor may not be as high of a priority as others when it comes to improving road safety in New York City.
+
+Overall, this scatter plot provides valuable insights into the correlation between contributing factors in crashes, highlighting the importance of addressing driver inattention and distraction and the need to focus on risky behaviors when both drivers are engaging in them. By taking these insights into account, policymakers and safety advocates can make more informed decisions about how to improve road safety in New York City.
+
+### Conclusion on factors...
+
+To conclude on the four plots, the policymakers in NYC should focus on addressing the most common contributing factors to crashes and the factors that lead to the most severe crashes.
+
+The leading contributing factor to material damage-only crashes is driver inattention/distraction, which accounted for over 54,000 crashes. This highlights the need for increased awareness and enforcement of distracted driving laws, as well as efforts to educate drivers on the dangers of distractions while driving. Additionally, following too closely is the second most common contributing factor and should be addressed through education and enforcement of safe following distances.
+
+When it comes to crashes that lead to injuries or deaths, policymakers should focus on addressing unsafe speed, driver inattention/distraction, and failure to yield right-of-way. These factors are the top three contributing factors in crashes leading to injuries or deaths. Reducing speed limits and increasing enforcement of speed laws could be effective in reducing crashes caused by unsafe speed, while increasing education and awareness campaigns around distracted driving could help combat driver inattention/distraction.
+
+Finally, policymakers should also address the correlation between the contributing factors in crashes. The analysis of the correlation between contributing factors reveals that diagonal items of the scatter plots are more frequent and also more dangerous, indicating that the combination of certain factors may lead to more severe crashes. Policymakers should take a holistic approach to addressing contributing factors, taking into account the interplay between different factors and how they contribute to crashes.
