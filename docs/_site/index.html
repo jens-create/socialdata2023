@@ -27,7 +27,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="stylesheet" href="/assets/css/style.css?v=f761c38c4bd9ee33d8c2622035af7177f3168796">
+    <link rel="stylesheet" href="/assets/css/style.css?v=985566130f8fbc2e25ff7832b4a63bfe0d085c1c">
     <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
 
 <!-- Setup Google Analytics -->
@@ -343,6 +343,24 @@ var n,i=t("./lib/build-log"),a=t("./lib/epsilon"),o=t("./lib/intersecter"),s=t("
 <meta charset="UTF-8" />
 <title>Interactive Map</title>
 <script>
+function update_map(map_name) {
+    document.getElementById("map_iframe").src = "http://localhost:4000/assets/" + map_name + ".html";
+}
+</script>
+</head>
+<body>
+    <button onclick="update_map('temp_map_accidents_per_sqkm')">Accidents by Borough</button>
+    <button onclick="update_map('temp_loc_map_All')">Accidents by Street Location</button>
+    <iframe id="map_iframe" src="http://localhost:4000/assets/temp_map_accidents_per_sqkm.html" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+</body>
+</html>
+
+<p>&lt;!DOCTYPE html&gt;</p>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>Interactive Map</title>
+<script>
 function update_map() {
     var selected_metric = document.getElementById("metric_dropdown").value;
     document.getElementById("map_iframe").src = "http://localhost:4000/assets/temp_map_" + selected_metric + ".html";
@@ -380,6 +398,32 @@ window.onload = function() {
     </select>
     <iframe id="map_iframe" src="http://localhost:4000/assets/temp_map_accidents_per_sqkm.html" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen=""></iframe>
     <div id="map_analysis" style="padding-top: 20px;"></div>
+</body>
+</html>
+
+<p>and lets have a closer look at specific locations</p>
+
+<p>&lt;!DOCTYPE html&gt;</p>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>Interactive Map</title>
+<script>
+function update_map() {
+    var selected_interval = document.getElementById("interval_dropdown").value;
+    document.getElementById("map_iframe").src = "http://localhost:4000/assets/temp_loc_map_" + selected_interval + ".html";
+}
+
+</script>
+</head>
+<body>
+    <select id="interval_dropdown" onchange="update_map()">
+        <option value="All">All</option>
+        <option value=""></option>
+        <option value=""></option>
+        <option value=""></option>
+    </select>
+    <iframe id="map_iframe" src="http://localhost:4000/assets/temp_loc_map_All.html" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen=""></iframe>
 </body>
 </html>
 

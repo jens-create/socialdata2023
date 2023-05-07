@@ -54,13 +54,32 @@ In this page, we will explore the latest traffic accidents dataset and uncover i
 
 ## Where in NYC do Traffic Incidents Occur?
 
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Interactive Map</title>
+<script>
+function update_map(map_name) {
+    document.getElementById("map_iframe").src = "{{site.url}}/assets/" + map_name + ".html";
+}
+</script>
+</head>
+<body>
+    <button onclick="update_map('temp_map_accidents_per_sqkm')">Accidents by Borough</button>
+    <button onclick="update_map('temp_loc_map_All')">Accidents by Street Location</button>
+    <iframe id="map_iframe" src="{{site.url}}/assets/temp_map_accidents_per_sqkm.html" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+</body>
+</html>
+
+
+
 {% include nyc_accidents_map.html %}
 
+and lets have a closer look at specific locations
 
-map num. 2
 {% include accidents_locations_map.html %}
-
-
 
 
 ## Investigating the factors that contribute to accidents
