@@ -50,8 +50,10 @@ In this page, we will explore the latest traffic accidents dataset and uncover i
 
 ## Where in NYC do Traffic Incidents Occur?
 
+
 {% include nyc_accidents_map.html %}
 
+<<<<<<< HEAD
 ### Most dangerous areas in NYC
 
 
@@ -60,7 +62,11 @@ Atlantic Avenue in Brooklyn is the most dangerous street in New York City. It ha
 
 
 An article from 2021, ,sheds light upon the fact there has been renovation projects on improving the safety of `Atlantic Avenue` since 2014. The project, which aimed to improve safety for pedestrians and cyclists, involved adding high visibility crosswalks and curb extensions, but critics state that it has not fundamentally altered the geometry of the street or provided traffic calming measures. The article argues that despite the renovation, the number of injuries on the roadway has remained high, and the project's Phase II does not even have funding. Thus, we highly recommend that the city should prioritize the renovation of Atlantic Avenue to improve the safety of the street.
+=======
+and lets have a closer look at specific locations
+>>>>>>> 82dea1f8d60f15dc9ee559c2fb454f55e78937b0
 
+{% include accidents_locations_map.html %}
 
 
 ## Investigating the factors that contribute to accidents

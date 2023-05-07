@@ -1,5 +1,3 @@
-
-<!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
@@ -7,7 +5,7 @@
 <script>
 function update_map() {
     var selected_interval = document.getElementById("interval_dropdown").value;
-    document.getElementById("map_iframe").src = "{{site.url}}/assets/map_" + selected_interval + ".html";
+    document.getElementById("map_iframe").src = "{{site.url}}/assets/temp_loc_map_" + selected_interval + ".html";
 }
 
 </script>
@@ -15,11 +13,10 @@ function update_map() {
 <body>
     <select id="interval_dropdown" onchange="update_map()">
         <option value="All">All</option>
-        <option value="Green">{interval_descriptions[0]}</option>
-        <option value="Blue">{interval_descriptions[1]}</option>
-        <option value="Orange">{interval_descriptions[2]}</option>
-        <option value="Red">{interval_descriptions[3]}</option>
+        <option value="2 - 7">2 - 7</option>
+        <option value="8 - 12">8 - 12</option>
+        <option value="13 - 19">13 - 19</option>
     </select>
-    <iframe id="map_iframe" src="{{site.url}}/assets/map_All.html" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+    <iframe id="map_iframe" src="{{site.url}}/assets/temp_loc_map_All.html" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
 </body>
 </html>
