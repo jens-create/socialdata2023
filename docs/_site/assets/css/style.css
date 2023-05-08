@@ -322,14 +322,31 @@ a:hover { text-decoration: underline; }
 
 .site-footer-credits { color: #819198; }
 
-.navbar { background-color: #7fb9b3; position: fixed; top: 0; left: 0; width: 100%; z-index: 999; }
+/*
+.navbar { background-color: $navbar-color;
+}
 
-.navbar-container { max-width: 960px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; padding: 1rem; }
+.navbar-brand { font-size: 1.5rem; color: #fff; text-decoration: none;
+}
+.nav-link { color: #fff; text-decoration: none; margin-left: 1rem;
+}
+*/
+/*
+.navbar { background-color: $navbar-color; position: fixed; top: 0; left: 0; width: 100%; z-index: 999;
+}
 
-.navbar-brand { font-size: 1.5rem; color: #fff; text-decoration: none; }
+.navbar-container { max-width: 960px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; padding: 1rem;
+}
 
-.navbar-links { display: flex; }
+.navbar-brand { font-size: 1.5rem; color: #fff; text-decoration: none;
+}
 
-.navbar-links a { color: #fff; text-decoration: none; margin-left: 1rem; }
+.navbar-links { display: flex;
+}
 
-.navbar-links a:hover { text-decoration: underline; }
+.navbar-links a { color: #fff; text-decoration: none; margin-left: 1rem;
+}
+
+.navbar-links a:hover { text-decoration: underline;
+}
+*/

@@ -8,6 +8,69 @@ In this page, we will explore the latest traffic accidents dataset and uncover i
 
 # Summary statistics
 
+<div class ="row" style="margin-top:20px;">
+  <div class="col-md-12" style="text-align:center;">
+          <p style="font-size: 30px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#008360 !important; margin-bottom: 2px; ">
+               <font style="color:#83c3b2">131000</font> average crashes per year
+          </p>
+
+          <p
+            style="font-size: 25px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#4c8f7e !important; margin-bottom: 2px;">
+            <font style="color:#7fb9b3">86000</font> average crashes per year post-covid
+          </p>
+          <p
+            style="font-size: 25px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#4c8f7e !important">
+            <font style="color:#7fb9b3">71000</font> expected crashes in 2023
+
+          </p>
+        </div>
+
+</div>
+
+ <div class="row" style="margin-top:20px;">
+
+        <div class="col-md-6" style="text-align: right;">
+        <p
+            style="font-size: 25px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#3c3c3c !important; margin-bottom: 2px;">
+             All data
+          </p>
+          <p
+            style="font-size: 20px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#c86501 !important; margin-bottom: 2px;">
+            <font style="color:#eaa969">167</font> deathly crashes per year
+          </p>
+          <p
+            style="font-size: 20px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#c86501 !important; margin-bottom: 2px;">
+            <font style="color:#eaa969">29000</font> injury crashes per year
+          </p>
+          <p
+            style="font-size: 20px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#c86501 !important">
+            <font style="color:#eaa969">102000</font> material damage crashes per year
+          </p>
+
+        </div>
+        <div class="col-md-6" style="text-align: left;">
+        <p
+            style="font-size: 25px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#3c3c3c !important; margin-bottom: 2px;">
+             Since 2020
+          </p>
+          <p
+            style="font-size: 20px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#ff5d49 !important; margin-bottom: 2px;">
+            <font style="color:#ff8e7f">183</font> deathly crashes per year
+          </p>
+          <p
+            style="font-size: 20px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#c86501 !important; margin-bottom: 2px;">
+            <font style="color:#eaa969">28500</font> injury crashes per year
+          </p>
+          <p
+            style="font-size: 20px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#c86501 !important">
+            <font style="color:#eaa969">57000</font> material damage crashes per year
+          </p>
+
+        </div>
+      </div>
+
+How did this number
+
 
 ## Boxplot
 
@@ -19,45 +82,6 @@ Not currently working with the setup...
 
 
 
- <div class="row" style="margin-top:20px;">
-
-        <div class="col-md-2">
-        </div>
-        <div class="col-md-4" style="text-align: right;">
-          <p
-            style="font-size: 15px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#008360 !important; margin-bottom: 2px;">
-            <font style="color:#83c3b2">672000</font> bikes in the city
-          </p>
-
-          <p
-            style="font-size: 10px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#008360 !important; margin-bottom: 2px;">
-            <font style="color:#83c3b2">375 km</font> bike network
-          </p>
-          <p
-            style="font-size: 10px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#008360 !important">
-            <font style="color:#83c3b2">26%</font> bike modal share (constant drop since 2013)
-
-          </p>
-
-        </div>
-        <div class="col-md-4" style="text-align: left;">
-          <p
-            style="font-size: 15px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#c86501 !important; margin-bottom: 2px;">
-            <font style="color:#eaa969">29.1%</font> of car ownership
-          </p>
-          <p
-            style="font-size: 10px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#c86501 !important; margin-bottom: 2px;">
-            <font style="color:#eaa969">700 km</font> road network
-          </p>
-          <p
-            style="font-size: 10px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#c86501 !important">
-            <font style="color:#eaa969">31%</font> car modal share
-          </p>
-
-        </div>
-        <div class="col-md-2">
-        </div>
-      </div>
 
 
 
