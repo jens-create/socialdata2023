@@ -69,7 +69,11 @@ In this page, we will explore the latest traffic accidents dataset and uncover i
         </div>
       </div>
 
-How did this number
+
+
+Artikel der beskriver hvorfor at tallet af ulykker er faldet efter april 2020:https://nyc.streetsblog.org/2020/04/03/nypd-gives-a-few-details-of-new-no-report-crash-policy/
+
+(skyldes at politiet ikke længere rapporterer 'små' ulykker)
 
 
 ## Boxplot
