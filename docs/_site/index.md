@@ -123,7 +123,9 @@ Ideas:
 
 The following chart shows the top 8 factors that contribute to accidents in NYC for the three categories.
 
+<div class="col-md-12">
 {% include factor_plot.html %}
+</div>
 
 <div id="tab-content">
   <!-- Content for the tabs will be added here -->
