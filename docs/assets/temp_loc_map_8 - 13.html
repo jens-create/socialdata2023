@@ -1,0 +1,1550 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4e12af9cc5254cb389bd7cdda7b59a61 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+    <div style="position: fixed; bottom: 50px; left: 50px; width: 150px; height: 90px;  background-color: white;  opacity: 0.75; border: 2px solid grey; z-index: 9999; font-size: 14px;">
+        &nbsp;<b>Accidents</b><br>
+        &nbsp;<i class="fa fa-circle" style="color: #4c8f7e;"></i>&nbsp; 2 - 7<br>
+        &nbsp;<i class="fa fa-circle" style="color: #3c3c3c;"></i>&nbsp; 8 - 13<br>
+        &nbsp;<i class="fa fa-circle" style="color: #ff5d49;"></i>&nbsp; 14 - 19<br>
+    </div>
+    
+    
+            <div class="folium-map" id="map_4e12af9cc5254cb389bd7cdda7b59a61" ></div>
+        
+</body>
+<script>    
+    
+            var map_4e12af9cc5254cb389bd7cdda7b59a61 = L.map(
+                "map_4e12af9cc5254cb389bd7cdda7b59a61",
+                {
+                    center: [40.7128, -74.006],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d98455e465434029b7efaea29c25313a = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_4e12af9cc5254cb389bd7cdda7b59a61);
+        
+    
+            var circle_marker_9deef30da9c242899bbfc624e400789c = L.circleMarker(
+                [40.75199, -73.931274],
+                {"bubblingMouseEvents": true, "color": "#3c3c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3c3c3c", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4e12af9cc5254cb389bd7cdda7b59a61);
+        
+    
+        var popup_eeb6585d0be140239a11f1feef0728b8 = L.popup({"maxWidth": 300});
+
+        
+            var html_ca7e2e73dcd54544b2644d6440c84716 = $(`<div id="html_ca7e2e73dcd54544b2644d6440c84716" style="width: 100.0%; height: 100.0%;">             <b>On street:</b> 33 STREET<br>             <b>Cross street:</b> NORTHERN BOULEVARD<br>             <b>Accidents:</b> 8<br>             <b>People injured since 2020:</b> 9.0<br>             <b>People killed since 2020:</b> 0.0             </div>`)[0];
+            popup_eeb6585d0be140239a11f1feef0728b8.setContent(html_ca7e2e73dcd54544b2644d6440c84716);
+        
+
+        circle_marker_9deef30da9c242899bbfc624e400789c.bindPopup(popup_eeb6585d0be140239a11f1feef0728b8)
+        ;
+
+        
+    
+    
+            circle_marker_9deef30da9c242899bbfc624e400789c.bindTooltip(
+                `<div>
+                     33 STREET x NORTHERN BOULEVARD:
+
+8 accidents
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_4da895d28de84e3c87f2ba4a6d8bc01e = L.circleMarker(
+                [40.804585, -73.91213],
+                {"bubblingMouseEvents": true, "color": "#3c3c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3c3c3c", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4e12af9cc5254cb389bd7cdda7b59a61);
+        
+    
+        var popup_a940e1c5d43a40ef9b3eb76a9cc74783 = L.popup({"maxWidth": 300});
+
+        
+            var html_994d4a4c51bb4af68d22b67c70686d63 = $(`<div id="html_994d4a4c51bb4af68d22b67c70686d63" style="width: 100.0%; height: 100.0%;">             <b>On street:</b> BRUCKNER BOULEVARD<br>             <b>Cross street:</b> EAST 138 STREET<br>             <b>Accidents:</b> 8<br>             <b>People injured since 2020:</b> 9.0<br>             <b>People killed since 2020:</b> 0.0             </div>`)[0];
+            popup_a940e1c5d43a40ef9b3eb76a9cc74783.setContent(html_994d4a4c51bb4af68d22b67c70686d63);
+        
+
+        circle_marker_4da895d28de84e3c87f2ba4a6d8bc01e.bindPopup(popup_a940e1c5d43a40ef9b3eb76a9cc74783)
+        ;
+
+        
+    
+    
+            circle_marker_4da895d28de84e3c87f2ba4a6d8bc01e.bindTooltip(
+                `<div>
+                     BRUCKNER BOULEVARD x EAST 138 STREET:
+
+8 accidents
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_eed5694c6f25403bb8b679021e01a007 = L.circleMarker(
+                [40.748913, -73.9374],
+                {"bubblingMouseEvents": true, "color": "#3c3c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3c3c3c", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4e12af9cc5254cb389bd7cdda7b59a61);
+        
+    
+        var popup_ffb918a8b56f4e58b8172d578a8eb698 = L.popup({"maxWidth": 300});
+
+        
+            var html_8331a931b7f14500bc91cddfc7896e8f = $(`<div id="html_8331a931b7f14500bc91cddfc7896e8f" style="width: 100.0%; height: 100.0%;">             <b>On street:</b> QUEENS BOULEVARD<br>             <b>Cross street:</b> JACKSON AVENUE<br>             <b>Accidents:</b> 8<br>             <b>People injured since 2020:</b> 9.0<br>             <b>People killed since 2020:</b> 0.0             </div>`)[0];
+            popup_ffb918a8b56f4e58b8172d578a8eb698.setContent(html_8331a931b7f14500bc91cddfc7896e8f);
+        
+
+        circle_marker_eed5694c6f25403bb8b679021e01a007.bindPopup(popup_ffb918a8b56f4e58b8172d578a8eb698)
+        ;
+
+        
+    
+    
+            circle_marker_eed5694c6f25403bb8b679021e01a007.bindTooltip(
+                `<div>
+                     QUEENS BOULEVARD x JACKSON AVENUE:
+
+8 accidents
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b0ef376857794361a7700619b743aad4 = L.circleMarker(
+                [40.667114, -73.834656],
+                {"bubblingMouseEvents": true, "color": "#3c3c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3c3c3c", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4e12af9cc5254cb389bd7cdda7b59a61);
+        
+    
+        var popup_190156ffc7d94822a5533b925d2f2caf = L.popup({"maxWidth": 300});
+
+        
+            var html_0c3555eab3ee4145a656cce38f424fd9 = $(`<div id="html_0c3555eab3ee4145a656cce38f424fd9" style="width: 100.0%; height: 100.0%;">             <b>On street:</b> NORTH CONDUIT AVENUE<br>             <b>Cross street:</b> COHANCY STREET<br>             <b>Accidents:</b> 8<br>             <b>People injured since 2020:</b> 15.0<br>             <b>People killed since 2020:</b> 0.0             </div>`)[0];
+            popup_190156ffc7d94822a5533b925d2f2caf.setContent(html_0c3555eab3ee4145a656cce38f424fd9);
+        
+
+        circle_marker_b0ef376857794361a7700619b743aad4.bindPopup(popup_190156ffc7d94822a5533b925d2f2caf)
+        ;
+
+        
+    
+    
+            circle_marker_b0ef376857794361a7700619b743aad4.bindTooltip(
+                `<div>
+                     NORTH CONDUIT AVENUE x COHANCY STREET:
+
+8 accidents
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_61bacbc04f9542d5b492677088c58c20 = L.circleMarker(
+                [40.831055, -73.905846],
+                {"bubblingMouseEvents": true, "color": "#3c3c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3c3c3c", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4e12af9cc5254cb389bd7cdda7b59a61);
+        
+    
+        var popup_426b08b48d18415ca78b56ddf7a5d7b4 = L.popup({"maxWidth": 300});
+
+        
+            var html_9a7279818744492fa4395ff19e7d05e5 = $(`<div id="html_9a7279818744492fa4395ff19e7d05e5" style="width: 100.0%; height: 100.0%;">             <b>On street:</b> EAST 168 STREET<br>             <b>Cross street:</b> 3 AVENUE<br>             <b>Accidents:</b> 8<br>             <b>People injured since 2020:</b> 8.0<br>             <b>People killed since 2020:</b> 0.0             </div>`)[0];
+            popup_426b08b48d18415ca78b56ddf7a5d7b4.setContent(html_9a7279818744492fa4395ff19e7d05e5);
+        
+
+        circle_marker_61bacbc04f9542d5b492677088c58c20.bindPopup(popup_426b08b48d18415ca78b56ddf7a5d7b4)
+        ;
+
+        
+    
+    
+            circle_marker_61bacbc04f9542d5b492677088c58c20.bindTooltip(
+                `<div>
+                     EAST 168 STREET x 3 AVENUE:
+
+8 accidents
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_53e8c858cbf044c5a9f1f27ae0568d44 = L.circleMarker(
+                [40.66937, -73.89523],
+                {"bubblingMouseEvents": true, "color": "#3c3c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3c3c3c", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4e12af9cc5254cb389bd7cdda7b59a61);
+        
+    
+        var popup_d6343b681b884559b0578d6caf8f61ad = L.popup({"maxWidth": 300});
+
+        
+            var html_727e637fd68c46a589fce7dd329dad77 = $(`<div id="html_727e637fd68c46a589fce7dd329dad77" style="width: 100.0%; height: 100.0%;">             <b>On street:</b> PENNSYLVANIA AVENUE<br>             <b>Cross street:</b> SUTTER AVENUE<br>             <b>Accidents:</b> 8<br>             <b>People injured since 2020:</b> 20.0<br>             <b>People killed since 2020:</b> 0.0             </div>`)[0];
+            popup_d6343b681b884559b0578d6caf8f61ad.setContent(html_727e637fd68c46a589fce7dd329dad77);
+        
+
+        circle_marker_53e8c858cbf044c5a9f1f27ae0568d44.bindPopup(popup_d6343b681b884559b0578d6caf8f61ad)
+        ;
+
+        
+    
+    
+            circle_marker_53e8c858cbf044c5a9f1f27ae0568d44.bindTooltip(
+                `<div>
+                     PENNSYLVANIA AVENUE x SUTTER AVENUE:
+
+8 accidents
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_5ec50c4c9ae24fb0b0186725fc12a26e = L.circleMarker(
+                [40.652462, -73.92285],
+                {"bubblingMouseEvents": true, "color": "#3c3c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3c3c3c", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4e12af9cc5254cb389bd7cdda7b59a61);
+        
+    
+        var popup_a6a56de909384f3192c833bfe5b3c8b4 = L.popup({"maxWidth": 300});
+
+        
+            var html_5704b1ef5c1d4a2390fad0fdc2667aca = $(`<div id="html_5704b1ef5c1d4a2390fad0fdc2667aca" style="width: 100.0%; height: 100.0%;">             <b>On street:</b> KINGS HIGHWAY<br>             <b>Cross street:</b> CHURCH AVENUE<br>             <b>Accidents:</b> 8<br>             <b>People injured since 2020:</b> 9.0<br>             <b>People killed since 2020:</b> 0.0             </div>`)[0];
+            popup_a6a56de909384f3192c833bfe5b3c8b4.setContent(html_5704b1ef5c1d4a2390fad0fdc2667aca);
+        
+
+        circle_marker_5ec50c4c9ae24fb0b0186725fc12a26e.bindPopup(popup_a6a56de909384f3192c833bfe5b3c8b4)
+        ;
+
+        
+    
+    
+            circle_marker_5ec50c4c9ae24fb0b0186725fc12a26e.bindTooltip(
+                `<div>
+                     KINGS HIGHWAY x CHURCH AVENUE:
+
+8 accidents
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_36e2532ea81949be8e117476bc3cf393 = L.circleMarker(
+                [40.8617, -73.89139],
+                {"bubblingMouseEvents": true, "color": "#3c3c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3c3c3c", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4e12af9cc5254cb389bd7cdda7b59a61);
+        
+    
+        var popup_f8122f214dd942a99eb42e181add8a96 = L.popup({"maxWidth": 300});
+
+        
+            var html_531c60b5101744408e626f6f2e8914ad = $(`<div id="html_531c60b5101744408e626f6f2e8914ad" style="width: 100.0%; height: 100.0%;">             <b>On street:</b> WEBSTER AVENUE<br>             <b>Cross street:</b> EAST FORDHAM ROAD<br>             <b>Accidents:</b> 8<br>             <b>People injured since 2020:</b> 13.0<br>             <b>People killed since 2020:</b> 0.0             </div>`)[0];
+            popup_f8122f214dd942a99eb42e181add8a96.setContent(html_531c60b5101744408e626f6f2e8914ad);
+        
+
+        circle_marker_36e2532ea81949be8e117476bc3cf393.bindPopup(popup_f8122f214dd942a99eb42e181add8a96)
+        ;
+
+        
+    
+    
+            circle_marker_36e2532ea81949be8e117476bc3cf393.bindTooltip(
+                `<div>
+                     WEBSTER AVENUE x EAST FORDHAM ROAD:
+
+8 accidents
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_96e34a72565a4bbc8e11ba6e0a29c504 = L.circleMarker(
+                [40.862747, -73.90494],
+                {"bubblingMouseEvents": true, "color": "#3c3c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3c3c3c", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4e12af9cc5254cb389bd7cdda7b59a61);
+        
+    
+        var popup_e81894ce03494555aae9227386ab47d3 = L.popup({"maxWidth": 300});
+
+        
+            var html_d1cb2f57db9b4182a69bea98bf97588e = $(`<div id="html_d1cb2f57db9b4182a69bea98bf97588e" style="width: 100.0%; height: 100.0%;">             <b>On street:</b> WEST FORDHAM ROAD<br>             <b>Cross street:</b> UNIVERSITY AVENUE<br>             <b>Accidents:</b> 8<br>             <b>People injured since 2020:</b> 11.0<br>             <b>People killed since 2020:</b> 0.0             </div>`)[0];
+            popup_e81894ce03494555aae9227386ab47d3.setContent(html_d1cb2f57db9b4182a69bea98bf97588e);
+        
+
+        circle_marker_96e34a72565a4bbc8e11ba6e0a29c504.bindPopup(popup_e81894ce03494555aae9227386ab47d3)
+        ;
+
+        
+    
+    
+            circle_marker_96e34a72565a4bbc8e11ba6e0a29c504.bindTooltip(
+                `<div>
+                     WEST FORDHAM ROAD x UNIVERSITY AVENUE:
+
+8 accidents
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_418f62e049d54424adf010f4e31aa872 = L.circleMarker(
+                [40.67189, -73.895874],
+                {"bubblingMouseEvents": true, "color": "#3c3c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3c3c3c", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4e12af9cc5254cb389bd7cdda7b59a61);
+        
+    
+        var popup_ca641911c7d241659fa09eb0bf6c8d34 = L.popup({"maxWidth": 300});
+
+        
+            var html_5438dc9386f74107af44be1e9c84376a = $(`<div id="html_5438dc9386f74107af44be1e9c84376a" style="width: 100.0%; height: 100.0%;">             <b>On street:</b> PENNSYLVANIA AVENUE<br>             <b>Cross street:</b> PITKIN AVENUE<br>             <b>Accidents:</b> 8<br>             <b>People injured since 2020:</b> 11.0<br>             <b>People killed since 2020:</b> 0.0             </div>`)[0];
+            popup_ca641911c7d241659fa09eb0bf6c8d34.setContent(html_5438dc9386f74107af44be1e9c84376a);
+        
+
+        circle_marker_418f62e049d54424adf010f4e31aa872.bindPopup(popup_ca641911c7d241659fa09eb0bf6c8d34)
+        ;
+
+        
+    
+    
+            circle_marker_418f62e049d54424adf010f4e31aa872.bindTooltip(
+                `<div>
+                     PENNSYLVANIA AVENUE x PITKIN AVENUE:
+
+8 accidents
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_2c8062e4c7b9428f846a76efda0ab7b4 = L.circleMarker(
+                [40.737682, -73.85206],
+                {"bubblingMouseEvents": true, "color": "#3c3c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3c3c3c", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4e12af9cc5254cb389bd7cdda7b59a61);
+        
+    
+        var popup_65a19886f1124131b6d5cc82a7d600a8 = L.popup({"maxWidth": 300});
+
+        
+            var html_9aab2623b2be48b18b395d52ac20fda5 = $(`<div id="html_9aab2623b2be48b18b395d52ac20fda5" style="width: 100.0%; height: 100.0%;">             <b>On street:</b> 108 STREET<br>             <b>Cross street:</b> HORACE HARDING EXPRESSWAY<br>             <b>Accidents:</b> 8<br>             <b>People injured since 2020:</b> 9.0<br>             <b>People killed since 2020:</b> 0.0             </div>`)[0];
+            popup_65a19886f1124131b6d5cc82a7d600a8.setContent(html_9aab2623b2be48b18b395d52ac20fda5);
+        
+
+        circle_marker_2c8062e4c7b9428f846a76efda0ab7b4.bindPopup(popup_65a19886f1124131b6d5cc82a7d600a8)
+        ;
+
+        
+    
+    
+            circle_marker_2c8062e4c7b9428f846a76efda0ab7b4.bindTooltip(
+                `<div>
+                     108 STREET x HORACE HARDING EXPRESSWAY:
+
+8 accidents
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_38e541df823f4e288754e87fbb555e90 = L.circleMarker(
+                [40.65965, -73.773834],
+                {"bubblingMouseEvents": true, "color": "#3c3c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3c3c3c", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4e12af9cc5254cb389bd7cdda7b59a61);
+        
+    
+        var popup_98e517c6722c4d939ec0ac2ea9b89cef = L.popup({"maxWidth": 300});
+
+        
+            var html_db8092c2a5ff40078d4d750cad0ad02b = $(`<div id="html_db8092c2a5ff40078d4d750cad0ad02b" style="width: 100.0%; height: 100.0%;">             <b>On street:</b> ROCKAWAY BOULEVARD              <br>             <b>Cross street:</b> FARMERS BOULEVARD<br>             <b>Accidents:</b> 8<br>             <b>People injured since 2020:</b> 10.0<br>             <b>People killed since 2020:</b> 0.0             </div>`)[0];
+            popup_98e517c6722c4d939ec0ac2ea9b89cef.setContent(html_db8092c2a5ff40078d4d750cad0ad02b);
+        
+
+        circle_marker_38e541df823f4e288754e87fbb555e90.bindPopup(popup_98e517c6722c4d939ec0ac2ea9b89cef)
+        ;
+
+        
+    
+    
+            circle_marker_38e541df823f4e288754e87fbb555e90.bindTooltip(
+                `<div>
+                     ROCKAWAY BOULEVARD               x FARMERS BOULEVARD:
+
+8 accidents
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d5e7c5aa6ff2493d8e54013edd4fe5d4 = L.circleMarker(
+                [40.667114, -73.834656],
+                {"bubblingMouseEvents": true, "color": "#3c3c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3c3c3c", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4e12af9cc5254cb389bd7cdda7b59a61);
+        
+    
+        var popup_1ee9020778914a2787e645bfcce72440 = L.popup({"maxWidth": 300});
+
+        
+            var html_5ff1015279a54770ad1c814ca2644dde = $(`<div id="html_5ff1015279a54770ad1c814ca2644dde" style="width: 100.0%; height: 100.0%;">             <b>On street:</b> NORTH CONDUIT AVENUE            <br>             <b>Cross street:</b> COHANCY STREET<br>             <b>Accidents:</b> 8<br>             <b>People injured since 2020:</b> 12.0<br>             <b>People killed since 2020:</b> 0.0             </div>`)[0];
+            popup_1ee9020778914a2787e645bfcce72440.setContent(html_5ff1015279a54770ad1c814ca2644dde);
+        
+
+        circle_marker_d5e7c5aa6ff2493d8e54013edd4fe5d4.bindPopup(popup_1ee9020778914a2787e645bfcce72440)
+        ;
+
+        
+    
+    
+            circle_marker_d5e7c5aa6ff2493d8e54013edd4fe5d4.bindTooltip(
+                `<div>
+                     NORTH CONDUIT AVENUE             x COHANCY STREET:
+
+8 accidents
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_30dcadf82aa54ed4afb74bd203d5d416 = L.circleMarker(
+                [40.68405, -73.97746],
+                {"bubblingMouseEvents": true, "color": "#3c3c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3c3c3c", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4e12af9cc5254cb389bd7cdda7b59a61);
+        
+    
+        var popup_5d339660af704d70ad7d03bf1536425a = L.popup({"maxWidth": 300});
+
+        
+            var html_1e31a88515124f1693c3abf56e3357c4 = $(`<div id="html_1e31a88515124f1693c3abf56e3357c4" style="width: 100.0%; height: 100.0%;">             <b>On street:</b> ATLANTIC AVENUE<br>             <b>Cross street:</b> FLATBUSH AVENUE<br>             <b>Accidents:</b> 8<br>             <b>People injured since 2020:</b> 8.0<br>             <b>People killed since 2020:</b> 0.0             </div>`)[0];
+            popup_5d339660af704d70ad7d03bf1536425a.setContent(html_1e31a88515124f1693c3abf56e3357c4);
+        
+
+        circle_marker_30dcadf82aa54ed4afb74bd203d5d416.bindPopup(popup_5d339660af704d70ad7d03bf1536425a)
+        ;
+
+        
+    
+    
+            circle_marker_30dcadf82aa54ed4afb74bd203d5d416.bindTooltip(
+                `<div>
+                     ATLANTIC AVENUE x FLATBUSH AVENUE:
+
+8 accidents
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b27277ce6be542a7b7a48e4cae069337 = L.circleMarker(
+                [40.642384, -73.92539],
+                {"bubblingMouseEvents": true, "color": "#3c3c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3c3c3c", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4e12af9cc5254cb389bd7cdda7b59a61);
+        
+    
+        var popup_0d90c97e943e415fa53a4a58386f5b9d = L.popup({"maxWidth": 300});
+
+        
+            var html_9c93e39f297549e280b57260f5a8ec49 = $(`<div id="html_9c93e39f297549e280b57260f5a8ec49" style="width: 100.0%; height: 100.0%;">             <b>On street:</b> KINGS HIGHWAY                   <br>             <b>Cross street:</b> AVENUE D<br>             <b>Accidents:</b> 8<br>             <b>People injured since 2020:</b> 9.0<br>             <b>People killed since 2020:</b> 0.0             </div>`)[0];
+            popup_0d90c97e943e415fa53a4a58386f5b9d.setContent(html_9c93e39f297549e280b57260f5a8ec49);
+        
+
+        circle_marker_b27277ce6be542a7b7a48e4cae069337.bindPopup(popup_0d90c97e943e415fa53a4a58386f5b9d)
+        ;
+
+        
+    
+    
+            circle_marker_b27277ce6be542a7b7a48e4cae069337.bindTooltip(
+                `<div>
+                     KINGS HIGHWAY                    x AVENUE D:
+
+8 accidents
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_256c4a67f02b43dbb57a8431776f5d61 = L.circleMarker(
+                [40.632435, -73.88818],
+                {"bubblingMouseEvents": true, "color": "#3c3c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3c3c3c", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4e12af9cc5254cb389bd7cdda7b59a61);
+        
+    
+        var popup_6e32cb04cb3d420aa92e58b5db35d7e4 = L.popup({"maxWidth": 300});
+
+        
+            var html_c7a977cda6804f6da8a94b5bc0de885f = $(`<div id="html_c7a977cda6804f6da8a94b5bc0de885f" style="width: 100.0%; height: 100.0%;">             <b>On street:</b> ROCKAWAY PARKWAY                <br>             <b>Cross street:</b> SKIDMORE AVENUE<br>             <b>Accidents:</b> 8<br>             <b>People injured since 2020:</b> 12.0<br>             <b>People killed since 2020:</b> 0.0             </div>`)[0];
+            popup_6e32cb04cb3d420aa92e58b5db35d7e4.setContent(html_c7a977cda6804f6da8a94b5bc0de885f);
+        
+
+        circle_marker_256c4a67f02b43dbb57a8431776f5d61.bindPopup(popup_6e32cb04cb3d420aa92e58b5db35d7e4)
+        ;
+
+        
+    
+    
+            circle_marker_256c4a67f02b43dbb57a8431776f5d61.bindTooltip(
+                `<div>
+                     ROCKAWAY PARKWAY                 x SKIDMORE AVENUE:
+
+8 accidents
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_3391b512e0474db791f8179fe26333d9 = L.circleMarker(
+                [40.895374, -73.86356],
+                {"bubblingMouseEvents": true, "color": "#3c3c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3c3c3c", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4e12af9cc5254cb389bd7cdda7b59a61);
+        
+    
+        var popup_2fd09904f9904e9f8a5670f53d05c628 = L.popup({"maxWidth": 300});
+
+        
+            var html_a333a99b3aae4b91b993c0f9d7405eca = $(`<div id="html_a333a99b3aae4b91b993c0f9d7405eca" style="width: 100.0%; height: 100.0%;">             <b>On street:</b> WEBSTER AVENUE                  <br>             <b>Cross street:</b> EAST 233 STREET<br>             <b>Accidents:</b> 8<br>             <b>People injured since 2020:</b> 12.0<br>             <b>People killed since 2020:</b> 0.0             </div>`)[0];
+            popup_2fd09904f9904e9f8a5670f53d05c628.setContent(html_a333a99b3aae4b91b993c0f9d7405eca);
+        
+
+        circle_marker_3391b512e0474db791f8179fe26333d9.bindPopup(popup_2fd09904f9904e9f8a5670f53d05c628)
+        ;
+
+        
+    
+    
+            circle_marker_3391b512e0474db791f8179fe26333d9.bindTooltip(
+                `<div>
+                     WEBSTER AVENUE                   x EAST 233 STREET:
+
+8 accidents
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_0e527a9fa5eb4d1cbda998226bdaefde = L.circleMarker(
+                [40.89339, -73.857376],
+                {"bubblingMouseEvents": true, "color": "#3c3c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3c3c3c", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4e12af9cc5254cb389bd7cdda7b59a61);
+        
+    
+        var popup_01dab727493843d981946c00c2b562eb = L.popup({"maxWidth": 300});
+
+        
+            var html_afff6b26d1344bafa5cb6bad7c04f4b1 = $(`<div id="html_afff6b26d1344bafa5cb6bad7c04f4b1" style="width: 100.0%; height: 100.0%;">             <b>On street:</b> EAST 233 STREET                 <br>             <b>Cross street:</b> WHITE PLAINS ROAD<br>             <b>Accidents:</b> 8<br>             <b>People injured since 2020:</b> 9.0<br>             <b>People killed since 2020:</b> 0.0             </div>`)[0];
+            popup_01dab727493843d981946c00c2b562eb.setContent(html_afff6b26d1344bafa5cb6bad7c04f4b1);
+        
+
+        circle_marker_0e527a9fa5eb4d1cbda998226bdaefde.bindPopup(popup_01dab727493843d981946c00c2b562eb)
+        ;
+
+        
+    
+    
+            circle_marker_0e527a9fa5eb4d1cbda998226bdaefde.bindTooltip(
+                `<div>
+                     EAST 233 STREET                  x WHITE PLAINS ROAD:
+
+8 accidents
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_5c411d96dfa349fd8c26e02532445fae = L.circleMarker(
+                [40.696033, -73.984535],
+                {"bubblingMouseEvents": true, "color": "#3c3c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3c3c3c", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4e12af9cc5254cb389bd7cdda7b59a61);
+        
+    
+        var popup_4dcdf6dcb42e4323a9a17a26128c42f2 = L.popup({"maxWidth": 300});
+
+        
+            var html_c62c2d339ac94fedb3926056c99ba937 = $(`<div id="html_c62c2d339ac94fedb3926056c99ba937" style="width: 100.0%; height: 100.0%;">             <b>On street:</b> FLATBUSH AVENUE EXTENSION<br>             <b>Cross street:</b> TILLARY STREET<br>             <b>Accidents:</b> 8<br>             <b>People injured since 2020:</b> 13.0<br>             <b>People killed since 2020:</b> 0.0             </div>`)[0];
+            popup_4dcdf6dcb42e4323a9a17a26128c42f2.setContent(html_c62c2d339ac94fedb3926056c99ba937);
+        
+
+        circle_marker_5c411d96dfa349fd8c26e02532445fae.bindPopup(popup_4dcdf6dcb42e4323a9a17a26128c42f2)
+        ;
+
+        
+    
+    
+            circle_marker_5c411d96dfa349fd8c26e02532445fae.bindTooltip(
+                `<div>
+                     FLATBUSH AVENUE EXTENSION x TILLARY STREET:
+
+8 accidents
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_4425720a2d90487a9abc2190b590ab5d = L.circleMarker(
+                [40.8047, -73.91243],
+                {"bubblingMouseEvents": true, "color": "#3c3c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3c3c3c", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4e12af9cc5254cb389bd7cdda7b59a61);
+        
+    
+        var popup_acb77f2dd65845c484c4600d9c53f865 = L.popup({"maxWidth": 300});
+
+        
+            var html_a0d6dd3b7dd34c499794cee34dce7fa2 = $(`<div id="html_a0d6dd3b7dd34c499794cee34dce7fa2" style="width: 100.0%; height: 100.0%;">             <b>On street:</b> BRUCKNER BOULEVARD              <br>             <b>Cross street:</b> EAST 138 STREET<br>             <b>Accidents:</b> 8<br>             <b>People injured since 2020:</b> 7.0<br>             <b>People killed since 2020:</b> 1.0             </div>`)[0];
+            popup_acb77f2dd65845c484c4600d9c53f865.setContent(html_a0d6dd3b7dd34c499794cee34dce7fa2);
+        
+
+        circle_marker_4425720a2d90487a9abc2190b590ab5d.bindPopup(popup_acb77f2dd65845c484c4600d9c53f865)
+        ;
+
+        
+    
+    
+            circle_marker_4425720a2d90487a9abc2190b590ab5d.bindTooltip(
+                `<div>
+                     BRUCKNER BOULEVARD               x EAST 138 STREET:
+
+8 accidents
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_4ebd36826ac94befa47e7a674eba50d0 = L.circleMarker(
+                [40.817795, -73.89319],
+                {"bubblingMouseEvents": true, "color": "#3c3c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3c3c3c", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4e12af9cc5254cb389bd7cdda7b59a61);
+        
+    
+        var popup_4c3ff7d96825456db17ecbd331493aa5 = L.popup({"maxWidth": 300});
+
+        
+            var html_d71d763ee9da4a1b985e93ddf60bd645 = $(`<div id="html_d71d763ee9da4a1b985e93ddf60bd645" style="width: 100.0%; height: 100.0%;">             <b>On street:</b> BRUCKNER BOULEVARD<br>             <b>Cross street:</b> TIFFANY STREET<br>             <b>Accidents:</b> 8<br>             <b>People injured since 2020:</b> 12.0<br>             <b>People killed since 2020:</b> 0.0             </div>`)[0];
+            popup_4c3ff7d96825456db17ecbd331493aa5.setContent(html_d71d763ee9da4a1b985e93ddf60bd645);
+        
+
+        circle_marker_4ebd36826ac94befa47e7a674eba50d0.bindPopup(popup_4c3ff7d96825456db17ecbd331493aa5)
+        ;
+
+        
+    
+    
+            circle_marker_4ebd36826ac94befa47e7a674eba50d0.bindTooltip(
+                `<div>
+                     BRUCKNER BOULEVARD x TIFFANY STREET:
+
+8 accidents
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_44c7bfe87d0845d8985db9d49a705364 = L.circleMarker(
+                [40.759308, -73.9653],
+                {"bubblingMouseEvents": true, "color": "#3c3c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3c3c3c", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4e12af9cc5254cb389bd7cdda7b59a61);
+        
+    
+        var popup_93c3c8d9ff324a6593104328981f7c20 = L.popup({"maxWidth": 300});
+
+        
+            var html_abd36649384e4c34bc89dd1d71d3298a = $(`<div id="html_abd36649384e4c34bc89dd1d71d3298a" style="width: 100.0%; height: 100.0%;">             <b>On street:</b> EAST 57 STREET<br>             <b>Cross street:</b> 2 AVENUE<br>             <b>Accidents:</b> 9<br>             <b>People injured since 2020:</b> 11.0<br>             <b>People killed since 2020:</b> 0.0             </div>`)[0];
+            popup_93c3c8d9ff324a6593104328981f7c20.setContent(html_abd36649384e4c34bc89dd1d71d3298a);
+        
+
+        circle_marker_44c7bfe87d0845d8985db9d49a705364.bindPopup(popup_93c3c8d9ff324a6593104328981f7c20)
+        ;
+
+        
+    
+    
+            circle_marker_44c7bfe87d0845d8985db9d49a705364.bindTooltip(
+                `<div>
+                     EAST 57 STREET x 2 AVENUE:
+
+9 accidents
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_dca369ec2f7e4d75bf6034c6d3b5ae09 = L.circleMarker(
+                [40.820187, -73.890686],
+                {"bubblingMouseEvents": true, "color": "#3c3c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3c3c3c", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4e12af9cc5254cb389bd7cdda7b59a61);
+        
+    
+        var popup_2f5149b7aeeb471f9e0c627a666a1eaa = L.popup({"maxWidth": 300});
+
+        
+            var html_1c6ea5747eed4329afbb60f9e278a53e = $(`<div id="html_1c6ea5747eed4329afbb60f9e278a53e" style="width: 100.0%; height: 100.0%;">             <b>On street:</b> BRUCKNER BOULEVARD<br>             <b>Cross street:</b> HUNTS POINT AVENUE<br>             <b>Accidents:</b> 9<br>             <b>People injured since 2020:</b> 9.0<br>             <b>People killed since 2020:</b> 0.0             </div>`)[0];
+            popup_2f5149b7aeeb471f9e0c627a666a1eaa.setContent(html_1c6ea5747eed4329afbb60f9e278a53e);
+        
+
+        circle_marker_dca369ec2f7e4d75bf6034c6d3b5ae09.bindPopup(popup_2f5149b7aeeb471f9e0c627a666a1eaa)
+        ;
+
+        
+    
+    
+            circle_marker_dca369ec2f7e4d75bf6034c6d3b5ae09.bindTooltip(
+                `<div>
+                     BRUCKNER BOULEVARD x HUNTS POINT AVENUE:
+
+9 accidents
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_dd8a95d700a444b8b7fa1703504d535e = L.circleMarker(
+                [40.818558, -73.92732],
+                {"bubblingMouseEvents": true, "color": "#3c3c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3c3c3c", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4e12af9cc5254cb389bd7cdda7b59a61);
+        
+    
+        var popup_0f2d941e41a24d038ceef46ef0dbd2f3 = L.popup({"maxWidth": 300});
+
+        
+            var html_e191a2b082c04c098ac613767776c5b6 = $(`<div id="html_e191a2b082c04c098ac613767776c5b6" style="width: 100.0%; height: 100.0%;">             <b>On street:</b> EAST 149 STREET<br>             <b>Cross street:</b> GRAND CONCOURSE<br>             <b>Accidents:</b> 9<br>             <b>People injured since 2020:</b> 13.0<br>             <b>People killed since 2020:</b> 0.0             </div>`)[0];
+            popup_0f2d941e41a24d038ceef46ef0dbd2f3.setContent(html_e191a2b082c04c098ac613767776c5b6);
+        
+
+        circle_marker_dd8a95d700a444b8b7fa1703504d535e.bindPopup(popup_0f2d941e41a24d038ceef46ef0dbd2f3)
+        ;
+
+        
+    
+    
+            circle_marker_dd8a95d700a444b8b7fa1703504d535e.bindTooltip(
+                `<div>
+                     EAST 149 STREET x GRAND CONCOURSE:
+
+9 accidents
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c9e66eb5bbc646ca88da4c8d0d6dc955 = L.circleMarker(
+                [40.759983, -73.964806],
+                {"bubblingMouseEvents": true, "color": "#3c3c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3c3c3c", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4e12af9cc5254cb389bd7cdda7b59a61);
+        
+    
+        var popup_82bdda48fefb49ce959098be1b763b0c = L.popup({"maxWidth": 300});
+
+        
+            var html_52cc7045091e40b883792a0800c2d745 = $(`<div id="html_52cc7045091e40b883792a0800c2d745" style="width: 100.0%; height: 100.0%;">             <b>On street:</b> EAST 58 STREET<br>             <b>Cross street:</b> 2 AVENUE<br>             <b>Accidents:</b> 9<br>             <b>People injured since 2020:</b> 9.0<br>             <b>People killed since 2020:</b> 0.0             </div>`)[0];
+            popup_82bdda48fefb49ce959098be1b763b0c.setContent(html_52cc7045091e40b883792a0800c2d745);
+        
+
+        circle_marker_c9e66eb5bbc646ca88da4c8d0d6dc955.bindPopup(popup_82bdda48fefb49ce959098be1b763b0c)
+        ;
+
+        
+    
+    
+            circle_marker_c9e66eb5bbc646ca88da4c8d0d6dc955.bindTooltip(
+                `<div>
+                     EAST 58 STREET x 2 AVENUE:
+
+9 accidents
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_cac149634fe74bbeb7fb49e06d90e41c = L.circleMarker(
+                [40.80897, -73.94833],
+                {"bubblingMouseEvents": true, "color": "#3c3c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3c3c3c", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4e12af9cc5254cb389bd7cdda7b59a61);
+        
+    
+        var popup_7bbea8a67dcf4ac5a95f8a96c4bc2b3b = L.popup({"maxWidth": 300});
+
+        
+            var html_3cef02bf04e347bdb4d391441f48eb5b = $(`<div id="html_3cef02bf04e347bdb4d391441f48eb5b" style="width: 100.0%; height: 100.0%;">             <b>On street:</b> WEST 125 STREET<br>             <b>Cross street:</b> 7 AVENUE<br>             <b>Accidents:</b> 9<br>             <b>People injured since 2020:</b> 12.0<br>             <b>People killed since 2020:</b> 0.0             </div>`)[0];
+            popup_7bbea8a67dcf4ac5a95f8a96c4bc2b3b.setContent(html_3cef02bf04e347bdb4d391441f48eb5b);
+        
+
+        circle_marker_cac149634fe74bbeb7fb49e06d90e41c.bindPopup(popup_7bbea8a67dcf4ac5a95f8a96c4bc2b3b)
+        ;
+
+        
+    
+    
+            circle_marker_cac149634fe74bbeb7fb49e06d90e41c.bindTooltip(
+                `<div>
+                     WEST 125 STREET x 7 AVENUE:
+
+9 accidents
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_467bb7af82e4400cb5a00a53a5a6cf63 = L.circleMarker(
+                [40.67816, -73.897484],
+                {"bubblingMouseEvents": true, "color": "#3c3c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3c3c3c", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4e12af9cc5254cb389bd7cdda7b59a61);
+        
+    
+        var popup_22b42f1cbb1f47978d81e30000efcb87 = L.popup({"maxWidth": 300});
+
+        
+            var html_711574612544438686e41c632b87eedb = $(`<div id="html_711574612544438686e41c632b87eedb" style="width: 100.0%; height: 100.0%;">             <b>On street:</b> JAMAICA AVENUE<br>             <b>Cross street:</b> PENNSYLVANIA AVENUE<br>             <b>Accidents:</b> 9<br>             <b>People injured since 2020:</b> 9.0<br>             <b>People killed since 2020:</b> 0.0             </div>`)[0];
+            popup_22b42f1cbb1f47978d81e30000efcb87.setContent(html_711574612544438686e41c632b87eedb);
+        
+
+        circle_marker_467bb7af82e4400cb5a00a53a5a6cf63.bindPopup(popup_22b42f1cbb1f47978d81e30000efcb87)
+        ;
+
+        
+    
+    
+            circle_marker_467bb7af82e4400cb5a00a53a5a6cf63.bindTooltip(
+                `<div>
+                     JAMAICA AVENUE x PENNSYLVANIA AVENUE:
+
+9 accidents
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_17b7a5132a7647049eddf6c765f66c2e = L.circleMarker(
+                [40.803593, -73.919785],
+                {"bubblingMouseEvents": true, "color": "#3c3c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3c3c3c", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4e12af9cc5254cb389bd7cdda7b59a61);
+        
+    
+        var popup_e8d50668441144998264dd867541cece = L.popup({"maxWidth": 300});
+
+        
+            var html_0af647a588f041c9ab2883f4bfbcddbb = $(`<div id="html_0af647a588f041c9ab2883f4bfbcddbb" style="width: 100.0%; height: 100.0%;">             <b>On street:</b> BRUCKNER BOULEVARD              <br>             <b>Cross street:</b> SAINT ANNS AVENUE<br>             <b>Accidents:</b> 9<br>             <b>People injured since 2020:</b> 17.0<br>             <b>People killed since 2020:</b> 0.0             </div>`)[0];
+            popup_e8d50668441144998264dd867541cece.setContent(html_0af647a588f041c9ab2883f4bfbcddbb);
+        
+
+        circle_marker_17b7a5132a7647049eddf6c765f66c2e.bindPopup(popup_e8d50668441144998264dd867541cece)
+        ;
+
+        
+    
+    
+            circle_marker_17b7a5132a7647049eddf6c765f66c2e.bindTooltip(
+                `<div>
+                     BRUCKNER BOULEVARD               x SAINT ANNS AVENUE:
+
+9 accidents
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_64db0d113f1746049a3aaf0266abad02 = L.circleMarker(
+                [40.694107, -73.89737],
+                {"bubblingMouseEvents": true, "color": "#3c3c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3c3c3c", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4e12af9cc5254cb389bd7cdda7b59a61);
+        
+    
+        var popup_67297db1da53472eb7e575cf5fd2dc0e = L.popup({"maxWidth": 300});
+
+        
+            var html_7c236e238eda484680de2abfc09033c4 = $(`<div id="html_7c236e238eda484680de2abfc09033c4" style="width: 100.0%; height: 100.0%;">             <b>On street:</b> CYPRESS AVENUE                  <br>             <b>Cross street:</b> COOPER AVENUE<br>             <b>Accidents:</b> 9<br>             <b>People injured since 2020:</b> 12.0<br>             <b>People killed since 2020:</b> 0.0             </div>`)[0];
+            popup_67297db1da53472eb7e575cf5fd2dc0e.setContent(html_7c236e238eda484680de2abfc09033c4);
+        
+
+        circle_marker_64db0d113f1746049a3aaf0266abad02.bindPopup(popup_67297db1da53472eb7e575cf5fd2dc0e)
+        ;
+
+        
+    
+    
+            circle_marker_64db0d113f1746049a3aaf0266abad02.bindTooltip(
+                `<div>
+                     CYPRESS AVENUE                   x COOPER AVENUE:
+
+9 accidents
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c7470074e0474e60bf18e857d9f0285e = L.circleMarker(
+                [40.80275, -73.93358],
+                {"bubblingMouseEvents": true, "color": "#3c3c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3c3c3c", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4e12af9cc5254cb389bd7cdda7b59a61);
+        
+    
+        var popup_34060efba1604d41b316795bfcd26334 = L.popup({"maxWidth": 300});
+
+        
+            var html_92232a2689bb4d9f82675c56b9a6f6fc = $(`<div id="html_92232a2689bb4d9f82675c56b9a6f6fc" style="width: 100.0%; height: 100.0%;">             <b>On street:</b> EAST 125 STREET<br>             <b>Cross street:</b> 2 AVENUE<br>             <b>Accidents:</b> 9<br>             <b>People injured since 2020:</b> 11.0<br>             <b>People killed since 2020:</b> 0.0             </div>`)[0];
+            popup_34060efba1604d41b316795bfcd26334.setContent(html_92232a2689bb4d9f82675c56b9a6f6fc);
+        
+
+        circle_marker_c7470074e0474e60bf18e857d9f0285e.bindPopup(popup_34060efba1604d41b316795bfcd26334)
+        ;
+
+        
+    
+    
+            circle_marker_c7470074e0474e60bf18e857d9f0285e.bindTooltip(
+                `<div>
+                     EAST 125 STREET x 2 AVENUE:
+
+9 accidents
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b7609225d9ef46ff9dfcb4dda450ab79 = L.circleMarker(
+                [40.8047, -73.91243],
+                {"bubblingMouseEvents": true, "color": "#3c3c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3c3c3c", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4e12af9cc5254cb389bd7cdda7b59a61);
+        
+    
+        var popup_fddf780cc4ca47fe93c0e054581f5996 = L.popup({"maxWidth": 300});
+
+        
+            var html_0a45e8bfa9b44ffe8ba139649ececefb = $(`<div id="html_0a45e8bfa9b44ffe8ba139649ececefb" style="width: 100.0%; height: 100.0%;">             <b>On street:</b> EAST 138 STREET                 <br>             <b>Cross street:</b> BRUCKNER BOULEVARD<br>             <b>Accidents:</b> 9<br>             <b>People injured since 2020:</b> 15.0<br>             <b>People killed since 2020:</b> 0.0             </div>`)[0];
+            popup_fddf780cc4ca47fe93c0e054581f5996.setContent(html_0a45e8bfa9b44ffe8ba139649ececefb);
+        
+
+        circle_marker_b7609225d9ef46ff9dfcb4dda450ab79.bindPopup(popup_fddf780cc4ca47fe93c0e054581f5996)
+        ;
+
+        
+    
+    
+            circle_marker_b7609225d9ef46ff9dfcb4dda450ab79.bindTooltip(
+                `<div>
+                     EAST 138 STREET                  x BRUCKNER BOULEVARD:
+
+9 accidents
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_1a2df31d40b94673821059ea780afbe4 = L.circleMarker(
+                [40.84518, -73.91417],
+                {"bubblingMouseEvents": true, "color": "#3c3c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3c3c3c", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4e12af9cc5254cb389bd7cdda7b59a61);
+        
+    
+        var popup_66b019fd74a5451ba14574f28589af4b = L.popup({"maxWidth": 300});
+
+        
+            var html_43006639387b4cbcb1f91c3a0e41ffcc = $(`<div id="html_43006639387b4cbcb1f91c3a0e41ffcc" style="width: 100.0%; height: 100.0%;">             <b>On street:</b> JEROME AVENUE                   <br>             <b>Cross street:</b> CROSS BRONX EXPRESSWAY<br>             <b>Accidents:</b> 9<br>             <b>People injured since 2020:</b> 9.0<br>             <b>People killed since 2020:</b> 0.0             </div>`)[0];
+            popup_66b019fd74a5451ba14574f28589af4b.setContent(html_43006639387b4cbcb1f91c3a0e41ffcc);
+        
+
+        circle_marker_1a2df31d40b94673821059ea780afbe4.bindPopup(popup_66b019fd74a5451ba14574f28589af4b)
+        ;
+
+        
+    
+    
+            circle_marker_1a2df31d40b94673821059ea780afbe4.bindTooltip(
+                `<div>
+                     JEROME AVENUE                    x CROSS BRONX EXPRESSWAY:
+
+9 accidents
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_9033543c98b64272a8abbdeb79f4d744 = L.circleMarker(
+                [40.861862, -73.91282],
+                {"bubblingMouseEvents": true, "color": "#3c3c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3c3c3c", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4e12af9cc5254cb389bd7cdda7b59a61);
+        
+    
+        var popup_f390d43eba3f4b7e92a9bdf8f7baf47d = L.popup({"maxWidth": 300});
+
+        
+            var html_a491a9814b5a4685ab88e1a0b9c61ddb = $(`<div id="html_a491a9814b5a4685ab88e1a0b9c61ddb" style="width: 100.0%; height: 100.0%;">             <b>On street:</b> MAJOR DEEGAN EXPRESSWAY         <br>             <b>Cross street:</b> WEST FORDHAM ROAD<br>             <b>Accidents:</b> 9<br>             <b>People injured since 2020:</b> 13.0<br>             <b>People killed since 2020:</b> 0.0             </div>`)[0];
+            popup_f390d43eba3f4b7e92a9bdf8f7baf47d.setContent(html_a491a9814b5a4685ab88e1a0b9c61ddb);
+        
+
+        circle_marker_9033543c98b64272a8abbdeb79f4d744.bindPopup(popup_f390d43eba3f4b7e92a9bdf8f7baf47d)
+        ;
+
+        
+    
+    
+            circle_marker_9033543c98b64272a8abbdeb79f4d744.bindTooltip(
+                `<div>
+                     MAJOR DEEGAN EXPRESSWAY          x WEST FORDHAM ROAD:
+
+9 accidents
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c76f663eb46843be8dc86c88c5b77c73 = L.circleMarker(
+                [40.66059, -73.931335],
+                {"bubblingMouseEvents": true, "color": "#3c3c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3c3c3c", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4e12af9cc5254cb389bd7cdda7b59a61);
+        
+    
+        var popup_a2ae57cafe8d448a8b533dc13ece31da = L.popup({"maxWidth": 300});
+
+        
+            var html_0c0a0bf4f030416d8f019b6c0f9313c6 = $(`<div id="html_0c0a0bf4f030416d8f019b6c0f9313c6" style="width: 100.0%; height: 100.0%;">             <b>On street:</b> UTICA AVENUE                    <br>             <b>Cross street:</b> RUTLAND ROAD<br>             <b>Accidents:</b> 9<br>             <b>People injured since 2020:</b> 15.0<br>             <b>People killed since 2020:</b> 0.0             </div>`)[0];
+            popup_a2ae57cafe8d448a8b533dc13ece31da.setContent(html_0c0a0bf4f030416d8f019b6c0f9313c6);
+        
+
+        circle_marker_c76f663eb46843be8dc86c88c5b77c73.bindPopup(popup_a2ae57cafe8d448a8b533dc13ece31da)
+        ;
+
+        
+    
+    
+            circle_marker_c76f663eb46843be8dc86c88c5b77c73.bindTooltip(
+                `<div>
+                     UTICA AVENUE                     x RUTLAND ROAD:
+
+9 accidents
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_1a9c40540010497f9c14cff750b24f54 = L.circleMarker(
+                [40.691433, -73.89063],
+                {"bubblingMouseEvents": true, "color": "#3c3c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3c3c3c", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4e12af9cc5254cb389bd7cdda7b59a61);
+        
+    
+        var popup_add12567cdc249ae8e201b1df2cb53f0 = L.popup({"maxWidth": 300});
+
+        
+            var html_fe939522070b4a88be2f7c14407a94d6 = $(`<div id="html_fe939522070b4a88be2f7c14407a94d6" style="width: 100.0%; height: 100.0%;">             <b>On street:</b> VERMONT PLACE<br>             <b>Cross street:</b> CYPRESS AVENUE<br>             <b>Accidents:</b> 10<br>             <b>People injured since 2020:</b> 12.0<br>             <b>People killed since 2020:</b> 0.0             </div>`)[0];
+            popup_add12567cdc249ae8e201b1df2cb53f0.setContent(html_fe939522070b4a88be2f7c14407a94d6);
+        
+
+        circle_marker_1a9c40540010497f9c14cff750b24f54.bindPopup(popup_add12567cdc249ae8e201b1df2cb53f0)
+        ;
+
+        
+    
+    
+            circle_marker_1a9c40540010497f9c14cff750b24f54.bindTooltip(
+                `<div>
+                     VERMONT PLACE x CYPRESS AVENUE:
+
+10 accidents
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_1698b25d39be4aa3bf6e751c1f66c65b = L.circleMarker(
+                [40.65616, -73.76736],
+                {"bubblingMouseEvents": true, "color": "#3c3c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3c3c3c", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4e12af9cc5254cb389bd7cdda7b59a61);
+        
+    
+        var popup_889d987f25c84d538118c1c45ad1bb8a = L.popup({"maxWidth": 300});
+
+        
+            var html_c52cfa0140584fac83dc4bf85bf04a38 = $(`<div id="html_c52cfa0140584fac83dc4bf85bf04a38" style="width: 100.0%; height: 100.0%;">             <b>On street:</b> ROCKAWAY BOULEVARD              <br>             <b>Cross street:</b> BREWER BOULEVARD<br>             <b>Accidents:</b> 10<br>             <b>People injured since 2020:</b> 19.0<br>             <b>People killed since 2020:</b> 0.0             </div>`)[0];
+            popup_889d987f25c84d538118c1c45ad1bb8a.setContent(html_c52cfa0140584fac83dc4bf85bf04a38);
+        
+
+        circle_marker_1698b25d39be4aa3bf6e751c1f66c65b.bindPopup(popup_889d987f25c84d538118c1c45ad1bb8a)
+        ;
+
+        
+    
+    
+            circle_marker_1698b25d39be4aa3bf6e751c1f66c65b.bindTooltip(
+                `<div>
+                     ROCKAWAY BOULEVARD               x BREWER BOULEVARD:
+
+10 accidents
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_985f4480c7434a7fb72f34de65e7b4ea = L.circleMarker(
+                [40.804585, -73.91213],
+                {"bubblingMouseEvents": true, "color": "#3c3c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3c3c3c", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4e12af9cc5254cb389bd7cdda7b59a61);
+        
+    
+        var popup_38abb08f1c944e68920c1e5f79a1a99a = L.popup({"maxWidth": 300});
+
+        
+            var html_448695f2662740c6b4bc167ce7d4e4d6 = $(`<div id="html_448695f2662740c6b4bc167ce7d4e4d6" style="width: 100.0%; height: 100.0%;">             <b>On street:</b> EAST 138 STREET<br>             <b>Cross street:</b> BRUCKNER BOULEVARD<br>             <b>Accidents:</b> 10<br>             <b>People injured since 2020:</b> 14.0<br>             <b>People killed since 2020:</b> 0.0             </div>`)[0];
+            popup_38abb08f1c944e68920c1e5f79a1a99a.setContent(html_448695f2662740c6b4bc167ce7d4e4d6);
+        
+
+        circle_marker_985f4480c7434a7fb72f34de65e7b4ea.bindPopup(popup_38abb08f1c944e68920c1e5f79a1a99a)
+        ;
+
+        
+    
+    
+            circle_marker_985f4480c7434a7fb72f34de65e7b4ea.bindTooltip(
+                `<div>
+                     EAST 138 STREET x BRUCKNER BOULEVARD:
+
+10 accidents
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_dfd12bd8ec4f4b1d8d734af215d089cc = L.circleMarker(
+                [40.609417, -73.9677],
+                {"bubblingMouseEvents": true, "color": "#3c3c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3c3c3c", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4e12af9cc5254cb389bd7cdda7b59a61);
+        
+    
+        var popup_851a792206f6435abf98b63a404d2302 = L.popup({"maxWidth": 300});
+
+        
+            var html_87f30c15808847589840dd7c9e96a385 = $(`<div id="html_87f30c15808847589840dd7c9e96a385" style="width: 100.0%; height: 100.0%;">             <b>On street:</b> OCEAN PARKWAY<br>             <b>Cross street:</b> AVENUE P<br>             <b>Accidents:</b> 10<br>             <b>People injured since 2020:</b> 14.0<br>             <b>People killed since 2020:</b> 0.0             </div>`)[0];
+            popup_851a792206f6435abf98b63a404d2302.setContent(html_87f30c15808847589840dd7c9e96a385);
+        
+
+        circle_marker_dfd12bd8ec4f4b1d8d734af215d089cc.bindPopup(popup_851a792206f6435abf98b63a404d2302)
+        ;
+
+        
+    
+    
+            circle_marker_dfd12bd8ec4f4b1d8d734af215d089cc.bindTooltip(
+                `<div>
+                     OCEAN PARKWAY x AVENUE P:
+
+10 accidents
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f703b561bc7442bb86d7ae115844b6c5 = L.circleMarker(
+                [40.64366, -73.90067],
+                {"bubblingMouseEvents": true, "color": "#3c3c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3c3c3c", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4e12af9cc5254cb389bd7cdda7b59a61);
+        
+    
+        var popup_541e159b1d5f46829768ec2977558fdc = L.popup({"maxWidth": 300});
+
+        
+            var html_9ee916a3f50c447fa3bb3900760f54b2 = $(`<div id="html_9ee916a3f50c447fa3bb3900760f54b2" style="width: 100.0%; height: 100.0%;">             <b>On street:</b> ROCKAWAY PARKWAY<br>             <b>Cross street:</b> FLATLANDS AVENUE<br>             <b>Accidents:</b> 10<br>             <b>People injured since 2020:</b> 15.0<br>             <b>People killed since 2020:</b> 0.0             </div>`)[0];
+            popup_541e159b1d5f46829768ec2977558fdc.setContent(html_9ee916a3f50c447fa3bb3900760f54b2);
+        
+
+        circle_marker_f703b561bc7442bb86d7ae115844b6c5.bindPopup(popup_541e159b1d5f46829768ec2977558fdc)
+        ;
+
+        
+    
+    
+            circle_marker_f703b561bc7442bb86d7ae115844b6c5.bindTooltip(
+                `<div>
+                     ROCKAWAY PARKWAY x FLATLANDS AVENUE:
+
+10 accidents
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_abceb4c74818452c807b5ead1920f85d = L.circleMarker(
+                [40.669476, -73.919975],
+                {"bubblingMouseEvents": true, "color": "#3c3c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3c3c3c", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4e12af9cc5254cb389bd7cdda7b59a61);
+        
+    
+        var popup_bfd6721c6a7f462aac57a02177e92e08 = L.popup({"maxWidth": 300});
+
+        
+            var html_2cc98ca9641e4cc09e946e0d07bcb395 = $(`<div id="html_2cc98ca9641e4cc09e946e0d07bcb395" style="width: 100.0%; height: 100.0%;">             <b>On street:</b> EASTERN PARKWAY<br>             <b>Cross street:</b> HOWARD AVENUE<br>             <b>Accidents:</b> 10<br>             <b>People injured since 2020:</b> 13.0<br>             <b>People killed since 2020:</b> 0.0             </div>`)[0];
+            popup_bfd6721c6a7f462aac57a02177e92e08.setContent(html_2cc98ca9641e4cc09e946e0d07bcb395);
+        
+
+        circle_marker_abceb4c74818452c807b5ead1920f85d.bindPopup(popup_bfd6721c6a7f462aac57a02177e92e08)
+        ;
+
+        
+    
+    
+            circle_marker_abceb4c74818452c807b5ead1920f85d.bindTooltip(
+                `<div>
+                     EASTERN PARKWAY x HOWARD AVENUE:
+
+10 accidents
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_3f1b80d8944e4c50a9b4460f11acdea4 = L.circleMarker(
+                [40.818558, -73.92732],
+                {"bubblingMouseEvents": true, "color": "#3c3c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3c3c3c", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4e12af9cc5254cb389bd7cdda7b59a61);
+        
+    
+        var popup_dc1cc2eba7634356bff5a820e35ac782 = L.popup({"maxWidth": 300});
+
+        
+            var html_839212b3b3c046ae8efac6642412d8b8 = $(`<div id="html_839212b3b3c046ae8efac6642412d8b8" style="width: 100.0%; height: 100.0%;">             <b>On street:</b> GRAND CONCOURSE<br>             <b>Cross street:</b> EAST 149 STREET<br>             <b>Accidents:</b> 10<br>             <b>People injured since 2020:</b> 12.0<br>             <b>People killed since 2020:</b> 1.0             </div>`)[0];
+            popup_dc1cc2eba7634356bff5a820e35ac782.setContent(html_839212b3b3c046ae8efac6642412d8b8);
+        
+
+        circle_marker_3f1b80d8944e4c50a9b4460f11acdea4.bindPopup(popup_dc1cc2eba7634356bff5a820e35ac782)
+        ;
+
+        
+    
+    
+            circle_marker_3f1b80d8944e4c50a9b4460f11acdea4.bindTooltip(
+                `<div>
+                     GRAND CONCOURSE x EAST 149 STREET:
+
+10 accidents
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_1ff8afcc32fc4812b6dba0d53b00a983 = L.circleMarker(
+                [40.666706, -73.871826],
+                {"bubblingMouseEvents": true, "color": "#3c3c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3c3c3c", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4e12af9cc5254cb389bd7cdda7b59a61);
+        
+    
+        var popup_68aeae5a79de4c6080a7eaeaa956a9c1 = L.popup({"maxWidth": 300});
+
+        
+            var html_33780f6b690748bd8525b92453921bf1 = $(`<div id="html_33780f6b690748bd8525b92453921bf1" style="width: 100.0%; height: 100.0%;">             <b>On street:</b> LINDEN BOULEVARD<br>             <b>Cross street:</b> FOUNTAIN AVENUE<br>             <b>Accidents:</b> 11<br>             <b>People injured since 2020:</b> 15.0<br>             <b>People killed since 2020:</b> 0.0             </div>`)[0];
+            popup_68aeae5a79de4c6080a7eaeaa956a9c1.setContent(html_33780f6b690748bd8525b92453921bf1);
+        
+
+        circle_marker_1ff8afcc32fc4812b6dba0d53b00a983.bindPopup(popup_68aeae5a79de4c6080a7eaeaa956a9c1)
+        ;
+
+        
+    
+    
+            circle_marker_1ff8afcc32fc4812b6dba0d53b00a983.bindTooltip(
+                `<div>
+                     LINDEN BOULEVARD x FOUNTAIN AVENUE:
+
+11 accidents
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_65257539bd154a3b8a60b8d7a4057133 = L.circleMarker(
+                [40.820187, -73.890686],
+                {"bubblingMouseEvents": true, "color": "#3c3c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3c3c3c", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4e12af9cc5254cb389bd7cdda7b59a61);
+        
+    
+        var popup_0b3cc7b6a9b44eaeaa9196f5e5cc324a = L.popup({"maxWidth": 300});
+
+        
+            var html_65c01c8a2414434f986d51ddc8ac0fc0 = $(`<div id="html_65c01c8a2414434f986d51ddc8ac0fc0" style="width: 100.0%; height: 100.0%;">             <b>On street:</b> HUNTS POINT AVENUE<br>             <b>Cross street:</b> BRUCKNER BOULEVARD<br>             <b>Accidents:</b> 11<br>             <b>People injured since 2020:</b> 14.0<br>             <b>People killed since 2020:</b> 0.0             </div>`)[0];
+            popup_0b3cc7b6a9b44eaeaa9196f5e5cc324a.setContent(html_65c01c8a2414434f986d51ddc8ac0fc0);
+        
+
+        circle_marker_65257539bd154a3b8a60b8d7a4057133.bindPopup(popup_0b3cc7b6a9b44eaeaa9196f5e5cc324a)
+        ;
+
+        
+    
+    
+            circle_marker_65257539bd154a3b8a60b8d7a4057133.bindTooltip(
+                `<div>
+                     HUNTS POINT AVENUE x BRUCKNER BOULEVARD:
+
+11 accidents
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_544e4c0e3ad94aa29da6ba06e6585e45 = L.circleMarker(
+                [40.60981, -73.92251],
+                {"bubblingMouseEvents": true, "color": "#3c3c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3c3c3c", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4e12af9cc5254cb389bd7cdda7b59a61);
+        
+    
+        var popup_3f9c2fc3055149dda9f3dc18f0e82794 = L.popup({"maxWidth": 300});
+
+        
+            var html_14d9aeeb783a42c798c47150e5152864 = $(`<div id="html_14d9aeeb783a42c798c47150e5152864" style="width: 100.0%; height: 100.0%;">             <b>On street:</b> FLATBUSH AVENUE<br>             <b>Cross street:</b> AVENUE U<br>             <b>Accidents:</b> 11<br>             <b>People injured since 2020:</b> 14.0<br>             <b>People killed since 2020:</b> 0.0             </div>`)[0];
+            popup_3f9c2fc3055149dda9f3dc18f0e82794.setContent(html_14d9aeeb783a42c798c47150e5152864);
+        
+
+        circle_marker_544e4c0e3ad94aa29da6ba06e6585e45.bindPopup(popup_3f9c2fc3055149dda9f3dc18f0e82794)
+        ;
+
+        
+    
+    
+            circle_marker_544e4c0e3ad94aa29da6ba06e6585e45.bindTooltip(
+                `<div>
+                     FLATBUSH AVENUE x AVENUE U:
+
+11 accidents
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_5210584b2e454caf87e995646148e5e0 = L.circleMarker(
+                [40.632435, -73.88818],
+                {"bubblingMouseEvents": true, "color": "#3c3c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3c3c3c", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4e12af9cc5254cb389bd7cdda7b59a61);
+        
+    
+        var popup_e2f7301682274b70a3ab42449f1e5c84 = L.popup({"maxWidth": 300});
+
+        
+            var html_5e245f58219a4ef2b72198d9fd5a1a52 = $(`<div id="html_5e245f58219a4ef2b72198d9fd5a1a52" style="width: 100.0%; height: 100.0%;">             <b>On street:</b> ROCKAWAY PARKWAY<br>             <b>Cross street:</b> SKIDMORE AVENUE<br>             <b>Accidents:</b> 12<br>             <b>People injured since 2020:</b> 18.0<br>             <b>People killed since 2020:</b> 0.0             </div>`)[0];
+            popup_e2f7301682274b70a3ab42449f1e5c84.setContent(html_5e245f58219a4ef2b72198d9fd5a1a52);
+        
+
+        circle_marker_5210584b2e454caf87e995646148e5e0.bindPopup(popup_e2f7301682274b70a3ab42449f1e5c84)
+        ;
+
+        
+    
+    
+            circle_marker_5210584b2e454caf87e995646148e5e0.bindTooltip(
+                `<div>
+                     ROCKAWAY PARKWAY x SKIDMORE AVENUE:
+
+12 accidents
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_6a6e7336472f428e892fd5d7e219ee6c = L.circleMarker(
+                [40.87831, -73.870155],
+                {"bubblingMouseEvents": true, "color": "#3c3c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3c3c3c", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4e12af9cc5254cb389bd7cdda7b59a61);
+        
+    
+        var popup_8c4edb167e5e4a529ff5b96234668d5c = L.popup({"maxWidth": 300});
+
+        
+            var html_7c9713e5d54548cda8c984cff9964c42 = $(`<div id="html_7c9713e5d54548cda8c984cff9964c42" style="width: 100.0%; height: 100.0%;">             <b>On street:</b> EAST GUN HILL ROAD              <br>             <b>Cross street:</b> BRONX RIVER PARKWAY<br>             <b>Accidents:</b> 12<br>             <b>People injured since 2020:</b> 15.0<br>             <b>People killed since 2020:</b> 0.0             </div>`)[0];
+            popup_8c4edb167e5e4a529ff5b96234668d5c.setContent(html_7c9713e5d54548cda8c984cff9964c42);
+        
+
+        circle_marker_6a6e7336472f428e892fd5d7e219ee6c.bindPopup(popup_8c4edb167e5e4a529ff5b96234668d5c)
+        ;
+
+        
+    
+    
+            circle_marker_6a6e7336472f428e892fd5d7e219ee6c.bindTooltip(
+                `<div>
+                     EAST GUN HILL ROAD               x BRONX RIVER PARKWAY:
+
+12 accidents
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_73b4af163446452aaf969255ca096f1a = L.circleMarker(
+                [40.65616, -73.76736],
+                {"bubblingMouseEvents": true, "color": "#3c3c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3c3c3c", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4e12af9cc5254cb389bd7cdda7b59a61);
+        
+    
+        var popup_4cb5bff418e14b559326f32bd04c5dce = L.popup({"maxWidth": 300});
+
+        
+            var html_30bb1d9ba88c40468ac846a56a26f12e = $(`<div id="html_30bb1d9ba88c40468ac846a56a26f12e" style="width: 100.0%; height: 100.0%;">             <b>On street:</b> ROCKAWAY BOULEVARD<br>             <b>Cross street:</b> BREWER BOULEVARD<br>             <b>Accidents:</b> 12<br>             <b>People injured since 2020:</b> 20.0<br>             <b>People killed since 2020:</b> 2.0             </div>`)[0];
+            popup_4cb5bff418e14b559326f32bd04c5dce.setContent(html_30bb1d9ba88c40468ac846a56a26f12e);
+        
+
+        circle_marker_73b4af163446452aaf969255ca096f1a.bindPopup(popup_4cb5bff418e14b559326f32bd04c5dce)
+        ;
+
+        
+    
+    
+            circle_marker_73b4af163446452aaf969255ca096f1a.bindTooltip(
+                `<div>
+                     ROCKAWAY BOULEVARD x BREWER BOULEVARD:
+
+12 accidents
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_eceaa3b611a644d2b7f0f67b89d0a9ea = L.circleMarker(
+                [40.813095, -73.89827],
+                {"bubblingMouseEvents": true, "color": "#3c3c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3c3c3c", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4e12af9cc5254cb389bd7cdda7b59a61);
+        
+    
+        var popup_f889cfa2fd5547f7a40b5c5e322be9ae = L.popup({"maxWidth": 300});
+
+        
+            var html_04b836d6d2a040b38cfade3322e992bd = $(`<div id="html_04b836d6d2a040b38cfade3322e992bd" style="width: 100.0%; height: 100.0%;">             <b>On street:</b> BRUCKNER BOULEVARD<br>             <b>Cross street:</b> LEGGETT AVENUE<br>             <b>Accidents:</b> 13<br>             <b>People injured since 2020:</b> 22.0<br>             <b>People killed since 2020:</b> 0.0             </div>`)[0];
+            popup_f889cfa2fd5547f7a40b5c5e322be9ae.setContent(html_04b836d6d2a040b38cfade3322e992bd);
+        
+
+        circle_marker_eceaa3b611a644d2b7f0f67b89d0a9ea.bindPopup(popup_f889cfa2fd5547f7a40b5c5e322be9ae)
+        ;
+
+        
+    
+    
+            circle_marker_eceaa3b611a644d2b7f0f67b89d0a9ea.bindTooltip(
+                `<div>
+                     BRUCKNER BOULEVARD x LEGGETT AVENUE:
+
+13 accidents
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f3b51d2dd22b4d0881e8145d4cabf022 = L.circleMarker(
+                [40.675735, -73.89686],
+                {"bubblingMouseEvents": true, "color": "#3c3c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3c3c3c", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4e12af9cc5254cb389bd7cdda7b59a61);
+        
+    
+        var popup_c2b2c9ccfdb246968ada75858f5e461d = L.popup({"maxWidth": 300});
+
+        
+            var html_85e88b7bf34144a6a6292e7991f477c4 = $(`<div id="html_85e88b7bf34144a6a6292e7991f477c4" style="width: 100.0%; height: 100.0%;">             <b>On street:</b> PENNSYLVANIA AVENUE<br>             <b>Cross street:</b> ATLANTIC AVENUE<br>             <b>Accidents:</b> 13<br>             <b>People injured since 2020:</b> 17.0<br>             <b>People killed since 2020:</b> 0.0             </div>`)[0];
+            popup_c2b2c9ccfdb246968ada75858f5e461d.setContent(html_85e88b7bf34144a6a6292e7991f477c4);
+        
+
+        circle_marker_f3b51d2dd22b4d0881e8145d4cabf022.bindPopup(popup_c2b2c9ccfdb246968ada75858f5e461d)
+        ;
+
+        
+    
+    
+            circle_marker_f3b51d2dd22b4d0881e8145d4cabf022.bindTooltip(
+                `<div>
+                     PENNSYLVANIA AVENUE x ATLANTIC AVENUE:
+
+13 accidents
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c39b05effd984f5ca6aef2bf73707785 = L.circleMarker(
+                [40.817795, -73.89319],
+                {"bubblingMouseEvents": true, "color": "#3c3c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3c3c3c", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4e12af9cc5254cb389bd7cdda7b59a61);
+        
+    
+        var popup_3a246c13e5af4eaa969c3a6aee67db6e = L.popup({"maxWidth": 300});
+
+        
+            var html_b6bce9ca4f2f48b99b041655569dbd1d = $(`<div id="html_b6bce9ca4f2f48b99b041655569dbd1d" style="width: 100.0%; height: 100.0%;">             <b>On street:</b> BRUCKNER BOULEVARD<br>             <b>Cross street:</b> TIFFANY STREET<br>             <b>Accidents:</b> 13<br>             <b>People injured since 2020:</b> 20.0<br>             <b>People killed since 2020:</b> 0.0             </div>`)[0];
+            popup_3a246c13e5af4eaa969c3a6aee67db6e.setContent(html_b6bce9ca4f2f48b99b041655569dbd1d);
+        
+
+        circle_marker_c39b05effd984f5ca6aef2bf73707785.bindPopup(popup_3a246c13e5af4eaa969c3a6aee67db6e)
+        ;
+
+        
+    
+    
+            circle_marker_c39b05effd984f5ca6aef2bf73707785.bindTooltip(
+                `<div>
+                     BRUCKNER BOULEVARD x TIFFANY STREET:
+
+13 accidents
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_425416b1aa904a3f843f70befb0fe72f = L.circleMarker(
+                [40.71122, -73.72827],
+                {"bubblingMouseEvents": true, "color": "#3c3c3c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3c3c3c", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_4e12af9cc5254cb389bd7cdda7b59a61);
+        
+    
+        var popup_07b5586775c94623b030503490efb9c4 = L.popup({"maxWidth": 300});
+
+        
+            var html_ddd8c19db77c4e819c65b1a563d2d7b2 = $(`<div id="html_ddd8c19db77c4e819c65b1a563d2d7b2" style="width: 100.0%; height: 100.0%;">             <b>On street:</b> CROSS ISLAND PARKWAY<br>             <b>Cross street:</b> HEMPSTEAD AVENUE<br>             <b>Accidents:</b> 13<br>             <b>People injured since 2020:</b> 21.0<br>             <b>People killed since 2020:</b> 0.0             </div>`)[0];
+            popup_07b5586775c94623b030503490efb9c4.setContent(html_ddd8c19db77c4e819c65b1a563d2d7b2);
+        
+
+        circle_marker_425416b1aa904a3f843f70befb0fe72f.bindPopup(popup_07b5586775c94623b030503490efb9c4)
+        ;
+
+        
+    
+    
+            circle_marker_425416b1aa904a3f843f70befb0fe72f.bindTooltip(
+                `<div>
+                     CROSS ISLAND PARKWAY x HEMPSTEAD AVENUE:
+
+13 accidents
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>

@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Interactive Map</title>
+<script>
+function update_map() {
+    var selected_interval = document.getElementById("interval_dropdown").value;
+    document.getElementById("map_iframe").src = "{{site.url}}/assets/temp_loc_map_" + selected_interval + ".html";
+}
+
+</script>
+</head>
+<body>
+    <select id="interval_dropdown" onchange="update_map()">
+        <option value="All">All</option>
+        <option value="2 - 7">"2 - 7"</option>
+        <option value="8 - 12">"8 - 12"</option>
+        <option value="13 - 19">13 - 19"</option>
+    </select>
+    <iframe id="map_iframe" src="{{site.url}}/assets/temp_loc_map_All.html" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+</body>
+</html>
