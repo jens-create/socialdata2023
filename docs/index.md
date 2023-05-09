@@ -84,7 +84,6 @@ The number of material damage crashes has dropped significantly in recent years,
 
 Looking at the number of fatalities over the past decase, we can see that the level of deadly crashes has not improved. In fact, we see a concerning trend of increasing pedestrian fatalities. To combat this trend, we should look into the causes of these crashes and identify ways to prevent them from happening in the future. Let us take a look at the number of crashes in each of the five boroughs of NYC to investigate where we should focus our efforts.
 
-![the_five_boroughs](/_includes_/theboroughs.png)
 {% include boxplot_collisions_per_day.html %}
 
 Overall, the trends in both time periods are similar, however there are fewer collisions in the more recent period, as previously noted. Consequently, the median number of collisions per day was consistently higher in the 2013-2019 period across all boroughs. Furter, Brooklyn has the highest number of crashes/collisions in both time periods, while the Staten Island has the lowest. Moreover, the number of crashes in Manhattan has decreased and is now more similar to the number of crashes in Bronx, whereas previously it was more similar to Brooklyn and Queens. We will look use these insights to investigate the crashes in each borough in more detail later on. Let's now take a closer look at the time trends, to see if there are any patterns in the number of crashes over the years, months, and days and hours of the week.
