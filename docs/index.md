@@ -88,38 +88,6 @@ Not currently working with the setup...
 {% include time_series_plot1.html %}
 {% include time_series_plot2.html %}
 
-<div class="tab">
-  <button class="tablinks" onclick="openTab(event, 'tab1')">Tab 1</button>
-  <button class="tablinks" onclick="openTab(event, 'tab2')">Tab 2</button>
-</div>
-
-<div id="tab1" class="tabcontent"></div>
-<div id="tab2" class="tabcontent"></div>
-
-
-function openTab(evt, tabName) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-  document.getElementById(tabName).style.display = "block";
-  evt.currentTarget.className += " active";
-  if (tabName === "tab1") {
-    $("#tab1").load("_includes/time_series_plot1.html");
-  } else if (tabName === "tab2") {
-    $("#tab2").load("_includes/time_series_plot2.html");
-  }
-}
-
-document.getElementsByClassName("tablinks")[0].click();
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
-
 # Where in NYC do Traffic Incidents Occur?
 
 ### Traffic unsafety by borough
