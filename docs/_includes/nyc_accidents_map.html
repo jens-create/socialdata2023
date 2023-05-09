@@ -11,7 +11,11 @@ function update_map1() {
 
 function update_analysis1() {
     var selected_metric = document.getElementById("metric_dropdown").value;
-    var analysis_text = "";
+    var analysis_text = `Manhattan has significantly more accidents per sq. km, which is expected due to the high population density. Combined with a lot of business and tourist activities, a large traffic volume is expected, which leads to more accidents. 
+    There has been registered 344 accidents per sq. km. in Manhattan since 2020, which is significantly more than the second most impacted borough by area, Brooklyn, with 194 accidents per sq. km.<br>
+    Despite it's relatively small area, the Bronx has close to the same accident rate by sq. km. as Brooklyn. The Bronx has 154 accidents per sq. km. since 2020.<br>
+    The large borough in terms of area, Queens, has only had 102 accidents per sq. km. in the same period, and the least affected borough, Staten Island, has had 23 accidents per sq. km.
+    `;
     if (selected_metric === "accidents_per_sqkm") {
         analysis_text = `Manhattan has significantly more accidents per sq. km, which is expected due to the high population density. Combined with a lot of business and tourist activities, a large traffic volume is expected, which leads to more accidents. 
         There has been registered 344 accidents per sq. km. in Manhattan since 2020, which is significantly more than the second most impacted borough by area, Brooklyn, with 194 accidents per sq. km.<br>
@@ -36,9 +40,7 @@ function update_analysis1() {
     }
     analysis_text = analysis_text + `<br><br>
     Overall, initiatives should be made to limit severe accidents in especially Brooklyn. Moreover, despite it's relatively small area many accidents occur in Manhattan, which affects both business, the environment and the people negatively. Therefore, initiatives should be made to limit the number of accidents in Manhattan. 
-    <br><br><br> 
-
-    In below map, we dive into specific trafic locations to identify where the traffic is most dangerous and thus where to prioritize safety enhancing initiatives for the people of NYC. 
+    <br><br>
     `;
 
     document.getElementById("map_analysis1").innerHTML = analysis_text;
