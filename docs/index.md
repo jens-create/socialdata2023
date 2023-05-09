@@ -104,16 +104,12 @@ Overall, the trends in both time periods are similar, however there are fewer co
   </div>
 </div>
 
-<div id="div_basics">
-  BASICS
-</div>
-
 <div id="div_ym" style="display: none;">
 {% include time_series_plot1.html %}
 </div>
 
 <div id="div_wh" style="display: none;">
-{% include time_series_plot2.html %}
+{% include time_series_plot_week.html %}
 </div>
 
 # Where in NYC do Traffic Incidents Occur?
