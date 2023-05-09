@@ -9,7 +9,6 @@ In this page, we will explore the latest traffic accidents dataset and uncover i
 As of 2022, New York City is the most congested city in the US. Rush hour traffic can cause drivers to spend an average of [236 hours per year on the road](https://www.tomtom.com/traffic-index/united-states-of-america-country-traffic/), with an additional [117 hours lost to congestion](https://inrix.com/scorecard-city-2022/?city=New%20York%20City%20NY&index=5#form-download-the-full-report). With such high levels of traffic, it's no surprise that navigating the city's busy streets can be dangerous. But, how bad is the safety in New York City, really? 
 In this section, we'll dive into the numbers and shed light on the current state of traffic in NYC. Let’s look into some of the facts and figures you need to know! 
 
-{include fatalities_per_year.html}
 
 
 <div class ="row" style="margin-top:20px;">
@@ -74,6 +73,7 @@ In this section, we'll dive into the numbers and shed light on the current state
       </div>
 
 
+{% include fatalities_per_year.html %}
 
 Artikel der beskriver hvorfor at tallet af ulykker er faldet efter april 2020:https://nyc.streetsblog.org/2020/04/03/nypd-gives-a-few-details-of-new-no-report-crash-policy/
 
