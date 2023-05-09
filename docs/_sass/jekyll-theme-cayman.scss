@@ -110,6 +110,7 @@ a {
 .page-header {
   color: $header-heading-color;
   text-align: center;
+  font-weight: normal;
   background-color: $header-bg-color;
   //background-image: linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);
   //background-image: url("socialdata2023/assets/manhattan.jpg");
@@ -132,6 +133,8 @@ a {
 .project-name {
   margin-top: 0;
   margin-bottom: 0.1rem;
+  font-weight: bold;
+  color: $body-link-color;
 
   @include large {
     font-size: 3.25rem;
@@ -208,7 +211,13 @@ a {
   }
 
   h1,
-  h2,
+  h2 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    color: $section-headings-color;
+  }
+  
   h3,
   h4,
   h5,
@@ -216,8 +225,11 @@ a {
     margin-top: 2rem;
     margin-bottom: 1rem;
     font-weight: normal;
-    color: $section-headings-color;
+    color: $section-subheadings-color;
   }
+
+
+
 
   p {
     margin-bottom: 1em;

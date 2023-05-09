@@ -1,10 +1,10 @@
+<!-- 
+*<center>Did you know that on average, New Yorkers spend ten full days a year stuck in traffic?!<br><br>What's even worse than the endless gridlock are the ressources wasted in inefficient use of time<br> and more importantly the danger on our streets. That's why we, the Council of Traffic Safety,<br>analyzed traffic data of New York City, identified the trends, and now we're presenting our findings<br>to expose what's really going on out there, and how we can make NYC traffic safer for everyone!<br><br></center>* -->
 
-# Welcome to our webpage on Making NYC Streets Safer!
+*<center>Did you know that on average, New Yorkers spend ten full days a year stuck in traffic?!<br><br>What's even worse than the endless gridlock are the ressources wasted in inefficient use of time<br> and more importantly the danger on our streets. That's why we, the Council of Traffic Safety,<br>dived deep into the latest traffic accidents data of New York City,<br>to uncover insights, trends, and contributing factors and expose what's really going on out there<br> Let's work together to identify initiatives and solutions to make NYC traffic safer for everyone.</center>*
 
-Did you know that every year, thousands of traffic accidents occur on the streets of New York City, causing injuries and fatalities to drivers, passengers, and pedestrians alike? These accidents not only impact the lives of those involved but also affect the overall safety and well-being of our city.
 
-In this page, we will explore the latest traffic accidents dataset and uncover insights that can help us make our streets safer. Together, we can work towards a future where accidents are less frequent, and everyone can feel confident and secure on NYC's roads. Let's get started!
-
+<br>
 # New York Traffic by the Numbers
 As of 2022, New York City is the most congested city in the US. Rush hour traffic can cause drivers to spend an average of [236 hours per year on the road](https://www.tomtom.com/traffic-index/united-states-of-america-country-traffic/), with an additional [117 hours lost to congestion](https://inrix.com/scorecard-city-2022/?city=New%20York%20City%20NY&index=5#form-download-the-full-report). With such high levels of traffic, it's no surprise that navigating the city's busy streets can be dangerous. But, how bad is the safety in New York City, really?
 In this section, we'll dive into the numbers and shed light on the current state of traffic in NYC. Let’s look into some of the facts and figures you need to know!
@@ -13,17 +13,17 @@ In this section, we'll dive into the numbers and shed light on the current state
 <div class ="row" style="margin-top:20px;">
   <div class="col-md-12" style="text-align:center;">
           <p style="font-size: 30px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#008360 !important; margin-bottom: 2px; ">
-               <font style="color:#83c3b2">131,000</font> crashes per year
+               <font style="color:#83c3b2">131,000</font> crashes per year in 2013-2022
           </p>
 
            <p
             style="font-size: 25px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#4c8f7e !important; margin-bottom: 2px;">
-            <font style="color:#7fb9b3">166,600</font> crashes per year pre-covid
+            <font style="color:#7fb9b3">166,600</font> crashes per year in 2013-2019
           </p>
 
           <p
             style="font-size: 25px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#4c8f7e !important; margin-bottom: 2px;">
-            <font style="color:#7fb9b3">86,000</font> crashes per year post-covid
+            <font style="color:#7fb9b3">86,000</font> crashes per year in 2020-2022
           </p>
           <p
             style="font-size: 25px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#4c8f7e !important">
@@ -41,7 +41,7 @@ According to recent data, New York City experiences an average of 131,000 crashe
         <div class="col-md-6" style="text-align: right;">
         <p
             style="font-size: 25px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#3c3c3c !important; margin-bottom: 2px;">
-             2013-2019
+            <font style="color:#606c71">2013-2019</font>
           </p>
           <p
             style="font-size: 20px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#ff5d49 !important; margin-bottom: 2px;">
@@ -59,8 +59,8 @@ According to recent data, New York City experiences an average of 131,000 crashe
         </div>
         <div class="col-md-6" style="text-align: left;">
         <p
-            style="font-size: 25px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#3c3c3c !important; margin-bottom: 2px;">
-             Since 2020
+            style="font-size: 25px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#2f2f2f !important; margin-bottom: 2px;">
+            <font style="color:#606c71">Since 2020</font>
           </p>
           <p
             style="font-size: 20px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#ff5d49 !important; margin-bottom: 2px;">
@@ -84,15 +84,21 @@ The number of material damage crashes has dropped significantly in recent years,
 
 Looking at the number of fatalities over the past decase, we can see that the level of deadly crashes has not improved. In fact, we see a concerning trend of increasing pedestrian fatalities. To combat this trend, we should look into the causes of these crashes and identify ways to prevent them from happening in the future. Let us take a look at the number of crashes in each of the five boroughs of NYC to investigate where we should focus our efforts.
 
+
+
 {% include boxplot_collisions_per_day.html %}
+
 
 Overall, the trends in both time periods are similar, however there are fewer collisions in the more recent period, as previously noted. Consequently, the median number of collisions per day was consistently higher in the 2013-2019 period across all boroughs. Furter, Brooklyn has the highest number of crashes/collisions in both time periods, while the Staten Island has the lowest. Moreover, the number of crashes in Manhattan has decreased and is now more similar to the number of crashes in Bronx, whereas previously it was more similar to Brooklyn and Queens. We will look use these insights to investigate the crashes in each borough in more detail later on. Let's now take a closer look at the time trends, to see if there are any patterns in the number of crashes over the years, months, and days and hours of the week.
 
-## Analyzing Trends in NYC Crashes Over Time - Does Time Matter?
+<br><br>
+
+# Does Time Matter? <!--Analyzing Trends in NYC Crashes Over Time-->
+### Analyzing crashes in different time perspectives
 
  <div class="row" style="margin-top: 10px;">
-  <div class="col-sm-12">
-    <button type="button" class="btn btn-primary btn-circle shadow-none" id="ym"
+  <div class="col-sm-12"> 
+    <button type="button" class="btn btn-primary btn-circle shadow-none active" id="ym"
       style="border-radius: 20px !important; background-color: #ffffff; border-color: #ffffff; padding-left: 20px; padding-right: 20px; margin-top: 10px;color:black">Yearly
       and Monthly Patterns</button>
     <button type="button" class="btn btn-primary btn-circle shadow-none" id="wh"
@@ -101,26 +107,35 @@ Overall, the trends in both time periods are similar, however there are fewer co
   </div>
 </div>
 
-<div id="div_ym" style="display: none;">
-{% include time_series_plot1.html %}
+<div id="div_ym" style="display: block;">
+{% include time_series_plot1_version3.html %}
 </div>
 
 <div id="div_wh" style="display: none;">
-{% include time_series_plot_week.html %}
+{% include time_series_plot2_version3.html %}
 </div>
+
+Maybe rewrite the figure text. 
+Write also something to sum up what we can conclude from the plots...
+
+
+<br><br>
 
 # Where in NYC do Traffic Incidents Occur?
 
 ### Traffic unsafety by borough
+
 Below map compares how each borough in NYC is affected by traffic incidents overall, which is reflected in different persepectives such as area, population and severity of accidents.
 {% include nyc_accidents_map.html %}
 
-### Dangerous locations
-In below map, we dive into specific trafic locations to identify where the traffic is most dangerous and thus where to prioritize safety enhancing initiatives for the people of NYC.
+### Traffic unsafety by roads
+In the following map, we dive into specific trafic locations to identify where the traffic is most dangerous and thus where to prioritize safety enhancing initiatives for the people of NYC.<br>
+
+Click on specific locations for further information on injuries and fatalities at the locations of accidents.
 {% include accidents_locations_map.html %}
 
 
-## Most dangerous areas in NYC
+## At which locations is the traffic most unsafe in NYC?
 
 ### Atlantic Avenue in Brooklyn
 Atlantic Avenue in Brooklyn is the most dangerous street in New York City. It has the highest number of accidents, injuries, and fatalities of any street in the city. The street is a major thoroughfare that runs through several neighborhoods, including Bedford-Stuyvesant, Crown Heights, and Prospect Heights. It is also home to many businesses and residential buildings, making it a popular destination for pedestrians and cyclists. However, the street lacks adequate infrastructure for these users, with narrow sidewalks and bike lanes that are often blocked by parked cars or delivery trucks. This leads to conflicts between different modes of transportation, resulting in collisions and injuries.
@@ -131,7 +146,9 @@ An article from 2021, [SAFETY THIRD: Hit-and-Run Driver Kills Deaf Man on Notori
 Let's look into the data and see if the work of the policymakers have made a change in the last 5 years or so...
 
 
-# Investigating the causes of accidents
+<br><br>
+
+# What Are the Main Causes of Accidents in NYC?
 
 Crashes on NYC streets are caused by various factors, some of which are more obvious than others. It could be a driver's distraction, fatigue, or even aggressive behavior. Pedestrians who jaywalk or cyclists who ride recklessly can also contribute to crashes.
 
@@ -145,7 +162,7 @@ Ideas:
 - How have these factors changed over time?
 - What can we do to prevent these factors from happening in the future? - OK
 
-## The most common factors that contribute to accidents
+### Most common contributing factors
 
 The following chart shows the top 8 factors that contribute to accidents in NYC for the three categories.
 
@@ -176,7 +193,7 @@ Overall, a multi-faceted approach is needed to improve road safety in New York C
 
 
 
-## How do these factors relate to each other?
+### How do these factors relate to each other?
 
 ![Vehicle 1 factor vs Vehicle 2 factor](/assets/top_8_contributing_factors.png)
 
@@ -193,7 +210,7 @@ Finally, the plot reveals that crashes involving backing unsafely are relatively
 
 Overall, this scatter plot provides valuable insights into the correlation between contributing factors in crashes, highlighting the importance of addressing driver inattention and distraction and the need to focus on risky behaviors when both drivers are engaging in them. By taking these insights into account, policymakers and safety advocates can make more informed decisions about how to improve road safety in New York City.
 
-## Conclusion on factors...
+## How to Make NYC Great Again
 
 To conclude on the four plots, the policymakers in NYC should focus on addressing the most common contributing factors to crashes and the factors that lead to the most severe crashes.
 

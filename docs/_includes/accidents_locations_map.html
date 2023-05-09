@@ -6,7 +6,7 @@
 <script>
 function update_map2() {
     var selected_interval = document.getElementById("interval_dropdown").value;
-    document.getElementById("map_iframe").src = "{{site.url}}/assets/temp_loc_map_" + selected_interval + ".html";
+    document.getElementById("map_iframe2").src = "{{site.url}}/assets/temp_loc_map_" + selected_interval + ".html";
     update_analysis2();
 }
 
@@ -16,21 +16,37 @@ function update_analysis2() {
     var selected_interval = document.getElementById("interval_dropdown").value;
     var analysis_text = "";
     if (selected_interval === "All") {
-        analysis_text = `Analysis for all...`;
+        analysis_text = `
+        The map above shows that there are clustered areas in especially Brooklyn and the Bronx where specific locations have medium to a high number of accidents acciedents.<br> 
+        There seems to be a certain area in Brooklyn where there are many dangorous intersections, whereas the dangerous locations are more spread out in Bronx. `;
     } else if (selected_interval === "2 - 7") {
-        analysis_text = `Analysis for 2 - 7..
+        analysis_text = `For locations where there have been between two and seven accidents since 2020, the map shows that all boroughs apert from Staten Island have clustered areas with where accidents tend to occure more frequently.
+        This map clearly shows that only few accidents occur on Staten Island compared to the remaining boroughs, which supports the observations from the previous map. The locationss where few accidents occurred are more dispersed in outer Queens compared to the the area of the borough adjoining to Brooklyn, where locations of accidents are more dense.<br><br>
+        Compared to the other intervals of accident counts, this map enables better insight to which smaller roads may be unsafe for people in the traffic, where pedestrians are more exposed to be accidents as well.<br>
+        For instance at lower Manhattan, there are many locations with accidents, which may be due to the many tourists in the area. The same pattern can be observed near the Midtown which is loacted between Lincoln Tunnel connecting to Newark and Queens Midtown Tunnel connecting to Queens. Furthermore, the large arena, Madison Square Garden is located in this area, which may explain the many accidents in this area, and is likely to cause a lot of traffic at larger events. 
+
         `;
-    } else if (selected_interval === "8 - 12") {
-        analysis_text = `Analysis for 8 - 12..
+    } else if (selected_interval === "8 - 13") {
+        analysis_text = `In the Bronx there are multiple dangerous locations along Buckener Boulevard. As it is a larger road and a direct connection to Manhattan this is not surprising. To prevent accidents in this area we must look in to the typical time at which these accidents tend to occur, to create an effective campaign.<br> 
+        The most unsafe traffic area in Manhattan is 2nd Avenue near East 57 and 58 Street. This area is close to a brigde connecting to Brooklyn and furthermore, it is central between lower and upper Manhattan, which could explain that these roads may be used by many people.
         `;
-     } else if (selected_interval === "13 - 19") {
-        analysis_text = `Analysis for 13 - 19... `;
+     } else if (selected_interval === "14 - 19") {
+        analysis_text = `Three of the five most unsafe traffic locations in NYC are in Brooklyn, and er all located close to each other at intersections of larger roads.<br>
+        The intersection between Atlantic Avenue and Logan Street has the highest number of accidents in NYC, with 19 accidents and in total 25 injured people since 2020. 
+        This is a large intersection with many lanes and further down the road towards Manhattan, the road crosses Pennsylvania Avenue, which is also an intersection highly affected by accidents with 14 registered and 22 people injured. 
+        Likewiese, Pennsylvania Avenue crosses Linden Boulevard, which is the second most likely intersection in NYC to cause accidents with 16 registered since 2020, where 18 people in total were injured.<br><br>
+        
+        In Bronx the intersections of West Fordham Road with Major Deegan Expressway and also East Gun Hill Road with Bronx River Parkway are the most dangerous intersections. 
+        By inspecting the former mentioned intersection closely, it appears that accidents have been registered with slightly differing location specification. This means that in total there has been 34 accidents 53 people injured in total. 
+        This makes the intersection by far the most unsafe traffic area. Fordham Road is a major thoroughfare in the Bronx that runs between east and west of Bronx and geographically separates the North Bronx from the South Bronx. Major Deegan Expressway is a highway with many lanes that connects to Manhattan. 
+        This specific location should therefore be the subject of determined focus for improving safety on the roads in NYC.
+        `;
     }
     analysis_text = analysis_text + `<br><br>
-    Overall, ...
+    Overall, is it clear that especially highways caonnecting Manhattan with adjoint boroughs comprise significant dangerous traffic locations in NYC. In general, it is intersections with either one or between two large roads that causes many accidents in the same location. 
+    This is not surprising, as these locations are often characterized by many lanes and a high traffic density. 
     <br><br> 
     `;
-
     document.getElementById("map_analysis2").innerHTML = analysis_text;
 }
 
@@ -44,10 +60,10 @@ window.onload = function() {
     <select id="interval_dropdown" onchange="update_map2()">
         <option value="All">All</option>
         <option value="2 - 7">2 - 7</option>
-        <option value="8 - 13">8 - 12</option>
-        <option value="14 - 19">13 - 19</option>
+        <option value="8 - 13">8 - 13</option>
+        <option value="14 - 19">14 - 19</option>
     </select>
-    <iframe id="map_iframe" src="{{site.url}}/assets/temp_loc_map_All.html" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+    <iframe id="map_iframe2" src="{{site.url}}/assets/temp_loc_map_All.html" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
     <div id="map_analysis2" style="padding-top: 20px;"></div>
 </body>
 </html>
