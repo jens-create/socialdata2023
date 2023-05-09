@@ -85,17 +85,26 @@ Artikel der beskriver hvorfor at tallet af ulykker er faldet efter april 2020:ht
 Not currently working with the setup...
 
 
+{% include time_series_plot1.html %}
+{% include time_series_plot2.html %}
 
 
 
 
 # Where in NYC do Traffic Incidents Occur?
 
+<<<<<<< HEAD
 Below map compares how each borough in NYC is affected by traffic incidents overall, which is reflected in different persepectives such as area, population and severity of accidents.
 {% include nyc_accidents_map.html %}
 
 
 In below map, we dive into specific trafic locations to identify where the traffic is most dangerous and thus where to prioritize safety enhancing initiatives for the people of NYC.
+=======
+Below map compares how each borough in NYC is affected by traffic incidents overall, which is reflected in different persepectives such as area, population and severity of accidents.
+{% include nyc_accidents_map.html %}
+
+
+>>>>>>> 206339044f4b3882fc8756d9590b40a930ddf4d8
 {% include accidents_locations_map.html %}
 
 

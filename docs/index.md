@@ -88,15 +88,13 @@ Not currently working with the setup...
 {% include time_series_plot1.html %}
 {% include time_series_plot2.html %}
 
-
-
-
 # Where in NYC do Traffic Incidents Occur?
 
+### Traffic unsafety by borough
 Below map compares how each borough in NYC is affected by traffic incidents overall, which is reflected in different persepectives such as area, population and severity of accidents.  
 {% include nyc_accidents_map.html %}
 
-
+### Dangerous locations
 In below map, we dive into specific trafic locations to identify where the traffic is most dangerous and thus where to prioritize safety enhancing initiatives for the people of NYC. 
 {% include accidents_locations_map.html %}
 
