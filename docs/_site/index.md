@@ -5,74 +5,55 @@ Did you know that every year, thousands of traffic accidents occur on the street
 
 In this page, we will explore the latest traffic accidents dataset and uncover insights that can help us make our streets safer. Together, we can work towards a future where accidents are less frequent, and everyone can feel confident and secure on NYC's roads. Let's get started!
 
+# New York Traffic by the Numbers
+As of 2022, New York City is the most congested city in the US. Rush hour traffic can cause drivers to spend an average of [236 hours per year on the road](https://www.tomtom.com/traffic-index/united-states-of-america-country-traffic/), with an additional [117 hours lost to congestion](https://inrix.com/scorecard-city-2022/?city=New%20York%20City%20NY&index=5#form-download-the-full-report). With such high levels of traffic, it's no surprise that navigating the city's busy streets can be dangerous. But, how bad is the safety in New York City, really?
+In this section, we'll dive into the numbers and shed light on the current state of traffic in NYC. Let’s look into some of the facts and figures you need to know!
 
- <div class="row" style="margin-top: 10px;">
-  <div class="col-sm-12">
-    <button type="button" class="btn btn-primary btn-circle shadow-none" id="basics"
-      style="border-radius: 20px !important; background-color: #83c3b2
-      ; border-color: #ffffff; padding-left: 20px; padding-right: 20px; margin-right: 10px; margin-top: 10px; color:white">Basics</button>
-    <button type="button" class="btn btn-primary btn-circle shadow-none" id="ym"
-      style="border-radius: 20px !important; background-color: #ffffff; border-color: #ffffff; padding-left: 20px; padding-right: 20px; margin-top: 10px;color:black">Yearly
-      and Monthly Patterns</button>
-    <button type="button" class="btn btn-primary btn-circle shadow-none" id="wh"
-      style="border-radius: 20px !important; background-color: #ffffff; border-color: #ffffff; padding-left: 20px; padding-right: 20px; margin-top: 10px;color: black;">Weekly
-      and Hourly Patterns</button>
-  </div>
-</div>
-
-<div id="div_basics">
-  BASICS
-</div>
-
-<div id="div_ym" style="display: none;">
-  YEAR MONTH
-</div>
-
-<div id="div_wh" style="display: none;">
-  WEEK HOUR
-</div>
-
-
-
-# Summary statistics
 
 <div class ="row" style="margin-top:20px;">
   <div class="col-md-12" style="text-align:center;">
           <p style="font-size: 30px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#008360 !important; margin-bottom: 2px; ">
-               <font style="color:#83c3b2">131000</font> average crashes per year
+               <font style="color:#83c3b2">131,000</font> crashes per year
+          </p>
+
+           <p
+            style="font-size: 25px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#4c8f7e !important; margin-bottom: 2px;">
+            <font style="color:#7fb9b3">166,600</font> crashes per year pre-covid
           </p>
 
           <p
             style="font-size: 25px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#4c8f7e !important; margin-bottom: 2px;">
-            <font style="color:#7fb9b3">86000</font> average crashes per year post-covid
+            <font style="color:#7fb9b3">86,000</font> crashes per year post-covid
           </p>
           <p
             style="font-size: 25px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#4c8f7e !important">
-            <font style="color:#7fb9b3">71000</font> expected crashes in 2023
+            <font style="color:#7fb9b3">71,000</font> expected crashes in 2023
 
           </p>
         </div>
 
 </div>
 
+According to recent data, New York City experiences an average of 131,000 crashes per year from 2013 to 2022. However, a closer look at the numbers shows that from 2013 to 2019, the average number of crashes per year was much higher, with an average of 166,600 crashes per year. In contrast, the period post COVID-19 is significantly lower, with an average of 86,000 crashes per year, suggesting that the pandemic has indeed impacted traffic patterns in the city. Nevertheless, it's worth noting that the New York Police Department (NYPD) was already testing a ['No Report' crash policy](https://nyc.streetsblog.org/2020/04/03/nypd-gives-a-few-details-of-new-no-report-crash-policy/) before the pandemic, in which police officers are instructed not to respond to minor car accidents. When the pandemic hit, the NYPD rolled out this policy city-wide to free up police resources for COVID-19-related calls. As a result, the decrease in the number of reported accidents may not necessarily mean that the city is safer or that fewer crashes are occurring. Rather, it could be a consequence of the NYPD prioritizing its resources on other tasks. It is interesting to analyze the types of accidents that occur to determine if there have been any changes in patterns.
+
  <div class="row" style="margin-top:20px;">
 
         <div class="col-md-6" style="text-align: right;">
         <p
             style="font-size: 25px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#3c3c3c !important; margin-bottom: 2px;">
-             All data
+             2013-2019
           </p>
           <p
-            style="font-size: 20px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#c86501 !important; margin-bottom: 2px;">
-            <font style="color:#eaa969">167</font> deathly crashes per year
+            style="font-size: 20px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#ff5d49 !important; margin-bottom: 2px;">
+            <font style="color:#ff8e7f">178</font> deathly crashes per year
           </p>
           <p
-            style="font-size: 20px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#c86501 !important; margin-bottom: 2px;">
-            <font style="color:#eaa969">29000</font> injury crashes per year
+            style="font-size: 20px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#ff5d49 !important; margin-bottom: 2px;">
+            <font style="color:#ff8e7f">32,000</font> injury crashes per year
           </p>
           <p
-            style="font-size: 20px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#c86501 !important">
-            <font style="color:#eaa969">102000</font> material damage crashes per year
+            style="font-size: 20px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#ff5d49 !important">
+            <font style="color:#ff8e7f">134,500</font> material damage crashes per year
           </p>
 
         </div>
@@ -86,35 +67,47 @@ In this page, we will explore the latest traffic accidents dataset and uncover i
             <font style="color:#ff8e7f">183</font> deathly crashes per year
           </p>
           <p
-            style="font-size: 20px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#c86501 !important; margin-bottom: 2px;">
-            <font style="color:#eaa969">28500</font> injury crashes per year
+            style="font-size: 20px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#ff5d49 !important; margin-bottom: 2px;">
+            <font style="color:#ff8e7f">28,500</font> injury crashes per year
           </p>
           <p
-            style="font-size: 20px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#c86501 !important">
-            <font style="color:#eaa969">57000</font> material damage crashes per year
+            style="font-size: 20px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#ff5d49 !important">
+            <font style="color:#ff8e7f">57,000</font> material damage crashes per year
           </p>
 
         </div>
       </div>
 
+The number of material damage crashes has dropped significantly in recent years, from an average of 134,500 material damage crashes per year from 2013 to 2019 to an average of 57,000 material damage crashes per year since 2020. This decrease is likely due to the NYPD's "No Report" crash policy, which has led to fewer reported accidents overall. However, the average number of fatal crashes is actually increased since the covid-19 outbreak and the number of injury-related crashes has remained relatively consistent with pre-COVID levels, although with a slight decrease. These numbers might indicate that the overall safety of the city may not have improved over the recent years,  and may in fact have worsened. However, it's important to take a closer look at these numbers to gain a more complete understanding of the situation.
 
+{% include fatalities_per_year.html %}
 
-Artikel der beskriver hvorfor at tallet af ulykker er faldet efter april 2020:https://nyc.streetsblog.org/2020/04/03/nypd-gives-a-few-details-of-new-no-report-crash-policy/
-
-(skyldes at politiet ikke længere rapporterer 'små' ulykker)
-
-
-## Boxplot
+Looking at the number of fatalities over the past decase, we can see that the level of deadly crashes has not improved. In fact, we see a concerning trend of increasing pedestrian fatalities. To combat this trend, we should look into the causes of these crashes and identify ways to prevent them from happening in the future. Let us take a look at the number of crashes in each of the five boroughs of NYC to investigate where we should focus our efforts.
 
 {% include boxplot_collisions_per_day.html %}
 
+Overall, the trends in both time periods are similar, however there are fewer collisions in the more recent period, as previously noted. Consequently, the median number of collisions per day was consistently higher in the 2013-2019 period across all boroughs. Furter, Brooklyn has the highest number of crashes/collisions in both time periods, while the Staten Island has the lowest. Moreover, the number of crashes in Manhattan has decreased and is now more similar to the number of crashes in Bronx, whereas previously it was more similar to Brooklyn and Queens. We will look use these insights to investigate the crashes in each borough in more detail later on. Let's now take a closer look at the time trends, to see if there are any patterns in the number of crashes over the years, months, and days and hours of the week.
 
-## Time series x2
-Not currently working with the setup...
+## Analyzing Trends in NYC Crashes Over Time - Does Time Matter?
 
+ <div class="row" style="margin-top: 10px;">
+  <div class="col-sm-12">
+    <button type="button" class="btn btn-primary btn-circle shadow-none" id="ym"
+      style="border-radius: 20px !important; background-color: #ffffff; border-color: #ffffff; padding-left: 20px; padding-right: 20px; margin-top: 10px;color:black">Yearly
+      and Monthly Patterns</button>
+    <button type="button" class="btn btn-primary btn-circle shadow-none" id="wh"
+      style="border-radius: 20px !important; background-color: #ffffff; border-color: #ffffff; padding-left: 20px; padding-right: 20px; margin-top: 10px;color: black;">Weekly
+      and Hourly Patterns</button>
+  </div>
+</div>
 
-{% include time_series_plot_1.html %}
-{% include time_series_plot_2.html %}
+<div id="div_ym" style="display: none;">
+{% include time_series_plot1.html %}
+</div>
+
+<div id="div_wh" style="display: none;">
+{% include time_series_plot_week.html %}
+</div>
 
 # Where in NYC do Traffic Incidents Occur?
 
@@ -134,6 +127,8 @@ Atlantic Avenue in Brooklyn is the most dangerous street in New York City. It ha
 
 
 An article from 2021, [SAFETY THIRD: Hit-and-Run Driver Kills Deaf Man on Notorious Speedway that DOT Failed to Fix](https://nyc.streetsblog.org/2021/10/16/safety-third-hit-and-run-driver-kills-deaf-man-on-notorious-speedway-that-dot-failed-to-fix/), sheds light upon the fact there has been renovation projects on improving the safety of `Atlantic Avenue` since 2014. The project, which aimed to improve safety for pedestrians and cyclists, involved adding high visibility crosswalks and curb extensions, but critics state that it has not fundamentally altered the geometry of the street or provided traffic calming measures. The article argues that despite the renovation, the number of injuries on the roadway has remained high, and the project's Phase II does not even have funding. Thus, we highly recommend that the city should prioritize the renovation of Atlantic Avenue to improve the safety of the street.
+
+Let's look into the data and see if the work of the policymakers have made a change in the last 5 years or so...
 
 
 # Investigating the causes of accidents

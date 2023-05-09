@@ -6,8 +6,8 @@ Did you know that every year, thousands of traffic accidents occur on the street
 In this page, we will explore the latest traffic accidents dataset and uncover insights that can help us make our streets safer. Together, we can work towards a future where accidents are less frequent, and everyone can feel confident and secure on NYC's roads. Let's get started!
 
 # New York Traffic by the Numbers
-As of 2022, New York City is the most congested city in the US. Rush hour traffic can cause drivers to spend an average of [236 hours per year on the road](https://www.tomtom.com/traffic-index/united-states-of-america-country-traffic/), with an additional [117 hours lost to congestion](https://inrix.com/scorecard-city-2022/?city=New%20York%20City%20NY&index=5#form-download-the-full-report). With such high levels of traffic, it's no surprise that navigating the city's busy streets can be dangerous. But, how bad is the safety in New York City, really? 
-In this section, we'll dive into the numbers and shed light on the current state of traffic in NYC. Let’s look into some of the facts and figures you need to know! 
+As of 2022, New York City is the most congested city in the US. Rush hour traffic can cause drivers to spend an average of [236 hours per year on the road](https://www.tomtom.com/traffic-index/united-states-of-america-country-traffic/), with an additional [117 hours lost to congestion](https://inrix.com/scorecard-city-2022/?city=New%20York%20City%20NY&index=5#form-download-the-full-report). With such high levels of traffic, it's no surprise that navigating the city's busy streets can be dangerous. But, how bad is the safety in New York City, really?
+In this section, we'll dive into the numbers and shed light on the current state of traffic in NYC. Let’s look into some of the facts and figures you need to know!
 
 
 <div class ="row" style="margin-top:20px;">
@@ -34,7 +34,7 @@ In this section, we'll dive into the numbers and shed light on the current state
 
 </div>
 
-According to recent data, New York City experiences an average of 131,000 crashes per year from 2013 to 2022. However, a closer look at the numbers shows that from 2013 to 2019, the average number of crashes per year was much higher, with an average of 166,600 crashes per year. In contrast, the period post COVID-19 is significantly lower, with an average of 86,000 crashes per year, suggesting that the pandemic has indeed impacted traffic patterns in the city. Nevertheless, it's worth noting that the New York Police Department (NYPD) was already testing a ['No Report' crash policy](https://nyc.streetsblog.org/2020/04/03/nypd-gives-a-few-details-of-new-no-report-crash-policy/) before the pandemic, in which police officers are instructed not to respond to minor car accidents. When the pandemic hit, the NYPD rolled out this policy city-wide to free up police resources for COVID-19-related calls. As a result, the decrease in the number of reported accidents may not necessarily mean that the city is safer or that fewer crashes are occurring. Rather, it could be a consequence of the NYPD prioritizing its resources on other tasks. It is interesting to analyze the types of accidents that occur to determine if there have been any changes in patterns. 
+According to recent data, New York City experiences an average of 131,000 crashes per year from 2013 to 2022. However, a closer look at the numbers shows that from 2013 to 2019, the average number of crashes per year was much higher, with an average of 166,600 crashes per year. In contrast, the period post COVID-19 is significantly lower, with an average of 86,000 crashes per year, suggesting that the pandemic has indeed impacted traffic patterns in the city. Nevertheless, it's worth noting that the New York Police Department (NYPD) was already testing a ['No Report' crash policy](https://nyc.streetsblog.org/2020/04/03/nypd-gives-a-few-details-of-new-no-report-crash-policy/) before the pandemic, in which police officers are instructed not to respond to minor car accidents. When the pandemic hit, the NYPD rolled out this policy city-wide to free up police resources for COVID-19-related calls. As a result, the decrease in the number of reported accidents may not necessarily mean that the city is safer or that fewer crashes are occurring. Rather, it could be a consequence of the NYPD prioritizing its resources on other tasks. It is interesting to analyze the types of accidents that occur to determine if there have been any changes in patterns.
 
  <div class="row" style="margin-top:20px;">
 
@@ -88,7 +88,7 @@ Looking at the number of fatalities over the past decase, we can see that the le
 
 Overall, the trends in both time periods are similar, however there are fewer collisions in the more recent period, as previously noted. Consequently, the median number of collisions per day was consistently higher in the 2013-2019 period across all boroughs. Furter, Brooklyn has the highest number of crashes/collisions in both time periods, while the Staten Island has the lowest. Moreover, the number of crashes in Manhattan has decreased and is now more similar to the number of crashes in Bronx, whereas previously it was more similar to Brooklyn and Queens. We will look use these insights to investigate the crashes in each borough in more detail later on. Let's now take a closer look at the time trends, to see if there are any patterns in the number of crashes over the years, months, and days and hours of the week.
 
-## Analyzing Trends in NYC Crashes Over Time - Does Time Matter? 
+## Analyzing Trends in NYC Crashes Over Time - Does Time Matter?
 
  <div class="row" style="margin-top: 10px;">
   <div class="col-sm-12">
@@ -127,6 +127,8 @@ Atlantic Avenue in Brooklyn is the most dangerous street in New York City. It ha
 
 
 An article from 2021, [SAFETY THIRD: Hit-and-Run Driver Kills Deaf Man on Notorious Speedway that DOT Failed to Fix](https://nyc.streetsblog.org/2021/10/16/safety-third-hit-and-run-driver-kills-deaf-man-on-notorious-speedway-that-dot-failed-to-fix/), sheds light upon the fact there has been renovation projects on improving the safety of `Atlantic Avenue` since 2014. The project, which aimed to improve safety for pedestrians and cyclists, involved adding high visibility crosswalks and curb extensions, but critics state that it has not fundamentally altered the geometry of the street or provided traffic calming measures. The article argues that despite the renovation, the number of injuries on the roadway has remained high, and the project's Phase II does not even have funding. Thus, we highly recommend that the city should prioritize the renovation of Atlantic Avenue to improve the safety of the street.
+
+Let's look into the data and see if the work of the policymakers have made a change in the last 5 years or so...
 
 
 # Investigating the causes of accidents
