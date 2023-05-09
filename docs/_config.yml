@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: "Navigating Danger - Insights and Initiatives for Safer NYC Traffic"  #Making NYC Streets Safer - Analyzing Traffic Accidents Dataset
+title: Navigating Danger - Insights and Initiatives for Safer NYC Traffic  #Making NYC Streets Safer - Analyzing Traffic Accidents Dataset
 description: This webpage dives deep into the latest traffic accidents data to uncover insights, trends, and contributing factors.<br> Let's work together to identify initiatives and solutions to make NYC traffic safer for everyone.
 #Our webpage aims to raise awareness and explore solutions to make New York City streets safer by analyzing the latest traffic accidents dataset for trends, patterns, and contributing factors.<br> 
 #Our goal is to identify potential initiatives to reduce the number of accidents and improve road safety in NYC.
