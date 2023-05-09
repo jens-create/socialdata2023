@@ -5,35 +5,6 @@ Did you know that every year, thousands of traffic accidents occur on the street
 
 In this page, we will explore the latest traffic accidents dataset and uncover insights that can help us make our streets safer. Together, we can work towards a future where accidents are less frequent, and everyone can feel confident and secure on NYC's roads. Let's get started!
 
-
- <div class="row" style="margin-top: 10px;">
-  <div class="col-sm-12">
-    <button type="button" class="btn btn-primary btn-circle shadow-none" id="basics"
-      style="border-radius: 20px !important; background-color: #83c3b2
-      ; border-color: #ffffff; padding-left: 20px; padding-right: 20px; margin-right: 10px; margin-top: 10px; color:white">Basics</button>
-    <button type="button" class="btn btn-primary btn-circle shadow-none" id="ym"
-      style="border-radius: 20px !important; background-color: #ffffff; border-color: #ffffff; padding-left: 20px; padding-right: 20px; margin-top: 10px;color:black">Yearly
-      and Monthly Patterns</button>
-    <button type="button" class="btn btn-primary btn-circle shadow-none" id="wh"
-      style="border-radius: 20px !important; background-color: #ffffff; border-color: #ffffff; padding-left: 20px; padding-right: 20px; margin-top: 10px;color: black;">Weekly
-      and Hourly Patterns</button>
-  </div>
-</div>
-
-<div id="div_basics">
-  BASICS
-</div>
-
-<div id="div_ym" style="display: none;">
-  YEAR MONTH
-</div>
-
-<div id="div_wh" style="display: none;">
-  WEEK HOUR
-</div>
-
-
-
 # Summary statistics
 
 <div class ="row" style="margin-top:20px;">
@@ -113,8 +84,31 @@ Artikel der beskriver hvorfor at tallet af ulykker er faldet efter april 2020:ht
 Not currently working with the setup...
 
 
-{% include time_series_plot_1.html %}
-{% include time_series_plot_2.html %}
+ <div class="row" style="margin-top: 10px;">
+  <div class="col-sm-12">
+    <button type="button" class="btn btn-primary btn-circle shadow-none" id="basics"
+      style="border-radius: 20px !important; background-color: #83c3b2
+      ; border-color: #ffffff; padding-left: 20px; padding-right: 20px; margin-right: 10px; margin-top: 10px; color:white">Basics</button>
+    <button type="button" class="btn btn-primary btn-circle shadow-none" id="ym"
+      style="border-radius: 20px !important; background-color: #ffffff; border-color: #ffffff; padding-left: 20px; padding-right: 20px; margin-top: 10px;color:black">Yearly
+      and Monthly Patterns</button>
+    <button type="button" class="btn btn-primary btn-circle shadow-none" id="wh"
+      style="border-radius: 20px !important; background-color: #ffffff; border-color: #ffffff; padding-left: 20px; padding-right: 20px; margin-top: 10px;color: black;">Weekly
+      and Hourly Patterns</button>
+  </div>
+</div>
+
+<div id="div_basics">
+  BASICS
+</div>
+
+<div id="div_ym" style="display: none;">
+{% include time_series_plot1.html %}
+</div>
+
+<div id="div_wh" style="display: none;">
+{% include time_series_plot2.html %}
+</div>
 
 # Where in NYC do Traffic Incidents Occur?
 
