@@ -104,7 +104,7 @@ Overall, the trends in both time periods are similar, however there are fewer co
   </div>
 </div>
 
-<div id="div_ym">
+<div id="div_ym" style="display: block;">
 {% include time_series_plot1_version3.html %}
 </div>
 
