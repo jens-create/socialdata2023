@@ -92,9 +92,6 @@ Overall, the trends in both time periods are similar, however there are fewer co
 
  <div class="row" style="margin-top: 10px;">
   <div class="col-sm-12">
-    <button type="button" class="btn btn-primary btn-circle shadow-none" id="basics"
-      style="border-radius: 20px !important; background-color: #83c3b2
-      ; border-color: #ffffff; padding-left: 20px; padding-right: 20px; margin-right: 10px; margin-top: 10px; color:white">Basics</button>
     <button type="button" class="btn btn-primary btn-circle shadow-none" id="ym"
       style="border-radius: 20px !important; background-color: #ffffff; border-color: #ffffff; padding-left: 20px; padding-right: 20px; margin-top: 10px;color:black">Yearly
       and Monthly Patterns</button>
