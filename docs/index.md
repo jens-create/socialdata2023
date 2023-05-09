@@ -94,7 +94,7 @@ Overall, the trends in both time periods are similar, however there are fewer co
 ## Analyzing Trends in NYC Crashes Over Time - Does Time Matter?
 
  <div class="row" style="margin-top: 10px;">
-  <div class="col-sm-12">
+  <div class="col-sm-12"> 
     <button type="button" class="btn btn-primary btn-circle shadow-none" id="ym"
       style="border-radius: 20px !important; background-color: #ffffff; border-color: #ffffff; padding-left: 20px; padding-right: 20px; margin-top: 10px;color:black">Yearly
       and Monthly Patterns</button>
@@ -104,7 +104,7 @@ Overall, the trends in both time periods are similar, however there are fewer co
   </div>
 </div>
 
-<div id="div_ym" style="display: none;">
+<div id="div_ym" style="display: block;">
 {% include time_series_plot1_version3.html %}
 </div>
 
