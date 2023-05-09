@@ -6,6 +6,7 @@
 function update_map2() {
     var selected_interval = document.getElementById("interval_dropdown").value;
     document.getElementById("map_iframe").src = "{{site.url}}/assets/temp_loc_map_" + selected_interval + ".html";
+    update_analysis2();
 }
 
 
