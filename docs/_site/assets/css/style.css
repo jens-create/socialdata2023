@@ -323,6 +323,8 @@ a:hover { text-decoration: underline; }
 
 .site-footer-credits { color: #819198; }
 
+section { padding-top: 80px; /* Set to the height of your navigation bar */ margin-top: -80px; /* Set to the negative height of your navigation bar */ }
+
 /*
 .navbar { background-color: $navbar-color;
 }

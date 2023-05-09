@@ -34,6 +34,7 @@ body {
   color: $body-text-color;
 }
 
+
 #skip-to-content {
   height: 1px;
   width: 1px;
@@ -395,6 +396,11 @@ a {
   color: $blockquote-text-color;
 }
 
+
+section {
+  padding-top: 80px; /* Set to the height of your navigation bar */
+  margin-top: -80px; /* Set to the negative height of your navigation bar */
+}
 /*
 .navbar {
   background-color: $navbar-color;

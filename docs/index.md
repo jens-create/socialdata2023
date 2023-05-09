@@ -1,3 +1,9 @@
+---
+layout: default
+title: Home
+permalink: /
+---
+
 <!-- 
 *<center>Did you know that on average, New Yorkers spend ten full days a year stuck in traffic?!<br><br>What's even worse than the endless gridlock are the ressources wasted in inefficient use of time<br> and more importantly the danger on our streets. That's why we, the Council of Traffic Safety,<br>analyzed traffic data of New York City, identified the trends, and now we're presenting our findings<br>to expose what's really going on out there, and how we can make NYC traffic safer for everyone!<br><br></center>* -->
 
@@ -5,7 +11,11 @@
 
 
 <br>
-# New York Traffic by the Numbers
+
+# <a id="numbers"></a>New York Traffic by the Numbers
+
+TILFØJ KORT INTRO TIL DATA OG DETS KARAKTERISTIKKER<br>
+
 As of 2022, New York City is the most congested city in the US. Rush hour traffic can cause drivers to spend an average of [236 hours per year on the road](https://www.tomtom.com/traffic-index/united-states-of-america-country-traffic/), with an additional [117 hours lost to congestion](https://inrix.com/scorecard-city-2022/?city=New%20York%20City%20NY&index=5#form-download-the-full-report). With such high levels of traffic, it's no surprise that navigating the city's busy streets can be dangerous. But, how bad is the safety in New York City, really?
 In this section, we'll dive into the numbers and shed light on the current state of traffic in NYC. Let’s look into some of the facts and figures you need to know!
 
@@ -121,7 +131,7 @@ Write also something to sum up what we can conclude from the plots...
 
 <br><br>
 
-# Where in NYC do Traffic Incidents Occur?
+# <a id="locations"></a>Where in NYC do Traffic Incidents Occur?
 
 ### Traffic unsafety by borough
 
@@ -148,7 +158,7 @@ Let's look into the data and see if the work of the policymakers have made a cha
 
 <br><br>
 
-# What Are the Main Causes of Accidents in NYC?
+# <a id="causes"></a>What Are the Main Causes of Accidents in NYC?
 
 Crashes on NYC streets are caused by various factors, some of which are more obvious than others. It could be a driver's distraction, fatigue, or even aggressive behavior. Pedestrians who jaywalk or cyclists who ride recklessly can also contribute to crashes.
 
