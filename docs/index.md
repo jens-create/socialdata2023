@@ -44,15 +44,15 @@ According to recent data, New York City experiences an average of 131,000 crashe
              2013-2019
           </p>
           <p
-            style="font-size: 20px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#c86501 !important; margin-bottom: 2px;">
+            style="font-size: 20px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#ff5d49 !important; margin-bottom: 2px;">
             <font style="color:#ff8e7f">178</font> deathly crashes per year
           </p>
           <p
-            style="font-size: 20px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#c86501 !important; margin-bottom: 2px;">
+            style="font-size: 20px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#ff5d49 !important; margin-bottom: 2px;">
             <font style="color:#ff8e7f">32,000</font> injury crashes per year
           </p>
           <p
-            style="font-size: 20px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#c86501 !important">
+            style="font-size: 20px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#ff5d49 !important">
             <font style="color:#ff8e7f">134,500</font> material damage crashes per year
           </p>
 
@@ -67,11 +67,11 @@ According to recent data, New York City experiences an average of 131,000 crashe
             <font style="color:#ff8e7f">183</font> deathly crashes per year
           </p>
           <p
-            style="font-size: 20px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#c86501 !important; margin-bottom: 2px;">
+            style="font-size: 20px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#ff5d49 !important; margin-bottom: 2px;">
             <font style="color:#ff8e7f">28500</font> injury crashes per year
           </p>
           <p
-            style="font-size: 20px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#c86501 !important">
+            style="font-size: 20px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#ff5d49 !important">
             <font style="color:#ff8e7f">57000</font> material damage crashes per year
           </p>
 
