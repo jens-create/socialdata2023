@@ -13,17 +13,17 @@ In this section, we'll dive into the numbers and shed light on the current state
 <div class ="row" style="margin-top:20px;">
   <div class="col-md-12" style="text-align:center;">
           <p style="font-size: 30px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#008360 !important; margin-bottom: 2px; ">
-               <font style="color:#83c3b2">131,000</font> crashes per year
+               <font style="color:#83c3b2">131,000</font> avg crashes per year in 2013-2022
           </p>
 
            <p
             style="font-size: 25px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#4c8f7e !important; margin-bottom: 2px;">
-            <font style="color:#7fb9b3">166,600</font> crashes per year pre-covid
+            <font style="color:#7fb9b3">166,600</font> avg crashes per year in 2013-2019
           </p>
 
           <p
             style="font-size: 25px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#4c8f7e !important; margin-bottom: 2px;">
-            <font style="color:#7fb9b3">86,000</font> crashes per year post-covid
+            <font style="color:#7fb9b3">86,000</font> avg crashes per year in 2020-2022
           </p>
           <p
             style="font-size: 25px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#4c8f7e !important">
@@ -111,6 +111,9 @@ Overall, the trends in both time periods are similar, however there are fewer co
 <div id="div_wh" style="display: none;">
 {% include time_series_plot2_version3.html %}
 </div>
+
+Maybe rewrite the figure text. 
+Write also something to sum up what we can conclude from the plots...
 
 # Where in NYC do Traffic Incidents Occur?
 
