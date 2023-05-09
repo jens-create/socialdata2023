@@ -68,27 +68,25 @@ According to recent data, New York City experiences an average of 131,000 crashe
           </p>
           <p
             style="font-size: 20px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#ff5d49 !important; margin-bottom: 2px;">
-            <font style="color:#ff8e7f">28500</font> injury crashes per year
+            <font style="color:#ff8e7f">28,500</font> injury crashes per year
           </p>
           <p
             style="font-size: 20px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#ff5d49 !important">
-            <font style="color:#ff8e7f">57000</font> material damage crashes per year
+            <font style="color:#ff8e7f">57,000</font> material damage crashes per year
           </p>
 
         </div>
       </div>
 
+The number of material damage crashes has dropped significantly in recent years, from an average of 134,500 material damage crashes per year from 2013 to 2019 to an average of 57,000 material damage crashes per year since 2020. This decrease is likely due to the NYPD's "No Report" crash policy, which has led to fewer reported accidents overall. However, the average number of fatal crashes is actually increased since the covid-19 outbreak and the number of injury-related crashes has remained relatively consistent with pre-COVID levels, although with a slight decrease. These numbers might indicate that the overall safety of the city may not have improved over the recent years,  and may in fact have worsened. However, it's important to take a closer look at these numbers to gain a more complete understanding of the situation.
 
 {% include fatalities_per_year.html %}
 
-Artikel der beskriver hvorfor at tallet af ulykker er faldet efter april 2020:https://nyc.streetsblog.org/2020/04/03/nypd-gives-a-few-details-of-new-no-report-crash-policy/
-
-(skyldes at politiet ikke længere rapporterer 'små' ulykker)
-
-
-## Boxplot
+Looking at the number of fatalities over the past decase, we can see that the level of deadly crashes has not improved. In fact, we see a concerning trend of increasing pedestrian fatalities. To combat this trend, we should look into the causes of these crashes and identify ways to prevent them from happening in the future. Let us take a look at the number of crashes in each of the five boroughs of NYC to investigate where we should focus our efforts.
 
 {% include boxplot_collisions_per_day.html %}
+
+Overall, the trends in both time periods are similar, however there are fewer collisions in the more recent period, as previously noted. Consequently, the median number of collisions per day was consistently higher in the 2013-2019 period across all boroughs. Furter, Brooklyn has the highest number of crashes/collisions in both time periods, while the Staten Island has the lowest. Moreover, the number of crashes in Manhattan has decreased and is now more similar to the number of crashes in Bronx, whereas previously it was more similar to Brooklyn and Queens. 
 
 ## Time series x2
 
