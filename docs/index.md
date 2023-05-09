@@ -87,7 +87,6 @@ Looking at the number of fatalities over the past decase, we can see that the le
 
 
 {% include boxplot_collisions_per_day.html %}
-Test 
 
 
 Overall, the trends in both time periods are similar, however there are fewer collisions in the more recent period, as previously noted. Consequently, the median number of collisions per day was consistently higher in the 2013-2019 period across all boroughs. Furter, Brooklyn has the highest number of crashes/collisions in both time periods, while the Staten Island has the lowest. Moreover, the number of crashes in Manhattan has decreased and is now more similar to the number of crashes in Bronx, whereas previously it was more similar to Brooklyn and Queens. We will look use these insights to investigate the crashes in each borough in more detail later on. Let's now take a closer look at the time trends, to see if there are any patterns in the number of crashes over the years, months, and days and hours of the week.
