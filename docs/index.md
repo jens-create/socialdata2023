@@ -85,6 +85,8 @@ Artikel der beskriver hvorfor at tallet af ulykker er faldet efter april 2020:ht
 Not currently working with the setup...
 
 
+{% include time_series_plot1.html %}
+{% include time_series_plot2.html %}
 
 
 
