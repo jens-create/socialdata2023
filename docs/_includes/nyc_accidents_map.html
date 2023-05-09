@@ -1,3 +1,5 @@
+
+<!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
@@ -5,17 +7,13 @@
 <script>
 function update_map1() {
     var selected_metric = document.getElementById("metric_dropdown").value;
-    document.getElementById("map_iframe1").src = "{{site.url}}/assets/temp_map_" + selected_metric + ".html";
+    document.getElementById("map_iframe").src = "{{site.url}}/assets/temp_map_" + selected_metric + ".html";
     update_analysis1();
 }
 
 function update_analysis1() {
     var selected_metric = document.getElementById("metric_dropdown").value;
-    var analysis_text = `Manhattan has significantly more accidents per sq. km, which is expected due to the high population density. Combined with a lot of business and tourist activities, a large traffic volume is expected, which leads to more accidents. 
-    There has been registered 344 accidents per sq. km. in Manhattan since 2020, which is significantly more than the second most impacted borough by area, Brooklyn, with 194 accidents per sq. km.<br>
-    Despite it's relatively small area, the Bronx has close to the same accident rate by sq. km. as Brooklyn. The Bronx has 154 accidents per sq. km. since 2020.<br>
-    The large borough in terms of area, Queens, has only had 102 accidents per sq. km. in the same period, and the least affected borough, Staten Island, has had 23 accidents per sq. km.
-    `;
+    var analysis_text = "";
     if (selected_metric === "accidents_per_sqkm") {
         analysis_text = `Manhattan has significantly more accidents per sq. km, which is expected due to the high population density. Combined with a lot of business and tourist activities, a large traffic volume is expected, which leads to more accidents. 
         There has been registered 344 accidents per sq. km. in Manhattan since 2020, which is significantly more than the second most impacted borough by area, Brooklyn, with 194 accidents per sq. km.<br>
@@ -38,11 +36,6 @@ function update_analysis1() {
         Brooklyn has the highest number of severe accidents relative to total number of accidents, with 28.4% severe accidents. With 23% severe accidents Manhatten has the least severe accidents relative to total number of accidents, which is a bit surprising with the high population density and acticities in the borough. 
         The rate of severe accidents ranges between 25.8 - 26.7% in the remaining three boroughs `;
     }
-    analysis_text = analysis_text + `<br><br>
-    Overall, initiatives should be made to limit severe accidents in especially Brooklyn. Moreover, despite it's relatively small area many accidents occur in Manhattan, which affects both business, the environment and the people negatively. Therefore, initiatives should be made to limit the number of accidents in Manhattan. 
-    <br><br>
-    `;
-
     document.getElementById("map_analysis1").innerHTML = analysis_text;
 }
 
@@ -54,13 +47,13 @@ window.onload = function() {
 </script>
 </head>
 <body>
-    <select id="metric_dropdown" onchange="update_map1()">
+    <select id="metric_dropdown" onchange="update_map()">
         <option value="accidents_per_sqkm">Accidents per sq. km</option>
         <option value="accidents_per_capita">Accidents per capita</option>
         <option value="total_accidents">Total accidents</option>
          <option value="severe_accident_rate">Severe accident rate</option>
     </select>
-    <iframe id="map_iframe1" src="{{site.url}}/assets/temp_map_accidents_per_sqkm.html" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+    <iframe id="map_iframe" src="{{site.url}}/assets/temp_map_accidents_per_sqkm.html" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
     <div id="map_analysis1" style="padding-top: 20px;"></div>
 </body>
 </html>
