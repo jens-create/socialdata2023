@@ -5,7 +5,12 @@ Did you know that every year, thousands of traffic accidents occur on the street
 
 In this page, we will explore the latest traffic accidents dataset and uncover insights that can help us make our streets safer. Together, we can work towards a future where accidents are less frequent, and everyone can feel confident and secure on NYC's roads. Let's get started!
 
-# Summary statistics
+# New York Traffic by the Numbers
+As of 2022, New York City is the most congested city in the US. Rush hour traffic can cause drivers to spend an average of [236 hours per year on the road](https://www.tomtom.com/traffic-index/united-states-of-america-country-traffic/), with an additional [117 hours lost to congestion](https://inrix.com/scorecard-city-2022/?city=New%20York%20City%20NY&index=5#form-download-the-full-report). With such high levels of traffic, it's no surprise that navigating the city's busy streets can be dangerous. But, how bad is the safety in New York City, really? 
+In this section, we'll dive into the numbers and shed light on the current state of traffic in NYC. Let’s look into some of the facts and figures you need to know! 
+
+{include fatalities_per_year.html}
+
 
 <div class ="row" style="margin-top:20px;">
   <div class="col-md-12" style="text-align:center;">
@@ -79,10 +84,7 @@ Artikel der beskriver hvorfor at tallet af ulykker er faldet efter april 2020:ht
 
 {% include boxplot_collisions_per_day.html %}
 
-
 ## Time series x2
-Not currently working with the setup...
-
 
  <div class="row" style="margin-top: 10px;">
   <div class="col-sm-12">
