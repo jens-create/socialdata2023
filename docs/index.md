@@ -10,44 +10,50 @@ As of 2022, New York City is the most congested city in the US. Rush hour traffi
 In this section, we'll dive into the numbers and shed light on the current state of traffic in NYC. Let’s look into some of the facts and figures you need to know! 
 
 
-
 <div class ="row" style="margin-top:20px;">
   <div class="col-md-12" style="text-align:center;">
           <p style="font-size: 30px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#008360 !important; margin-bottom: 2px; ">
-               <font style="color:#83c3b2">131000</font> average crashes per year
+               <font style="color:#83c3b2">131,000</font> crashes per year
+          </p>
+
+           <p
+            style="font-size: 25px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#4c8f7e !important; margin-bottom: 2px;">
+            <font style="color:#7fb9b3">166,600</font> crashes per year pre-covid
           </p>
 
           <p
             style="font-size: 25px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#4c8f7e !important; margin-bottom: 2px;">
-            <font style="color:#7fb9b3">86000</font> average crashes per year post-covid
+            <font style="color:#7fb9b3">86,000</font> crashes per year post-covid
           </p>
           <p
             style="font-size: 25px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#4c8f7e !important">
-            <font style="color:#7fb9b3">71000</font> expected crashes in 2023
+            <font style="color:#7fb9b3">71,000</font> expected crashes in 2023
 
           </p>
         </div>
 
 </div>
 
+According to recent data, New York City experiences an average of 131,000 crashes per year from 2013 to 2022. However, a closer look at the numbers shows that from 2013 to 2019, the average number of crashes per year was much higher, with an average of 166,600 crashes per year. In contrast, the period post COVID-19 is significantly lower, with an average of 86,000 crashes per year, suggesting that the pandemic has indeed impacted traffic patterns in the city. Nevertheless, it's worth noting that the New York Police Department (NYPD) was already testing a "No Report" crash policy before the pandemic, in which police officers are instructed not to respond to minor car accidents. When the pandemic hit, the NYPD rolled out this policy city-wide to free up police resources for COVID-19-related calls. As a result, the decrease in the number of reported accidents may not necessarily mean that the city is safer or that fewer crashes are occurring. Rather, it could be a consequence of the NYPD prioritizing its resources on other tasks. It is interesting to analyze the types of accidents that occur to determine if there have been any changes in patterns. 
+
  <div class="row" style="margin-top:20px;">
 
         <div class="col-md-6" style="text-align: right;">
         <p
             style="font-size: 25px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#3c3c3c !important; margin-bottom: 2px;">
-             All data
+             2013-2019
           </p>
           <p
             style="font-size: 20px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#c86501 !important; margin-bottom: 2px;">
-            <font style="color:#eaa969">167</font> deathly crashes per year
+            <font style="color:#eaa969">178</font> deathly crashes per year
           </p>
           <p
             style="font-size: 20px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#c86501 !important; margin-bottom: 2px;">
-            <font style="color:#eaa969">29000</font> injury crashes per year
+            <font style="color:#eaa969">32,000</font> injury crashes per year
           </p>
           <p
             style="font-size: 20px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#c86501 !important">
-            <font style="color:#eaa969">102000</font> material damage crashes per year
+            <font style="color:#eaa969">134,500</font> material damage crashes per year
           </p>
 
         </div>
@@ -71,6 +77,8 @@ In this section, we'll dive into the numbers and shed light on the current state
 
         </div>
       </div>
+
+
 
 
 {% include fatalities_per_year.html %}
