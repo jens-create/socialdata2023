@@ -15,9 +15,9 @@ function update_analysis1() {
     var analysis_text = "";
     if (selected_metric === "accidents_per_sqkm") {
         analysis_text = `Manhattan has significantly more accidents per sq. km, which is expected due to the high population density. Combined with a lot of business and tourist activities, a large traffic volume is expected, which leads to more accidents. 
-        There has been registered 258 accidents per sq. km. in Manhattan since 2020, which is significantly more than the second most impacted borough by area, Brooklyn, with 156 accidents per sq. km.<br>
-        Despite it's relatively small area, the Bronx has close to the same accident rate by sq. km. as Brooklyn. The Bronx has 129 accidents per sq. km. since 2020.<br>
-        The large borough in terms of area, Queens, has only had 88 accidents per sq. km. in the same period, and the least affected borough, Staten Island, has had 20 accidents per sq. km.`;
+        There has been registered 344 accidents per sq. km. in Manhattan since 2020, which is significantly more than the second most impacted borough by area, Brooklyn, with 194 accidents per sq. km.<br>
+        Despite it's relatively small area, the Bronx has close to the same accident rate by sq. km. as Brooklyn. The Bronx has 154 accidents per sq. km. since 2020.<br>
+        The large borough in terms of area, Queens, has only had 102 accidents per sq. km. in the same period, and the least affected borough, Staten Island, has had 23 accidents per sq. km.`;
     } else if (selected_metric === "accidents_per_capita") {
         analysis_text = `All boroughs, except from Staten Island, have approximately the same rate of traffic accidents per capita, which indicates that population only, should not have a significant effect on the frequency of traffic incidents. <br><br>
         In general, Staten Island has not been heavily affected by traffic accidents, however  <a href="https://www.silive.com/data/2022/08/staten-island-sees-an-uptick-in-population-over-last-decade-as-state-numbers-go-down-data-shows.html">Staten Island Media Group</a> reports that 
@@ -25,17 +25,18 @@ function update_analysis1() {
         As larger population may yield more business activities, more traffic, larger roads, etc.. Therefore, the development of Staten Island's traffic accidents should be monitored to identify dangerous locations early on, but this borough will not be the focus for safety enhancing initiatives. 
         `;
     } else if (selected_metric === "total_accidents") {
-        analysis_text = `Brooklyn is the borough in NYC with most traffic accidents since 2020 with a total of 167,838 accidents.
-        The annual average of accidents in Brooklyn is 27,970 of which 28% are severe, meaning that the accident causes injured or killed people. 
-        Queens is the borough with second most accidents with a total of 140,820 accidents and an annual average of 35,470 accidents.`;
+        analysis_text = `The two largest boroughs, Brooklyn and Queens, have significantly more traffic accidents in absolute terms compared to the remaining three boroughs, which could be expected. 
+        Brooklyn is the borough in NYC with most traffic accidents since 2020 with a total of 208,705 accidents and an annual average of 34,780 accidents. In Queens, there is an annual average of 28,620 accidents. <br>
+        Manhattan and the Bronx have similar frequency of traffic accidents. While Manhattan has 20,230 incidents annually, the Bronxs hasa slightly smaller annual frequency with 16,800. 
+        Though, depending on in which persepective the accident frequencies for these two boroughs are are seen, they behave significantly different. 
+        Severe accidents occurs relatively more frequently in the Bronx, but relative to the area of the borough, Manhattan has significantly more accidents.`;
      } else if (selected_metric === "severe_accident_rate") {
-        analysis_text = "Here is the analysis for severe accidents...";
+        analysis_text = `The five boroughs in NYC does not differ extremely in terms of rate of severe accidents, which ranges between 23%-28%. Severe accidents refers to accidents that causes injured or killed people. <br>
+        Brooklyn has the highest number of severe accidents relative to total number of accidents, with 28.4% severe accidents. With 23% severe accidents Manhatten has the least severe accidents relative to total number of accidents, which is a bit surprising with the high population density and acticities in the borough. 
+        The rate of severe accidents ranges between 25.8 - 26.7% in the remaining three boroughs `;
     }
-    analysis_text = analysis_text + `<br><br>Manhattan and the Bronx have similar frequency of traffic accidents. While Manhattan has slightly more incidents, severe accidents occurs more frequently in the Bronx on an annual basis. 
-    The two largest boroughs, Brooklyn and Queens, have significantly more traffic accidents in absolute terms compared to the remaining three boroughs.
-    
-    is 27,970 of which 28% are severe, meaning that the accident causes injured or killed people. 
-    Queens is the borough with second most accidents with a total of 140,820 accidents and an annual average of 35,470 accidents. 
+    analysis_text = analysis_text + `<br><br>
+    Overall, initiatives should be made to limit severe accidents in especially Brooklyn. Moreover, despite it's relatively small area many accidents occur in Manhattan, which affects both business, the environment and the people negatively. Therefore, initiatives should be made to limit the number of accidents in Manhattan.  
     `;
 
     document.getElementById("map_analysis1").innerHTML = analysis_text;
