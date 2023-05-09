@@ -34,7 +34,7 @@ In this section, we'll dive into the numbers and shed light on the current state
 
 </div>
 
-According to recent data, New York City experiences an average of 131,000 crashes per year from 2013 to 2022. However, a closer look at the numbers shows that from 2013 to 2019, the average number of crashes per year was much higher, with an average of 166,600 crashes per year. In contrast, the period post COVID-19 is significantly lower, with an average of 86,000 crashes per year, suggesting that the pandemic has indeed impacted traffic patterns in the city. Nevertheless, it's worth noting that the New York Police Department (NYPD) was already testing a "No Report" crash policy before the pandemic, in which police officers are instructed not to respond to minor car accidents. When the pandemic hit, the NYPD rolled out this policy city-wide to free up police resources for COVID-19-related calls. As a result, the decrease in the number of reported accidents may not necessarily mean that the city is safer or that fewer crashes are occurring. Rather, it could be a consequence of the NYPD prioritizing its resources on other tasks. It is interesting to analyze the types of accidents that occur to determine if there have been any changes in patterns. 
+According to recent data, New York City experiences an average of 131,000 crashes per year from 2013 to 2022. However, a closer look at the numbers shows that from 2013 to 2019, the average number of crashes per year was much higher, with an average of 166,600 crashes per year. In contrast, the period post COVID-19 is significantly lower, with an average of 86,000 crashes per year, suggesting that the pandemic has indeed impacted traffic patterns in the city. Nevertheless, it's worth noting that the New York Police Department (NYPD) was already testing a ['No Report' crash policy](https://nyc.streetsblog.org/2020/04/03/nypd-gives-a-few-details-of-new-no-report-crash-policy/) before the pandemic, in which police officers are instructed not to respond to minor car accidents. When the pandemic hit, the NYPD rolled out this policy city-wide to free up police resources for COVID-19-related calls. As a result, the decrease in the number of reported accidents may not necessarily mean that the city is safer or that fewer crashes are occurring. Rather, it could be a consequence of the NYPD prioritizing its resources on other tasks. It is interesting to analyze the types of accidents that occur to determine if there have been any changes in patterns. 
 
  <div class="row" style="margin-top:20px;">
 
@@ -45,15 +45,15 @@ According to recent data, New York City experiences an average of 131,000 crashe
           </p>
           <p
             style="font-size: 20px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#c86501 !important; margin-bottom: 2px;">
-            <font style="color:#eaa969">178</font> deathly crashes per year
+            <font style="color:#ff8e7f">178</font> deathly crashes per year
           </p>
           <p
             style="font-size: 20px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#c86501 !important; margin-bottom: 2px;">
-            <font style="color:#eaa969">32,000</font> injury crashes per year
+            <font style="color:#ff8e7f">32,000</font> injury crashes per year
           </p>
           <p
             style="font-size: 20px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#c86501 !important">
-            <font style="color:#eaa969">134,500</font> material damage crashes per year
+            <font style="color:#ff8e7f">134,500</font> material damage crashes per year
           </p>
 
         </div>
@@ -68,17 +68,15 @@ According to recent data, New York City experiences an average of 131,000 crashe
           </p>
           <p
             style="font-size: 20px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#c86501 !important; margin-bottom: 2px;">
-            <font style="color:#eaa969">28500</font> injury crashes per year
+            <font style="color:#ff8e7f">28500</font> injury crashes per year
           </p>
           <p
             style="font-size: 20px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#c86501 !important">
-            <font style="color:#eaa969">57000</font> material damage crashes per year
+            <font style="color:#ff8e7f">57000</font> material damage crashes per year
           </p>
 
         </div>
       </div>
-
-
 
 
 {% include fatalities_per_year.html %}
