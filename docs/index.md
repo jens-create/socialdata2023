@@ -97,7 +97,6 @@ Below map compares how each borough in NYC is affected by traffic incidents over
 {% include nyc_accidents_map.html %}
 
 
-In below map, we dive into specific trafic locations to identify where the traffic is most dangerous and thus where to prioritize safety enhancing initiatives for the people of NYC. 
 {% include accidents_locations_map.html %}
 
 
