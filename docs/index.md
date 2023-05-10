@@ -92,7 +92,9 @@ According to recent data, New York City experiences an average of 131,000 crashe
 
 The number of material damage crashes has dropped significantly in recent years, from an average of 134,500 material damage crashes per year from 2013 to 2019 to an average of 57,000 material damage crashes per year since 2020. This decrease is likely due to the NYPD's "No Report" crash policy, which has led to fewer reported accidents overall. However, the average number of fatal crashes is actually increased since the covid-19 outbreak and the number of injury-related crashes has remained relatively consistent with pre-COVID levels, although with a slight decrease. These numbers might indicate that the overall safety of the city may not have improved over the recent years,  and may in fact have worsened. However, it's important to take a closer look at these numbers to gain a more complete understanding of the situation.
 
+<center>
 {% include fatalities_per_year.html %}
+</center>
 
 Looking at the number of fatalities over the past decase, we can see that the level of deadly crashes has not improved. In fact, we see a concerning trend of increasing pedestrian fatalities. To combat this trend, we should look into the causes of these crashes and identify ways to prevent them from happening in the future. Let us take a look at the number of crashes in each of the five boroughs of NYC to investigate where we should focus our efforts.
 
