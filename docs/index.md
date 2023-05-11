@@ -131,9 +131,8 @@ Overall, the trends in both time periods are similar, however there are fewer co
 Let's analyze crashes in different time perspectives to find out! Take a look at the <code class="language-plaintext highlighter-rouge">Yearly and Monthly</code> and <code class="language-plaintext highlighter-rouge">Weekly and Hourly</code> patterns below. 
 
 <!--### Analyzing crashes in different time perspectives-->
-
  <div class="row" style="margin-top: 10px;">
-  <div class="col-sm-12">
+  <div class="col-sm-12" style="display: flex; justify-content: center">
     <button type="button" class="btn btn-primary btn-circle shadow-none active" id="ym"
       style="border-radius: 20px !important; background-color: #83c3b2; border-color: #ffffff; padding-left: 20px; padding-right: 20px; margin-top: 10px;color:white">Yearly
       and Monthly Patterns</button>
@@ -151,8 +150,9 @@ Let's analyze crashes in different time perspectives to find out! Take a look at
 {% include time_series_plot2_version4.html %}
 </div>
 
+<br>
 
-Pedestrians are the most vulnerable group of people and at the same time they are more often involved in a fatal incident.
+ Pedestrians are the most vulnerable group of people and at the same time they are more often involved in a fatal incident.
 
 <br><br>
 
