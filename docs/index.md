@@ -165,7 +165,8 @@ Due to the rapid evolution of big cities like NYC, we focus on analyzing the geo
 ### Traffic unsafety by borough
 
 Below map compares how each borough in NYC is affected by collisions, which is reflected in different metrics such as accidents relative to area and population and moreover the severity of accidents.
-Use the dropdown to explore maps and the findings below for each metric of traffic unsafety; *total accidents*, *accidents per sq. km., accidents per capita* and *severe accident rate*.<br> 
+
+Use the dropdown to explore maps and the *findings below for each metric* of traffic unsafety; *total accidents*, *accidents per sq. km., accidents per capita* and *severe accident rate*.<br> 
 
 {% include nyc_accidents_map.html %}
 
