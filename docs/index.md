@@ -4,7 +4,7 @@ title: Home
 permalink: /
 ---
 
-<!-- 
+<!--
 *<center>Did you know that on average, New Yorkers spend ten full days a year stuck in traffic?!<br><br>What's even worse than the endless gridlock are the ressources wasted in inefficient use of time<br> and more importantly the danger on our streets. That's why we, the Council of Traffic Safety,<br>analyzed traffic data of New York City, identified the trends, and now we're presenting our findings<br>to expose what's really going on out there, and how we can make NYC traffic safer for everyone!<br><br></center>* -->
 
 *<center>Did you know that on average, New Yorkers spend ten full days a year stuck in traffic?!<br><br>What's even worse than the endless gridlock are the ressources wasted in inefficient use of time<br> and more importantly the danger on our streets. That's why we, the Council of Traffic Safety,<br>dived deep into the latest traffic accidents data of New York City,<br>to uncover insights, trends, and contributing factors and expose what's really going on out there<br> Let's work together to identify initiatives and solutions to make NYC traffic safer for everyone.</center>*
@@ -14,10 +14,10 @@ permalink: /
 
 # <a id="numbers"></a>New York Traffic by the Numbers
 
-Traffic accident data from [NYC OpenData](https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95) from July 2012 to April 2023 lay the foundation for the insights presented on theis website. The dataset is called [Motor Vehicle Collisions - Crashes](https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95) and contains details on police reported motor vehicle collisions in NYC where people has been injured or killed, or if there has been a $1000 worth of damage. The data contains approximately 1.99M rows and 29 attributes. See the linked explainer notebook for descriptions of each attribute in the data.  
+Traffic accident data from [NYC OpenData](https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95) from July 2012 to April 2023 lay the foundation for the insights presented on theis website. The dataset is called [Motor Vehicle Collisions - Crashes](https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95) and contains details on police reported motor vehicle collisions in NYC where people has been injured or killed, or if there has been a $1000 worth of damage. The data contains approximately 1.99M rows and 29 attributes. See the linked explainer notebook for descriptions of each attribute in the data.
 
 
-As of 2022, New York City is the most congested city in the US. Rush hour traffic can cause drivers to spend an average of [236 hours per year on the road](https://www.tomtom.com/traffic-index/united-states-of-america-country-traffic/), with an additional [117 hours lost to congestion](https://inrix.com/scorecard-city-2022/?city=New%20York%20City%20NY&index=5#form-download-the-full-report). With such high levels of traffic, it's no surprise that navigating the city's busy streets can be dangerous. But, how bad is the safety in New York City, really? Let’s look into some of the facts and figures you need to know! 
+As of 2022, New York City is the most congested city in the US. Rush hour traffic can cause drivers to spend an average of [236 hours per year on the road](https://www.tomtom.com/traffic-index/united-states-of-america-country-traffic/), with an additional [117 hours lost to congestion](https://inrix.com/scorecard-city-2022/?city=New%20York%20City%20NY&index=5#form-download-the-full-report). With such high levels of traffic, it's no surprise that navigating the city's busy streets can be dangerous. But, how bad is the safety in New York City, really? Let’s look into some of the facts and figures you need to know!
 <!-- In this section, we'll dive into the numbers and shed light on the current state of traffic in NYC.-->
 
 
@@ -111,7 +111,7 @@ Overall, the trends in both time periods are similar, however there are fewer co
 ### Analyzing crashes in different time perspectives
 
  <div class="row" style="margin-top: 10px;">
-  <div class="col-sm-12"> 
+  <div class="col-sm-12">
     <button type="button" class="btn btn-primary btn-circle shadow-none active" id="ym"
       style="border-radius: 20px !important; background-color: #ffffff; border-color: #ffffff; padding-left: 20px; padding-right: 20px; margin-top: 10px;color:black">Yearly
       and Monthly Patterns</button>
@@ -122,14 +122,14 @@ Overall, the trends in both time periods are similar, however there are fewer co
 </div>
 
 <div id="div_ym" style="display: block;">
-{% include time_series_plot1_version3.html %}
+{% include time_series_plot1_version4.html %}
 </div>
 
 <div id="div_wh" style="display: none;">
-{% include time_series_plot2_version3.html %}
+{% include time_series_plot2_version4.html %}
 </div>
 
-Maybe rewrite the figure text. 
+Maybe rewrite the figure text.
 Write also something to sum up what we can conclude from the plots...
 
 
@@ -151,11 +151,14 @@ Click on specific locations for further information on injuries and fatalities a
 
 ## At which locations is the traffic most unsafe in NYC?
 
+A quick look at the map reveals that some roads are more dangerous than others. We therefore take a closer look at the most dangerous roads in NYC - indicated by red circles on the above map. Thus, the dangerous roads are defined as the roads with the highest number of accidents.
+
 ### Atlantic Avenue in Brooklyn
-Atlantic Avenue in Brooklyn is the most dangerous street in New York City. It has the highest number of accidents, injuries, and fatalities of any street in the city. The street is a major thoroughfare that runs through several neighborhoods, including Bedford-Stuyvesant, Crown Heights, and Prospect Heights. It is also home to many businesses and residential buildings, making it a popular destination for pedestrians and cyclists. However, the street lacks adequate infrastructure for these users, with narrow sidewalks and bike lanes that are often blocked by parked cars or delivery trucks. This leads to conflicts between different modes of transportation, resulting in collisions and injuries.
+The map reveals that the Atlantic Avenue is a road with a high number of accidents. We therefore take a closer look at the accidents on this road.
 
+A quick search on the net reveals that the road is a major thoroughfare in Brooklyn, New York City. It stretches from the Brooklyn waterfront on the East River all the way to Jamaica, Queens. The road is 17 kilometers long and is a major east–west street in Brooklyn. The avenue is known for its high traffic volume and is notorious for its high accident rate due to its design.
 
-An article from 2021, [SAFETY THIRD: Hit-and-Run Driver Kills Deaf Man on Notorious Speedway that DOT Failed to Fix](https://nyc.streetsblog.org/2021/10/16/safety-third-hit-and-run-driver-kills-deaf-man-on-notorious-speedway-that-dot-failed-to-fix/), sheds light upon the fact there has been renovation projects on improving the safety of `Atlantic Avenue` since 2014. The project, which aimed to improve safety for pedestrians and cyclists, involved adding high visibility crosswalks and curb extensions, but critics state that it has not fundamentally altered the geometry of the street or provided traffic calming measures. The article argues that despite the renovation, the number of injuries on the roadway has remained high, and the project's Phase II does not even have funding. Thus, we highly recommend that the city should prioritize the renovation of Atlantic Avenue to improve the safety of the street.
+An article from 2021, [SAFETY THIRD: Hit-and-Run Driver Kills Deaf Man on Notorious Speedway that DOT Failed to Fix](https://nyc.streetsblog.org/2021/10/16/safety-third-hit-and-run-driver-kills-deaf-man-on-notorious-speedway-that-dot-failed-to-fix/), sheds light upon the fact there has been renovation projects on improving the safety of `Atlantic Avenue` since 2014. The project, which aimed to improve safety for pedestrians and cyclists, involved adding high visibility crosswalks and curb extensions, but critics state that it has not fundamentally altered the geometry of the street or provided traffic calming measures. The article argues that despite the renovation, the number of injuries on the roadway has remained high, and the project's Phase II does not even have funding. Thus, in the future the policymakers should prioritize the renovation of Atlantic Avenue to improve the safety of the street.
 
 Let's look into the data and see if the work of the policymakers have made a change in the last 5 years or so...
 
