@@ -162,10 +162,18 @@ An article from 2021, [SAFETY THIRD: Hit-and-Run Driver Kills Deaf Man on Notori
 
 Let's look into the data and see if the work of the policymakers have made a change in the last 5 years or so...
 
-{% include atlantic_ave_crashes.html %}
 
-
+<div class ="row" style="margin-top:20px;">
+<div class="col-md-6">
 It's clear that the desired effect of the renovation project has not been achieved. The number of accidents has increased since the renovation project was initiated. Keep in mind that in 2020 the NYPD changed their strategy and rolled out the `No report` policy, and thus, minor accidents were not reported by the police. This could explain the decrease in the number of accidents in 2020. However, the number of accidents in 2021 is still higher than the number of accidents in 2019. Thus, the renovation project has not had the desired effect.
+</div>
+<div class="col-md-6">
+{% include atlantic_ave_crashes.html %}
+</div>
+
+
+
+
 
 <br><br>
 
@@ -187,15 +195,18 @@ Ideas:
 
 The following chart shows the top 8 factors that contribute to accidents in NYC for the three categories.
 
+
 <div class="col-md-12">
 {% include contributing_factors.html %}
 </div>
 
 <div id="tab-content">
   <!-- Content for the tabs will be added here -->
-  Driver inattention/distraction is the leading contributing factor in material damage-only accidents, accounting for over 54,681 crashes. This is likely due to the fact that a split second of inattention can easily lead to subsequent actions that result in a collision with another car or object.
-  Following too closely is the second most common contributing factor, with approximately 14,369 accidents. Other common factors include passing too closely, improper passing or lane usage, backing unsafely, and failure to yield right-of-way. These factors may result from various causes, such as drivers attempting to pass or change lanes without signaling or checking blind spots, or backing up in areas with limited visibility. They may also occur when drivers misjudge the speed or distance of other vehicles, fail to properly anticipate their movements, or use lanes inappropriately. By identifying these factors and developing targeted strategies to reduce their occurrence, we can improve traffic safety and reduce the number of material damage-only accidents.
+  `Driver inattention/distraction` is the leading contributing factor in material damage-only accidents, accounting for over 220,000 crashes. This is likely due to the fact that a split second of inattention can easily lead to subsequent actions that result in a collision with another car or object.
+  `Following too closely` is the second most common contributing factor, with approximately 55,000 accidents. Other common factors include passing too closely, improper passing or lane usage, backing unsafely, and failure to yield right-of-way. These factors may result from various causes, such as drivers attempting to pass or change lanes without signaling or checking blind spots, or backing up in areas with limited visibility. They may also occur when drivers misjudge the speed or distance of other vehicles, fail to properly anticipate their movements, or use lanes inappropriately. By identifying these factors and developing targeted strategies to reduce their occurrence, we can improve traffic safety and reduce the number of material damage-only accidents.
 </div>
+
+<!-- <code class="language-plaintext highlighter-rouge">Atlantic Avenue</code> -->
 
 
 ### Recommendation suggestions:
@@ -203,14 +214,11 @@ Based on the analysis of the three plots, there are several recommendations that
 
 - Address driver inattention and distraction: This is the leading contributing factor to both material damage-only accidents and pedestrian fatalities, and is a common factor in crashes involving injuries to motorists, cyclists, and pedestrians. Strategies to address this issue could include increased public education campaigns, stricter enforcement of distracted driving laws, and the development and promotion of new technologies that reduce driver distraction.
 
-- Improve pedestrian safety: Pedestrians are disproportionately affected by crashes leading to injuries and fatalities, and are often the victims of crashes involving failure to yield right of way. To address this issue, policies could focus on improving pedestrian infrastructure, such as adding more crosswalks and pedestrian signals, and redesigning streets to slow down traffic and increase visibility.
+- Improve pedestrian safety: Pedestrians are disproportionately affected by crashes leading to injuries and fatalities, and are often the victims of crashes involving `driver inattention/distriaction` and `failure to yield right of way`. To address this issue, policies could focus on improving pedestrian infrastructure, such as adding more crosswalks and pedestrian signals, and redesigning streets to slow down traffic and increase visibility.
 
-- Address speeding: Unsafe speed is the leading contributing factor to fatal crashes, particularly among motorists. Strategies to address this issue could include stricter enforcement of speed limits, the use of automated speed cameras, and roadway design changes such as road narrowing or speed humps.
-
-- Focus on vulnerable road users: Cyclists and pedestrians are particularly vulnerable to injury and death in crashes, and thus policies could be implemented to protect these users. For example, this could include the promotion of protected bike lanes and the implementation of pedestrian-friendly designs such as sidewalks, crosswalks, and traffic calming measures.
+- Address speeding: Unsafe speed is one of the leading contributing factor to fatal crashes, particularly among motorists. Strategies to address this issue could include stricter enforcement of speed limits, the use of automated speed cameras, and roadway design changes such as road narrowing or speed humps.
 
 Overall, a multi-faceted approach is needed to improve road safety in New York City, involving collaboration between policymakers, law enforcement agencies, transportation professionals, and the general public. By addressing the contributing factors to crashes, particularly those that result in injuries and fatalities, the city can work towards a safer and more sustainable transportation system.
-
 
 
 
