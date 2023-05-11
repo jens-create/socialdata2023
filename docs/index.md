@@ -12,6 +12,14 @@ permalink: /
 
 <br>
 
+# Vision Zero
+The Vision Zero of NYC is an initiative created by the City Mayor Bill de Blasio in 2014. With the initiative, the City of New York has invested in comprehensive engineering, enforcement, and education strategies to bring the city closer to the goal of zero deaths and zero serious injuries. The belief behind the Vision Zero project is that serious crashes are preventable, and that no one should be killed or seriosly injured on the roads of NYC. 
+
+The Vision Zero believe that traffic safety goes beyond the government, thus they have multiple partnerships all focued on the goal of eliminating deaths and serious injuries in traffic. We have joined the party and hope to provide the Vision Zero with new insights to help them in the battle towards their goal of safer streets! 
+
+![Vision Zero](/assets/nytwist.png)
+
+
 # <a id="numbers"></a>New York Traffic by the Numbers
 
 Traffic accident data from [NYC OpenData](https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95) from July 2012 to April 2023 lay the foundation for the insights presented on this website. The dataset is called [Motor Vehicle Collisions - Crashes](https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95) and contains details on police reported motor vehicle collisions in NYC where people has been injured or killed, or if there has been a $1000 worth of damage. The data contains approximately 1.99M rows and 29 attributes. See the [explainer notebook](https://nbviewer.org/github/jens-create/socialdata2023/blob/main/assignments/Final%20project/ExplainerNotebook_version2.ipynb) for descriptions of each attribute in the data.
@@ -52,58 +60,57 @@ According to recent data, New York City experiences an average of 131,000 crashe
 
         <div class="col-md-6" style="text-align: right;">
         <p
-            style="font-size: 25px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#3c3c3c !important; margin-bottom: 2px;">
-            <font style="color:#606c71">2013-2019</font>
+            style="font-size: 25px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#4c8f7e !important; margin-bottom: 2px;">
+            <font style="color:#008360">2013-2019</font>
           </p>
           <p
-            style="font-size: 20px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#ff5d49 !important; margin-bottom: 2px;">
-            <font style="color:#ff8e7f">178</font> deathly crashes per year
+            style="font-size: 20px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#4c8f7e !important; margin-bottom: 2px;">
+            <font style="color:#7fb9b3">178</font> deathly crashes per year
           </p>
           <p
-            style="font-size: 20px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#ff5d49 !important; margin-bottom: 2px;">
-            <font style="color:#ff8e7f">32,000</font> injury crashes per year
+            style="font-size: 20px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#4c8f7e !important; margin-bottom: 2px;">
+            <font style="color:#7fb9b3">32,000</font> injury crashes per year
           </p>
           <p
-            style="font-size: 20px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#ff5d49 !important">
-            <font style="color:#ff8e7f">134,500</font> material damage crashes per year
+            style="font-size: 20px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#4c8f7e !important">
+            <font style="color:#7fb9b3">134,500</font> material damage crashes per year
           </p>
 
         </div>
         <div class="col-md-6" style="text-align: left;">
         <p
-            style="font-size: 25px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#2f2f2f !important; margin-bottom: 2px;">
-            <font style="color:#606c71">Since 2020</font>
+            style="font-size: 25px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#4c8f7e !important; margin-bottom: 2px;">
+            <font style="color:#008360">Since 2020</font>
           </p>
           <p
-            style="font-size: 20px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#ff5d49 !important; margin-bottom: 2px;">
-            <font style="color:#ff8e7f">183</font> deathly crashes per year
+            style="font-size: 20px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#4c8f7e !important; margin-bottom: 2px;">
+            <font style="color:#7fb9b3">183</font> deathly crashes per year
           </p>
           <p
-            style="font-size: 20px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#ff5d49 !important; margin-bottom: 2px;">
-            <font style="color:#ff8e7f">28,500</font> injury crashes per year
+            style="font-size: 20px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#4c8f7e !important; margin-bottom: 2px;">
+            <font style="color:#7fb9b3">28,500</font> injury crashes per year
           </p>
           <p
-            style="font-size: 20px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#ff5d49 !important">
-            <font style="color:#ff8e7f">57,000</font> material damage crashes per year
+            style="font-size: 20px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#4c8f7e !important">
+            <font style="color:#7fb9b3">57,000</font> material damage crashes per year
           </p>
 
         </div>
       </div>
 
-The number of material damage crashes has dropped significantly in recent years, from an average of 134,500 material damage crashes per year from 2013 to 2019 to an average of 57,000 material damage crashes per year since 2020. This decrease is likely due to the NYPD's "No Report" crash policy, which has led to fewer reported accidents overall. However, the average number of fatal crashes is actually increased since the covid-19 outbreak and the number of injury-related crashes has remained relatively consistent with pre-COVID levels, although with a slight decrease. These numbers might indicate that the overall safety of the city may not have improved over the recent years,  and may in fact have worsened. However, it's important to take a closer look at these numbers to gain a more complete understanding of the situation.
+The number of material damage crashes has dropped significantly in recent years, from an average of 134,500 material damage crashes per year from 2013 to 2019 to an average of 57,000 material damage crashes per year since 2020. This decrease is likely due to the NYPD's 'No Report' crash policy, which has led to fewer reported accidents overall. However, the average number of fatal crashes remains at a similar level, thus Vision Zero in NYC efforts have not yet brought down the number of killings in the traffic. In spite of that the numbers suggest that their efforts seem to have had an impact on the average number of injury-related crashes, as the average number has declined with approximately 10%. However, it's important to take a closer look at these numbers to gain a more complete understanding of the situation.
 
 <center>
 {% include fatalities_per_year.html %}
 </center>
 
-In general, the majority of road users killed in collisions in NYC are the pedestrians. The second largest group of fatalities is motorist, and since 2020 there has been an increase in motorists killed , which approaches the level of pedestrians. Looking at the number of fatalities in general over the past decase, we can see that the level of deadly crashes has not improved. In fact, we see a concerning trend of increasing pedestrian fatalities in the most recent years. To combat this trend, we should look into the causes of these crashes and identify ways to prevent them from happening in the future. Let us take a look at the number of crashes in each of the five boroughs of NYC to investigate where we should focus our efforts.
-
+In general, the majority of road users killed in collisions in NYC is the pedestrians. The second largest group of fatalities is motorists and since 2020 there has been an increase in motorists killed, which approaches the level of pedestrians. Looking at the number of fatalities in general over the past decade, we can see that the level of deadly crashes has not improved. In fact, we see a concerning trend of increasing pedestrian fatalities in the most recent years. To combat this trend, we should look into the causes of these crashes and identify ways to prevent them from happening in the future. Let us take a look at the number of crashes in each of the five boroughs of NYC to investigate where we should focus our efforts.
 
 
 {% include boxplot_collisions_per_day.html %}
 
 
-Overall, the trends in both time periods are similar, however there are fewer collisions in the more recent period, as previously noted. Consequently, the median number of collisions per day was consistently higher in the 2013-2019 period across all boroughs. Furter, Brooklyn has the highest number of collisions in both time periods, while the Staten Island has the lowest. Moreover, the number of crashes in Manhattan has decreased and is now more similar to the number of crashes in Bronx, whereas previously it was more similar to Brooklyn and Queens. We will look use these insights to investigate the crashes in each borough in more detail later on. Let's now take a closer look at the time trends, to see if there are any patterns in the number of crashes over the years, months, and days and hours of the week.
+Overall, the trends in both time periods are similar, however there are fewer collisions in the more recent period, as previously noted. Consequently, the median number of collisions per day was consistently higher in the 2013-2019 period across all boroughs. Furter, Brooklyn has the highest number of collisions in both time periods, while the Staten Island has the lowest. Moreover, the number of crashes in Manhattan has decreased and is now more similar to the number of crashes in Bronx, whereas previously it was more similar to Brooklyn and Queens. We will use these insights to investigate the crashes in each borough in more detail later on. Let's now take a closer look at the time trends, to see if there is any patterns in the number of crashes over the years, months, days and hours of the week.
 
 <br>
 
