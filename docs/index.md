@@ -188,24 +188,26 @@ It's clear that the desired effect of the renovation project has not been achiev
 <div id="div_wfr" style="display: none;">
 <h3>West Fordham Road</h3>
 
-A quick search on the net reveals that West Fordham Road is a major east-west thoroughfare in the Bronx, New York City. The road is 3.5 kilometers long and is known for its high traffic volume.
-
+A quick search on the net reveals that West Fordham Road is a major east-west thoroughfare in the Bronx, New York City. The road is 3.5 kilometers long and is known for its high traffic volume. The specific intersection between West Fordham Road and Major Deegan Expressway, which has resulted in more than 50 people injured, are located at an important junction in the Bronx. It is close to the Bronx Community campus and a hospital.
 
 <div class="row" style="margin-top: 20px;">
 
 <div class="col-md-6">
-The particular cross highlighted in the map
+<p>
+A thorough search on the net has not revealed any information on whether there has been a safety renovation on the West Fordham Road. Luckily for us, Google Maps provides a time capsule such that we can go back in time and see how the cross has evolved over the years. Try this for yourself by going to <em>clicking</em> <code class="language-plaintext highlighter-rouge">Show in Google Maps</code>, and <em>click</em> <code class="language-plaintext highlighter-rouge">See more dates</code> in the top right corner.
+</p>
+<p>
+A visual inspection of the last 10 years of the intersection between West Fordham Road and Major Deegan Expressway reveals that the intersection has not been renovated. The traffic lights, the road markings and the road signs are the same as they were 10 years ago. Furthermore, no safety enhancements have been made to the pavement, the sidewalks or the crosswalks. Thus, the intersection has not been improved to increase the safety of the intersection.
+</p>
+
 </div>
 
 <div class="col-md-6">
-<img src="/assets/sat.png" alt="Satelite photo of West Fordham Road dangerous cross">
+
+  <iframe src="https://www.google.com/maps/embed?pb=!4v1683811132075!6m8!1m7!1sNubszY_SjrsD092DucbZuQ!2m2!1d40.8618223834883!2d-73.91216246099941!3f278.47550823298013!4f-6.833775355178005!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
 </div>
 </div>
-
-
-
-
 
 
 
