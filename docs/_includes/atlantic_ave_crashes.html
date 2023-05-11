@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bokeh Plot</title>
+<style>
+      html, body {
+        box-sizing: border-box;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-3.0.3.min.js"></script>
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
+  </head>
+  <body>
+    <div id="06c4c574-1ab3-44ef-b845-1d756974d598" data-root-id="p27593" style="display: contents;"></div>
+
+    <script type="application/json" id="p28429">
+      {"3e16ea74-d1ae-475a-aed3-43c548fdb2b6":{"version":"3.0.3","title":"Bokeh Application","defs":[],"roots":[{"type":"object","name":"Figure","id":"p27593","attributes":{"height":350,"sizing_mode":"scale_width","x_range":{"type":"object","name":"FactorRange","id":"p27603","attributes":{"factors":["2016","2017","2018","2019","2020","2021","2022","2023"]}},"y_range":{"type":"object","name":"DataRange1d","id":"p27595"},"x_scale":{"type":"object","name":"CategoricalScale","id":"p27607"},"y_scale":{"type":"object","name":"LinearScale","id":"p27609"},"title":{"type":"object","name":"Title","id":"p27596","attributes":{"text":"Number of Crashes at Atlantic Avenue by Year"}},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p27631","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p27590","attributes":{"selected":{"type":"object","name":"Selection","id":"p27591","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p27592"},"data":{"type":"map","entries":[["year",["2016","2017","2018","2019","2020","2021","2022","2023"]],["count",[317,443,482,445,221,809,859,240]]]}}},"view":{"type":"object","name":"CDSView","id":"p27632","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p27633"}}},"glyph":{"type":"object","name":"VBar","id":"p27628","attributes":{"x":{"type":"field","field":"year"},"width":{"type":"value","value":0.9},"top":{"type":"field","field":"count"},"line_color":{"type":"value","value":"#ffff"},"fill_color":{"type":"value","value":"#4c8f7e"}}},"nonselection_glyph":{"type":"object","name":"VBar","id":"p27629","attributes":{"x":{"type":"field","field":"year"},"width":{"type":"value","value":0.9},"top":{"type":"field","field":"count"},"line_color":{"type":"value","value":"#ffff"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"value","value":"#4c8f7e"},"fill_alpha":{"type":"value","value":0.1},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"VBar","id":"p27630","attributes":{"x":{"type":"field","field":"year"},"width":{"type":"value","value":0.9},"top":{"type":"field","field":"count"},"line_color":{"type":"value","value":"#ffff"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"value","value":"#4c8f7e"},"fill_alpha":{"type":"value","value":0.2},"hatch_alpha":{"type":"value","value":0.2}}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p27600","attributes":{"tools":[{"type":"object","name":"HoverTool","id":"p27634","attributes":{"renderers":"auto","tooltips":[["Year","@year"],["Number of Crashes","@count"]]}}]}},"toolbar_location":null,"left":[{"type":"object","name":"LinearAxis","id":"p27617","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p27620","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p27619"},"axis_label":"Number of Crashes","major_label_policy":{"type":"object","name":"AllLabels","id":"p27618"}}}],"below":[{"type":"object","name":"CategoricalAxis","id":"p27611","attributes":{"ticker":{"type":"object","name":"CategoricalTicker","id":"p27614"},"formatter":{"type":"object","name":"CategoricalTickFormatter","id":"p27613"},"axis_label":"Year","major_label_policy":{"type":"object","name":"AllLabels","id":"p27612"}}}],"center":[{"type":"object","name":"Grid","id":"p27616","attributes":{"axis":{"id":"p27611"}}},{"type":"object","name":"Grid","id":"p27623","attributes":{"dimension":1,"axis":{"id":"p27617"}}}]}}]}}
+    </script>
+    <script type="text/javascript">
+      (function() {
+        const fn = function() {
+          Bokeh.safely(function() {
+            (function(root) {
+              function embed_document(root) {
+              const docs_json = document.getElementById('p28429').textContent;
+              const render_items = [{"docid":"3e16ea74-d1ae-475a-aed3-43c548fdb2b6","roots":{"p27593":"06c4c574-1ab3-44ef-b845-1d756974d598"},"root_ids":["p27593"]}];
+              root.Bokeh.embed.embed_items(docs_json, render_items);
+              }
+              if (root.Bokeh !== undefined) {
+                embed_document(root);
+              } else {
+                let attempts = 0;
+                const timer = setInterval(function(root) {
+                  if (root.Bokeh !== undefined) {
+                    clearInterval(timer);
+                    embed_document(root);
+                  } else {
+                    attempts++;
+                    if (attempts > 100) {
+                      clearInterval(timer);
+                      console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                    }
+                  }
+                }, 10, root)
+              }
+            })(window);
+          });
+        };
+        if (document.readyState != "loading") fn();
+        else document.addEventListener("DOMContentLoaded", fn);
+      })();
+    </script>
+  </body>
+</html>

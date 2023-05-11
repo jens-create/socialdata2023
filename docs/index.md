@@ -162,6 +162,10 @@ An article from 2021, [SAFETY THIRD: Hit-and-Run Driver Kills Deaf Man on Notori
 
 Let's look into the data and see if the work of the policymakers have made a change in the last 5 years or so...
 
+{% include atlantic_ave_crashes.html %}
+
+
+It's clear that the desired effect of the renovation project has not been achieved. The number of accidents has increased since the renovation project was initiated. Keep in mind that in 2020 the NYPD changed their strategy and rolled out the `No report` policy, and thus, minor accidents were not reported by the police. This could explain the decrease in the number of accidents in 2020. However, the number of accidents in 2021 is still higher than the number of accidents in 2019. Thus, the renovation project has not had the desired effect.
 
 <br><br>
 
@@ -184,7 +188,7 @@ Ideas:
 The following chart shows the top 8 factors that contribute to accidents in NYC for the three categories.
 
 <div class="col-md-12">
-{% include factor_plot.html %}
+{% include contributing_factors.html %}
 </div>
 
 <div id="tab-content">
