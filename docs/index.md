@@ -17,8 +17,9 @@ The Vision Zero of NYC is an initiative created by the City Mayor Bill de Blasio
 
 The Vision Zero believe that traffic safety goes beyond the government, thus they have multiple partnerships all focued on the goal of eliminating deaths and serious injuries in traffic. We have joined the party and hope to provide the Vision Zero with new insights to help them in the battle towards their goal of safer streets! 
 
-![Vision Zero](/assets/nytwist.png)
-
+<div style="text-align:center;">
+  <img src="/assets/nytwist.png" style="max-width:50%; height:auto;">
+</div>
 
 # <a id="numbers"></a>New York Traffic by the Numbers
 
