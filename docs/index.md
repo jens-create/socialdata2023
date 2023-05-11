@@ -152,7 +152,9 @@ Let's analyze crashes in different time perspectives to find out! Take a look at
 
 <br>
 
- Pedestrians are the most vulnerable group of people and at the same time they are more often involved in a fatal incident.
+The plots presented above reveal some important patterns and trends in NYC traffic incidents. All four plots highlight the importance of ensuring the safety of the pedestrians as they are the most vulnerable group of people and at the same time they are more often involved in a fatal incident. However, the injury-rate are higher for motorists than pedestrians. To reduce the number of deaths and severe injuries, Vision Zero should therefore look into the safety conditions for both of these groups. 
+
+Both fatalities and injuries occur more often during the winter months, which suggests that Vision Zero should look into how road conditions can be improved in bad weather. Moreover, severe accidents often happen during rush hours and at the weekend during the night out. These findings are surprising, but nonetheless, they are important to keep in mind when working towards the goal of Vision Zero. 
 
 <br><br>
 
