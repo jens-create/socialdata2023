@@ -12,6 +12,14 @@ permalink: /
 
 <br>
 
+# Vision Zero
+The Vision Zero of NYC is an initiative created by the City Mayor Bill de Blasio in 2014. With the initiative, the City of New York has invested in comprehensive engineering, enforcement, and education strategies to bring the city closer to the goal of zero deaths and zero serious injuries. The belief behind the Vision Zero project is that serious crashes are preventable, and that no one should be killed or seriosly injured on the roads of NYC. 
+
+The Vision Zero believe that traffic safety goes beyond the government, thus they have multiple partnerships all focued on the goal of eliminating deaths and serious injuries in traffic. We have joined the party and hope to provide the Vision Zero with new insights to help them in the battle towards their goal of safer streets! 
+
+![Vision Zero](/assets/nytwist.png)
+
+
 # <a id="numbers"></a>New York Traffic by the Numbers
 
 Traffic accident data from [NYC OpenData](https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95) from July 2012 to April 2023 lay the foundation for the insights presented on this website. The dataset is called [Motor Vehicle Collisions - Crashes](https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95) and contains details on police reported motor vehicle collisions in NYC where people has been injured or killed, or if there has been a $1000 worth of damage. The data contains approximately 1.99M rows and 29 attributes. See the [explainer notebook](https://nbviewer.org/github/jens-create/socialdata2023/blob/main/assignments/Final%20project/ExplainerNotebook_version2.ipynb) for descriptions of each attribute in the data.
@@ -90,7 +98,7 @@ According to recent data, New York City experiences an average of 131,000 crashe
         </div>
       </div>
 
-The number of material damage crashes has dropped significantly in recent years, from an average of 134,500 material damage crashes per year from 2013 to 2019 to an average of 57,000 material damage crashes per year since 2020. This decrease is likely due to the NYPD's 'No Report' crash policy, which has led to fewer reported accidents overall. However, the average number of fatal crashes remains at a similar level, thus NYC Vision Zero efforts have not yet brought down the number of killings in the traffic. In spite of that the numbers suggest that their efforts seems to have had an impact on the average number of injury-related crashes, as the average number has declined with approximately 10%. However, it's important to take a closer look at these numbers to gain a more complete understanding of the situation.
+The number of material damage crashes has dropped significantly in recent years, from an average of 134,500 material damage crashes per year from 2013 to 2019 to an average of 57,000 material damage crashes per year since 2020. This decrease is likely due to the NYPD's 'No Report' crash policy, which has led to fewer reported accidents overall. However, the average number of fatal crashes remains at a similar level, thus Vision Zero in NYC efforts have not yet brought down the number of killings in the traffic. In spite of that the numbers suggest that their efforts seem to have had an impact on the average number of injury-related crashes, as the average number has declined with approximately 10%. However, it's important to take a closer look at these numbers to gain a more complete understanding of the situation.
 
 <center>
 {% include fatalities_per_year.html %}
