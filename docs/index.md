@@ -52,39 +52,39 @@ According to recent data, New York City experiences an average of 131,000 crashe
 
         <div class="col-md-6" style="text-align: right;">
         <p
-            style="font-size: 25px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#606c71 !important; margin-bottom: 2px;">
-            <font style="color:#606c71">2013-2019</font>
+            style="font-size: 25px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#4c8f7e !important; margin-bottom: 2px;">
+            <font style="color:#7fb9b3">2013-2019</font>
           </p>
           <p
-            style="font-size: 20px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#606c71 !important; margin-bottom: 2px;">
-            <font style="color:#606c71">178</font> deathly crashes per year
+            style="font-size: 20px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#4c8f7e !important; margin-bottom: 2px;">
+            <font style="color:#7fb9b3">178</font> deathly crashes per year
           </p>
           <p
-            style="font-size: 20px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#606c71 !important; margin-bottom: 2px;">
-            <font style="color:#606c71">32,000</font> injury crashes per year
+            style="font-size: 20px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#4c8f7e !important; margin-bottom: 2px;">
+            <font style="color:#7fb9b3">32,000</font> injury crashes per year
           </p>
           <p
-            style="font-size: 20px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#606c71 !important">
-            <font style="color:#606c71">134,500</font> material damage crashes per year
+            style="font-size: 20px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#4c8f7e !important">
+            <font style="color:#7fb9b3">134,500</font> material damage crashes per year
           </p>
 
         </div>
         <div class="col-md-6" style="text-align: left;">
         <p
-            style="font-size: 25px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#606c71 !important; margin-bottom: 2px;">
-            <font style="color:#606c71">Since 2020</font>
+            style="font-size: 25px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#4c8f7e !important; margin-bottom: 2px;">
+            <font style="color:#7fb9b3">Since 2020</font>
           </p>
           <p
-            style="font-size: 20px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#606c71 !important; margin-bottom: 2px;">
-            <font style="color:#606c71">183</font> deathly crashes per year
+            style="font-size: 20px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#4c8f7e !important; margin-bottom: 2px;">
+            <font style="color:#7fb9b3">183</font> deathly crashes per year
           </p>
           <p
-            style="font-size: 20px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#606c71 !important; margin-bottom: 2px;">
-            <font style="color:#606c71">28,500</font> injury crashes per year
+            style="font-size: 20px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#4c8f7e !important; margin-bottom: 2px;">
+            <font style="color:#7fb9b3">28,500</font> injury crashes per year
           </p>
           <p
-            style="font-size: 20px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#606c71 !important">
-            <font style="color:#606c71">57,000</font> material damage crashes per year
+            style="font-size: 20px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#4c8f7e !important">
+            <font style="color:#7fb9b3">57,000</font> material damage crashes per year
           </p>
 
         </div>
