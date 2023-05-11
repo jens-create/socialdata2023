@@ -244,33 +244,10 @@ In alignment with New York City's Vision Zero initiative, the goal of this proje
 
 The analysis of the contributing factors pinpointed several key insights that can be used to inform policy decisions and improve road safety in New York City:
 
-- `Driver inattention/distraction` is the leading contributing factor to crashes in New York City, regardless of the severity.
--
-
-
-`driver inattention/distraction` is the leading contributing factor to crashes in New York City, regardless of the severity.
-
-`following too closely`
-
- and `unsafe speed` are the most common contributing factors to crashes and are also associated with the highest number of injuries and fatalities, and crashes involving `driver inattention/distraction` for both vehicle 1 and vehicle 2 have the highest crash count and are associated with the highest number of injuries and deaths. These insights can be used to inform policy decisions and improve road safety in New York City.
-
-the most common contributing factors to crashes in New York City, the factors that lead to the most severe crashes, and the correlation between contributing factors in crashes. These insights can be used to inform policy decisions and improve road safety in New York City.
-
-the most common contributing factors to crashes in New York City, which are `driver inattention/distraction` and `failure to yield right-of-way`. These factors are the most common contributing factors to crashes
-
-`following too closely`, and `unsafe speed`. These factors are the most common contributing factors to crashes and are also associated with the highest number of injuries and fatalities.
-
-
-highlighted the importance of combatting the leading contributing factors to crashes in New York City, which are `driver inattention/distraction`, `following too closely`, and `unsafe speed`. These factors are the most common contributing factors to crashes and are also associated with the highest number of injuries and fatalities.
-
-
-To conclude on the four plots, the policymakers in NYC should focus on addressing the most common contributing factors to crashes and the factors that lead to the most severe crashes.
-
-
-
-When it comes to crashes that lead to injuries or deaths, policymakers should focus on addressing unsafe speed, driver inattention/distraction, and failure to yield right-of-way. These factors are the top three contributing factors in crashes leading to injuries or deaths. Reducing speed limits and increasing enforcement of speed laws could be effective in reducing crashes caused by unsafe speed, while increasing education and awareness campaigns around distracted driving could help combat driver inattention/distraction.
-
-Finally, policymakers should also address the correlation between the contributing factors in crashes. The analysis of the correlation between contributing factors reveals that diagonal items of the scatter plots are more frequent and also more dangerous, indicating that the combination of certain factors may lead to more severe crashes. Policymakers should take a holistic approach to addressing contributing factors, taking into account the interplay between different factors and how they contribute to crashes.
+- <code class="language-plaintext highlighter-rouge">Driver inattention/distraction</code> is the leading contributing factor to crashes in New York City, regardless of the severity.
+- <code class="language-plaintext highlighter-rouge">Failure to yield right-of-way</code> and <code class="language-plaintext highlighter-rouge">driver inattention/distraction</code> are the most common contributing factors to severe crashes and are also associated with the highest number of injuries and fatalities among pedestrians.
+- <code class="language-plaintext highlighter-rouge">Unsafe speed</code> and <code class="language-plaintext highlighter-rouge">traffic control disregarded</code> are relatively infrequent but are associated with the highest number of injuries and fatalities among motorists.
+- If vehicle 1 and vehicle 2 have the same contributing factor, the consequences are more severe.
 
 
 <script>
