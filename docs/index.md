@@ -195,8 +195,8 @@ The following chart shows the top 8 factors that contribute to accidents in NYC 
 
 <div id="tab-content">
   <!-- Content for the tabs will be added here -->
-  <code class="language-plaintext highlighter-rouge">Driver inattention/distraction</code> is the leading contributing factor in material damage-only accidents, accounting for over 220,000 crashes. This is likely due to the fact that a split second of inattention can easily lead to subsequent actions that result in a collision with another car or object.
-  <code class="language-plaintext highlighter-rouge">Following too closely</code> is the second most common contributing factor, with approximately 55,000 accidents. Other common factors include passing too closely, improper passing or lane usage, backing unsafely, and failure to yield right-of-way. These factors may result from various causes, such as drivers attempting to pass or change lanes without signaling or checking blind spots, or backing up in areas with limited visibility. They may also occur when drivers misjudge the speed or distance of other vehicles, fail to properly anticipate their movements, or use lanes inappropriately. By identifying these factors and developing targeted strategies to reduce their occurrence, we can improve traffic safety and reduce the number of material damage-only accidents.
+  <code class="language-plaintext highlighter-rouge">Driver inattention/distraction</code> is the leading contributing factor in material damage-only accidents, accounting for over 220,000 crashes. This is likely due to the fact that a split second of inattention can easily lead to subsequent actions that result in a collision with another car or object. The remainder of the factors are relatively evenly distributed - all below 60,000 accidents. Thus, it is clear that driver inattention is the main cause of material damage-only accidents in NYC.
+
 </div>
 
 
@@ -242,12 +242,31 @@ In alignment with New York City's Vision Zero initiative, the goal of this proje
 -->
 
 
+The analysis of the contributing factors pinpointed several key insights that can be used to inform policy decisions and improve road safety in New York City:
 
+- `Driver inattention/distraction` is the leading contributing factor to crashes in New York City, regardless of the severity.
+-
+
+
+`driver inattention/distraction` is the leading contributing factor to crashes in New York City, regardless of the severity.
+
+`following too closely`
+
+ and `unsafe speed` are the most common contributing factors to crashes and are also associated with the highest number of injuries and fatalities, and crashes involving `driver inattention/distraction` for both vehicle 1 and vehicle 2 have the highest crash count and are associated with the highest number of injuries and deaths. These insights can be used to inform policy decisions and improve road safety in New York City.
+
+the most common contributing factors to crashes in New York City, the factors that lead to the most severe crashes, and the correlation between contributing factors in crashes. These insights can be used to inform policy decisions and improve road safety in New York City.
+
+the most common contributing factors to crashes in New York City, which are `driver inattention/distraction` and `failure to yield right-of-way`. These factors are the most common contributing factors to crashes
+
+`following too closely`, and `unsafe speed`. These factors are the most common contributing factors to crashes and are also associated with the highest number of injuries and fatalities.
+
+
+highlighted the importance of combatting the leading contributing factors to crashes in New York City, which are `driver inattention/distraction`, `following too closely`, and `unsafe speed`. These factors are the most common contributing factors to crashes and are also associated with the highest number of injuries and fatalities.
 
 
 To conclude on the four plots, the policymakers in NYC should focus on addressing the most common contributing factors to crashes and the factors that lead to the most severe crashes.
 
-The leading contributing factor to material damage-only crashes is driver inattention/distraction, which accounted for over 54,000 crashes. This highlights the need for increased awareness and enforcement of distracted driving laws, as well as efforts to educate drivers on the dangers of distractions while driving. Additionally, following too closely is the second most common contributing factor and should be addressed through education and enforcement of safe following distances.
+
 
 When it comes to crashes that lead to injuries or deaths, policymakers should focus on addressing unsafe speed, driver inattention/distraction, and failure to yield right-of-way. These factors are the top three contributing factors in crashes leading to injuries or deaths. Reducing speed limits and increasing enforcement of speed laws could be effective in reducing crashes caused by unsafe speed, while increasing education and awareness campaigns around distracted driving could help combat driver inattention/distraction.
 
