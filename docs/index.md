@@ -151,7 +151,7 @@ Click on specific locations for further information on injuries and fatalities a
 
 ## At which locations is the traffic most unsafe in NYC?
 
-A quick look at the map reveals that some roads are more dangerous than others. We therefore take a closer look at the most dangerous roads in NYC - indicated by red circles on the above map. Thus, the dangerous roads are defined as the roads with the highest number of accidents.
+A quick look at the map reveals that some roads are more dangerous than others. We therefore take a closer look at the most dangerous roads in NYC - indicated by red circles on the above map.
 
 ### Atlantic Avenue in Brooklyn
 The map reveals that the Atlantic Avenue is a road with a high number of accidents. We therefore take a closer look at the accidents on this road.
