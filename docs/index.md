@@ -145,22 +145,33 @@ Below map compares how each borough in NYC is affected by traffic incidents over
 ### Traffic unsafety by roads
 In the following map, we dive into specific trafic locations to identify where the traffic is most dangerous and thus where to prioritize safety enhancing initiatives for the people of NYC.<br>
 
-Click on specific locations for further information on injuries and fatalities at the locations of accidents.
+*Click* on specific locations for further information on injuries and fatalities at the locations of accidents. By using the dropdown menu, different analyses are presented according to the chosen map.
 {% include accidents_locations_map.html %}
 
 
-## At which locations is the traffic most unsafe in NYC?
+## Deep dive: The two most unsafe roads in NYC
+As found in the previous analysis, Atlantic Avenue and West Fordham Range are the most dangerous roads in NYC. We therefore take a closer look at the accidents on these roads.
 
-A quick look at the map reveals that some roads are more dangerous than others. We therefore take a closer look at the most dangerous roads in NYC - indicated by red circles on the above map.
 
-### Atlantic Avenue in Brooklyn
-The map reveals that the Atlantic Avenue is a road with a high number of accidents. We therefore take a closer look at the accidents on this road.
+ <div class="row" style="margin-top: 10px;">
+  <div class="col-sm-12" style="display: flex; justify-content: center">
+    <button type="button" class="btn btn-primary btn-circle shadow-none active" id="aa"
+      style="border-radius: 20px !important; background-color: #83c3b2; border-color: #ffffff; padding-left: 20px; padding-right: 20px; margin-top: 10px;color:white">Atlantic Avenue</button>
+    <button type="button" class="btn btn-primary btn-circle shadow-none" id="wfr"
+      style="border-radius: 20px !important; background-color: #ffffff; border-color: #ffffff; padding-left: 20px; padding-right: 20px; margin-top: 10px;color: black;">West Fordham Road</button>
+  </div>
+</div>
+
+<div id="div_aa" style="display: block;">
+
+
+
+<h3> Atlantic Avenue in Brooklyn</h3>
+
 
 A quick search on the net reveals that the road is a major thoroughfare in Brooklyn, New York City. It stretches from the Brooklyn waterfront on the East River all the way to Jamaica, Queens. The road is 17 kilometers long and is a major east–west street in Brooklyn. The avenue is known for its high traffic volume and is notorious for its high accident rate due to its design.
 
-An article from 2021, [SAFETY THIRD: Hit-and-Run Driver Kills Deaf Man on Notorious Speedway that DOT Failed to Fix](https://nyc.streetsblog.org/2021/10/16/safety-third-hit-and-run-driver-kills-deaf-man-on-notorious-speedway-that-dot-failed-to-fix/), sheds light upon the fact there has been renovation projects on improving the safety of `Atlantic Avenue` since 2014. The project, which aimed to improve safety for pedestrians and cyclists, involved adding high visibility crosswalks and curb extensions, but critics state that it has not fundamentally altered the geometry of the street or provided traffic calming measures. The article argues that despite the renovation, the number of injuries on the roadway has remained high, and the project's Phase II does not even have funding. Thus, in the future the policymakers should prioritize the renovation of Atlantic Avenue to improve the safety of the street.
-
-Let's look into the data and see if the work of the policymakers have made a change in the last 5 years or so...
+An article from 2021, <a href="https://nyc.streetsblog.org/2021/10/16/safety-third-hit-and-run-driver-kills-deaf-man-on-notorious-speedway-that-dot-failed-to-fix/">[SAFETY THIRD: Hit-and-Run Driver Kills Deaf Man on Notorious Speedway that DOT Failed to Fix]</a>, sheds light upon the fact there has been renovation projects on improving the safety of `Atlantic Avenue` since 2014. The project, which aimed to improve safety for pedestrians and cyclists, involved adding high visibility crosswalks and curb extensions, but critics state that it has not fundamentally altered the geometry of the street or provided traffic calming measures. The article argues that despite the renovation, the number of injuries on the roadway has remained high, and the project's Phase II does not even have funding. Thus, in the future the policymakers should prioritize the renovation of Atlantic Avenue to improve the safety of the street. We can validate this claim by looking at the number of accidents on Atlantic Avenue over time.
 
 
 <div class ="row" style="margin-top:20px;">
@@ -171,12 +182,24 @@ It's clear that the desired effect of the renovation project has not been achiev
 {% include atlantic_ave_crashes.html %}
 </div>
 </div>
+</div>
+
+
+<div id="div_wfr" style="display: none;">
+<h3>West Fordham Road</h3>
+
+A quick search on the net reveals that West Fordham Road is a major east-west thoroughfare in the Bronx, New York City. The road is 3.5 kilometers long and is known for its high traffic volume.
+
+
+</div>
 
 
 
 
 
-<br><br>
+
+
+<br>
 
 # <a id="causes"></a>What Are the Main Causes of Accidents in NYC?
 
@@ -282,6 +305,28 @@ The analysis of the contributing factors pinpointed several key insights that ca
       $("#ym").css('background-color', 'white');
       $("#wh").css('background-color', '#83c3b2');
       $("#wh").css('color', 'white');
+
+    })
+
+
+    $("#aa").click(function () {
+      // #83c3b2
+      $("#div_aa").show();
+      $("#div_wfr").css('display', 'none');
+      $("#wfr").css('color', 'black');
+      $("#wfr").css('background-color', 'white');
+      $("#aa").css('background-color', '#83c3b2');
+      $("#aa").css('color', 'white');
+    })
+
+    $("#wfr").click(function () {
+      // #83c3b2
+      $("#div_wfr").show();
+      $("#div_aa").css('display', 'none');
+      $("#aa").css('color', 'black');
+      $("#aa").css('background-color', 'white');
+      $("#wfr").css('background-color', '#83c3b2');
+      $("#wfr").css('color', 'white');
 
     })
   })
