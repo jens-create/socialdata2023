@@ -164,10 +164,10 @@ Let's look into the data and see if the work of the policymakers have made a cha
 
 
 <div class ="row" style="margin-top:20px;">
-<div class="col-md-6">
+<div class="col-md-8">
 It's clear that the desired effect of the renovation project has not been achieved. The number of accidents has increased since the renovation project was initiated. Keep in mind that in 2020 the NYPD changed their strategy and rolled out the `No report` policy, and thus, minor accidents were not reported by the police. This could explain the decrease in the number of accidents in 2020. However, the number of accidents in 2021 is still higher than the number of accidents in 2019. Thus, the renovation project has not had the desired effect.
 </div>
-<div class="col-md-6">
+<div class="col-md-8">
 {% include atlantic_ave_crashes.html %}
 </div>
 
@@ -202,8 +202,8 @@ The following chart shows the top 8 factors that contribute to accidents in NYC 
 
 <div id="tab-content">
   <!-- Content for the tabs will be added here -->
-  `Driver inattention/distraction` is the leading contributing factor in material damage-only accidents, accounting for over 220,000 crashes. This is likely due to the fact that a split second of inattention can easily lead to subsequent actions that result in a collision with another car or object.
-  `Following too closely` is the second most common contributing factor, with approximately 55,000 accidents. Other common factors include passing too closely, improper passing or lane usage, backing unsafely, and failure to yield right-of-way. These factors may result from various causes, such as drivers attempting to pass or change lanes without signaling or checking blind spots, or backing up in areas with limited visibility. They may also occur when drivers misjudge the speed or distance of other vehicles, fail to properly anticipate their movements, or use lanes inappropriately. By identifying these factors and developing targeted strategies to reduce their occurrence, we can improve traffic safety and reduce the number of material damage-only accidents.
+  <code class="language-plaintext highlighter-rouge">Driver inattention/distraction</code> is the leading contributing factor in material damage-only accidents, accounting for over 220,000 crashes. This is likely due to the fact that a split second of inattention can easily lead to subsequent actions that result in a collision with another car or object.
+  <code class="language-plaintext highlighter-rouge">Following too closely</code> is the second most common contributing factor, with approximately 55,000 accidents. Other common factors include passing too closely, improper passing or lane usage, backing unsafely, and failure to yield right-of-way. These factors may result from various causes, such as drivers attempting to pass or change lanes without signaling or checking blind spots, or backing up in areas with limited visibility. They may also occur when drivers misjudge the speed or distance of other vehicles, fail to properly anticipate their movements, or use lanes inappropriately. By identifying these factors and developing targeted strategies to reduce their occurrence, we can improve traffic safety and reduce the number of material damage-only accidents.
 </div>
 
 <!-- <code class="language-plaintext highlighter-rouge">Atlantic Avenue</code> -->
