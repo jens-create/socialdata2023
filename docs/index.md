@@ -191,6 +191,16 @@ It's clear that the desired effect of the renovation project has not been achiev
 A quick search on the net reveals that West Fordham Road is a major east-west thoroughfare in the Bronx, New York City. The road is 3.5 kilometers long and is known for its high traffic volume.
 
 
+<div class="row" style="margin-top: 20px;">
+
+<div class="col-md-6">
+The particular cross highlighted in the map
+</div>
+
+<div class="col-md-6">
+<img src="/assets/sat.png" alt="Satelite photo of West Fordham Road dangerous cross">
+</div>
+</div>
 </div>
 
 
