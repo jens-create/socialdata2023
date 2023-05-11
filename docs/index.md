@@ -160,15 +160,21 @@ Both fatalities and injuries occur more often during the winter months, which su
 
 # <a id="locations"></a>Where in NYC do Traffic Incidents Occur?
 
+Due to the rapid evolution of big cities like NYC, we focus on analyzing the geographical collision patterns since 2020, disregarding any collisions that occurred in previous years.
+
 ### Traffic unsafety by borough
 
-Below map compares how each borough in NYC is affected by traffic incidents overall, which is reflected in different persepectives such as area, population and severity of accidents.
+Below map compares how each borough in NYC is affected by collisions, which is reflected in different metrics such as accidents relative to area and population and moreover the severity of accidents.
+
+Use the dropdown to explore maps and the *findings below for each metric* of traffic unsafety; *total accidents*, *accidents per sq. km., accidents per capita* and *severe accident rate*.<br> 
+
 {% include nyc_accidents_map.html %}
 
 ### Traffic unsafety by roads
 In the following map, we dive into specific trafic locations to identify where the traffic is most dangerous and thus where to prioritize safety enhancing initiatives for the people of NYC.<br>
 
-*Click* on specific locations for further information on injuries and fatalities at the locations of accidents. By using the dropdown menu, different analyses are presented according to the chosen map.
+*Click* on specific locations for further information on injuries and fatalities at the locations of accidents. By using the dropdown menu, different analyses are presented according to the chosen map.<br>
+
 {% include accidents_locations_map.html %}
 
 
