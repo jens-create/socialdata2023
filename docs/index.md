@@ -13,9 +13,9 @@ permalink: /
 <br>
 
 # Vision Zero
-The Vision Zero of NYC is an initiative created by the City Mayor Bill de Blasio in 2014. With the initiative, the City of New York has invested in comprehensive engineering, enforcement, and education strategies to bring the city closer to the goal of zero deaths and zero serious injuries. The belief behind the Vision Zero project is that serious crashes are preventable, and that no one should be killed or seriosly injured on the roads of NYC. 
+The Vision Zero of NYC is an initiative created by the City Mayor Bill de Blasio in 2014. With the initiative, the City of New York has invested in comprehensive engineering, enforcement, and education strategies to bring the city closer to the goal of zero deaths and zero serious injuries. The belief behind the Vision Zero project is that serious crashes are preventable, and that no one should be killed or seriosly injured on the roads of NYC.
 
-The Vision Zero believe that traffic safety goes beyond the government, thus they have multiple partnerships all focued on the goal of eliminating deaths and serious injuries in traffic. We have joined the party and hope to provide the Vision Zero with new insights to help them in the battle towards their goal of safer streets! 
+The Vision Zero believe that traffic safety goes beyond the government, thus they have multiple partnerships all focued on the goal of eliminating deaths and serious injuries in traffic. We have joined the party and hope to provide the Vision Zero with new insights to help them in the battle towards their goal of safer streets!
 
 ![Vision Zero](/assets/nytwist.png)
 
@@ -211,7 +211,7 @@ A visual inspection of the last 10 years of the intersection between West Fordha
 
 <div class="col-md-6">
 
-  <iframe src="https://www.google.com/maps/embed?pb=!4v1683811132075!6m8!1m7!1sNubszY_SjrsD092DucbZuQ!2m2!1d40.8618223834883!2d-73.91216246099941!3f278.47550823298013!4f-6.833775355178005!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <iframe src="https://www.google.com/maps/embed?pb=!4v1683811132075!6m8!1m7!1sNubszY_SjrsD092DucbZuQ!2m2!1d40.8618223834883!2d-73.91216246099941!3f278.47550823298013!4f-6.833775355178005!5f0.7820865974627469" width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
 </div>
 </div>
