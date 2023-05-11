@@ -53,7 +53,7 @@ According to recent data, New York City experiences an average of 131,000 crashe
         <div class="col-md-6" style="text-align: right;">
         <p
             style="font-size: 25px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#4c8f7e !important; margin-bottom: 2px;">
-            <font style="color:#7fb9b3">2013-2019</font>
+            <font style="color:#008360">2013-2019</font>
           </p>
           <p
             style="font-size: 20px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#4c8f7e !important; margin-bottom: 2px;">
@@ -72,7 +72,7 @@ According to recent data, New York City experiences an average of 131,000 crashe
         <div class="col-md-6" style="text-align: left;">
         <p
             style="font-size: 25px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#4c8f7e !important; margin-bottom: 2px;">
-            <font style="color:#7fb9b3">Since 2020</font>
+            <font style="color:#008360">Since 2020</font>
           </p>
           <p
             style="font-size: 20px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#4c8f7e !important; margin-bottom: 2px;">
