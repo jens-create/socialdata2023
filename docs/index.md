@@ -180,18 +180,20 @@ It's clear that the desired effect of the renovation project has not been achiev
 
 # <a id="causes"></a>What Are the Main Causes of Accidents in NYC?
 
-Crashes on NYC streets are caused by various factors, some of which are more obvious than others. It could be a driver's distraction, fatigue, or even aggressive behavior. Pedestrians who jaywalk or cyclists who ride recklessly can also contribute to crashes.
+Crashes on the streets of NYC are caused by various factors, some of which are more obvious than others. It could be a driver's distraction, fatigue, or even aggressive behavior. Pedestrians who jaywalk or cyclists who ride recklessly can also contribute to crashes
 
-This section will explore the different factors that contribute to accidents and how they vary depending on the the severity and type of transportation method. We will also look at how these factors have changed over time. That way, we can better understand what causes crashes and how we can prevent them from happening in the future.
+This section will explore the different factors that contribute to accidents and how they vary depending on the severity and whether motorists, cyclists or pedestrians are involved. We will also investigate the interaction between the factor of vehicle 1 against the factor of vehicle 2 to see if there are any patterns in the data.
 
 ### Most common contributing factors
 
-The following chart shows the top 8 factors that contribute to accidents in NYC for the three categories.
+The following chart shows the top 8 factors that contribute to accidents in NYC for the three severity categories.
 
 
 <div class="col-md-12">
 {% include contributing_factors.html %}
 </div>
+
+**Insights from plot:**<br>
 
 <div id="tab-content">
   <!-- Content for the tabs will be added here -->
