@@ -116,7 +116,10 @@ Overall, the trends in both time periods are similar, however there are fewer co
 <br>
 
 # Does Time Matter? <!--Analyzing Trends in NYC Crashes Over Time-->
-### Analyzing crashes in different time perspectives
+
+Let's analyze crashes in different time perspectives to find out! Take a look at the <code class="language-plaintext highlighter-rouge">Yearly and Monthly</code> and <code class="language-plaintext highlighter-rouge">Weekly and Hourly</code> patterns below. 
+
+<!--### Analyzing crashes in different time perspectives-->
 
  <div class="row" style="margin-top: 10px;">
   <div class="col-sm-12">
@@ -137,9 +140,8 @@ Overall, the trends in both time periods are similar, however there are fewer co
 {% include time_series_plot2_version4.html %}
 </div>
 
-Maybe rewrite the figure text.
-Write also something to sum up what we can conclude from the plots...
 
+Pedestrians are the most vulnerable group of people and at the same time they are more often involved in a fatal incident.
 
 <br><br>
 
