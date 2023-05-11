@@ -128,7 +128,7 @@ Overall, the trends in both time periods are similar, however there are fewer co
 
 # Does Time Matter? <!--Analyzing Trends in NYC Crashes Over Time-->
 
-Let's analyze crashes in different time perspectives to find out! Take a look at the <code class="language-plaintext highlighter-rouge">Yearly and Monthly</code> and <code class="language-plaintext highlighter-rouge">Weekly and Hourly</code> patterns below. 
+Let's analyze crashes in different time perspectives to find out! Take a look at the <code class="language-plaintext highlighter-rouge">Yearly and Monthly</code> and <code class="language-plaintext highlighter-rouge">Weekly and Hourly</code> patterns in the buttons below. 
 
 <!--### Analyzing crashes in different time perspectives-->
  <div class="row" style="margin-top: 10px;">
