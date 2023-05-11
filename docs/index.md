@@ -113,7 +113,7 @@ Overall, the trends in both time periods are similar, however there are fewer co
  <div class="row" style="margin-top: 10px;">
   <div class="col-sm-12">
     <button type="button" class="btn btn-primary btn-circle shadow-none active" id="ym"
-      style="border-radius: 20px !important; background-color: #ffffff; border-color: #ffffff; padding-left: 20px; padding-right: 20px; margin-top: 10px;color:black">Yearly
+      style="border-radius: 20px !important; background-color: #83c3b2; border-color: #ffffff; padding-left: 20px; padding-right: 20px; margin-top: 10px;color:black">Yearly
       and Monthly Patterns</button>
     <button type="button" class="btn btn-primary btn-circle shadow-none" id="wh"
       style="border-radius: 20px !important; background-color: #ffffff; border-color: #ffffff; padding-left: 20px; padding-right: 20px; margin-top: 10px;color: black;">Weekly
@@ -228,15 +228,14 @@ Overall, a multi-faceted approach is needed to improve road safety in New York C
 ![Vehicle 1 factor vs Vehicle 2 factor](/assets/top_8_contributing_factors.png)
 
 
-The plot includes the top nine contributing factors, with the size of the circle indicating the number of crashes and the color indicating the number of injuries or deaths.
+The plot includes the top 14 contributing factors, with the size of the circle indicating the number of crashes and the color indicating the number of injuries or deaths. The number of injuries and fatalities are log-scaled to squeeze the range of values into a more readable range. The plot contains a lot of information and endless insights can be drawn from it. However, we will focus on the following insights that can lead to a reduction in severe crashes:
 
-The plot reveals several important insights. Firstly, crashes involving driver inattention/distraction for both vehicle 1 and vehicle 2 have the highest crash count and are associated with the highest number of injuries and deaths. This highlights the importance of addressing driver inattention and distraction in efforts to make New York City roads safer.
+- Firstly, crashes involving `driver inattention/distraction` for both vehicle 1 and vehicle 2 have the highest crash count and are associated with the highest number of injuries and deaths. This is in line with the previous finding that `driver inattention/distraction` is the leading contributing factor to crashes in New York City.
 
-Secondly, the diagonal items of the scatter plots, which indicate when the same contributing factor is listed for both vehicle 1 and vehicle 2, are more frequent and more dangerous in terms of injuries and deaths. This finding suggests that when both drivers are engaging in the same risky behavior, the consequences are more severe.
+- Secondly, the diagonal items of the scatter plots, which indicate when the same contributing factor is listed for both vehicle 1 and vehicle 2, are more frequent and more dangerous in terms of injuries and deaths. This finding suggests that when both drivers are engaging in the same risky behavior, the consequences are more severe.
 
-Additionally, the plot shows that crashes involving unsafe speed and failure to yield right of way, as well as crashes involving unsafe speed and traffic control disregarded, are not highly frequent but are very dangerous. These factors may require additional attention and intervention to prevent crashes from occurring.
+- Thirdly, the plot shows that even though the number of crashes with `unsafe speed` is relatively low, the number of injuries and fatalities is high. This suggests that crashes involving `unsafe speed` are more dangerous than other types of crashes. This is especailly true for a combination of `unsafe speed` and `failure to yield right of way`, `traffic control disregarded` or `driver inattention/distraction`.
 
-Finally, the plot reveals that crashes involving backing unsafely are relatively rare and rarely result in injuries or deaths. This suggests that addressing this contributing factor may not be as high of a priority as others when it comes to improving road safety in New York City.
 
 Overall, this scatter plot provides valuable insights into the correlation between contributing factors in crashes, highlighting the importance of addressing driver inattention and distraction and the need to focus on risky behaviors when both drivers are engaging in them. By taking these insights into account, policymakers and safety advocates can make more informed decisions about how to improve road safety in New York City.
 
@@ -260,25 +259,12 @@ Finally, policymakers should also address the correlation between the contributi
     document.body.style.zoom = 1
 
 
-    $("#basics").click(function () {
-      $("#div_basics").show();
-      $("#div_ym").css('display', 'none');
-      $("#div_wh").css('display', 'none');
-      $("#ym").css('color', 'black');
-      $("#ym").css('background-color', 'white');
-      $("#wh").css('color', 'black');
-      $("#wh").css('background-color', 'white');
-      $("#basics").css('background-color', '#83c3b2');
-      $("#basics").css('color', 'white');
-    })
+
 
     $("#ym").click(function () {
       // #83c3b2
       $("#div_ym").show();
-      $("#div_basics").css('display', 'none');
       $("#div_wh").css('display', 'none');
-      $("#basics").css('color', 'black');
-      $("#basics").css('background-color', 'white');
       $("#wh").css('color', 'black');
       $("#wh").css('background-color', 'white');
       $("#ym").css('background-color', '#83c3b2');
@@ -290,9 +276,6 @@ Finally, policymakers should also address the correlation between the contributi
       // #83c3b2
       $("#div_wh").show();
       $("#div_ym").css('display', 'none');
-      $("#div_basics").css('display', 'none');
-      $("#basics").css('color', 'black');
-      $("#basics").css('background-color', 'white');
       $("#ym").css('color', 'black');
       $("#ym").css('background-color', 'white');
       $("#wh").css('background-color', '#83c3b2');
