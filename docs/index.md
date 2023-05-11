@@ -184,14 +184,6 @@ Crashes on NYC streets are caused by various factors, some of which are more obv
 
 This section will explore the different factors that contribute to accidents and how they vary depending on the the severity and type of transportation method. We will also look at how these factors have changed over time. That way, we can better understand what causes crashes and how we can prevent them from happening in the future.
 
-
-Ideas:
-- What are the most common factors that contribute to accidents? - OK
-- How do these factors vary depending on the severity of the accident? - OK
-- How do these factors vary depending on the type of transportation method? - OK
-- How have these factors changed over time?
-- What can we do to prevent these factors from happening in the future? - OK
-
 ### Most common contributing factors
 
 The following chart shows the top 8 factors that contribute to accidents in NYC for the three categories.
@@ -210,16 +202,14 @@ The following chart shows the top 8 factors that contribute to accidents in NYC 
 
 
 
-### Recommendation suggestions:
+#### Take aways from the analysis of the contributing factors
 Based on the analysis of the three plots, there are several recommendations that could be made to improve road safety in New York City:
 
-- Address driver inattention and distraction: This is the leading contributing factor to both material damage-only accidents and pedestrian fatalities, and is a common factor in crashes involving injuries to motorists, cyclists, and pedestrians. Strategies to address this issue could include increased public education campaigns, stricter enforcement of distracted driving laws, and the development and promotion of new technologies that reduce driver distraction.
+- Address `driver inattention/distraction`: This is the leading contributing factor to both material damage-only accidents and pedestrian fatalities, and is a common factor in crashes involving injuries to motorists, cyclists, and pedestrians. Strategies to address this issue could include increased public education campaigns, stricter enforcement of distracted driving laws, and the development and promotion of new technologies that reduce driver distraction.
 
 - Improve pedestrian safety: Pedestrians are disproportionately affected by crashes leading to injuries and fatalities, and are often the victims of crashes involving `driver inattention/distriaction` and `failure to yield right of way`. To address this issue, policies could focus on improving pedestrian infrastructure, such as adding more crosswalks and pedestrian signals, and redesigning streets to slow down traffic and increase visibility.
 
-- Address speeding: Unsafe speed is one of the leading contributing factor to fatal crashes, particularly among motorists. Strategies to address this issue could include stricter enforcement of speed limits, the use of automated speed cameras, and roadway design changes such as road narrowing or speed humps.
-
-Overall, a multi-faceted approach is needed to improve road safety in New York City, involving collaboration between policymakers, law enforcement agencies, transportation professionals, and the general public. By addressing the contributing factors to crashes, particularly those that result in injuries and fatalities, the city can work towards a safer and more sustainable transportation system.
+- Address speeding: `Unsafe speed` is one of the leading contributing factor to fatal crashes, particularly among motorists. Strategies to address this issue could include stricter enforcement of speed limits, the use of automated speed cameras, and roadway design changes such as road narrowing or speed humps.
 
 
 
@@ -239,7 +229,21 @@ The plot includes the top 14 contributing factors, with the size of the circle i
 
 Overall, this scatter plot provides valuable insights into the correlation between contributing factors in crashes, highlighting the importance of addressing driver inattention and distraction and the need to focus on risky behaviors when both drivers are engaging in them. By taking these insights into account, policymakers and safety advocates can make more informed decisions about how to improve road safety in New York City.
 
-## How to Make NYC Great Again
+
+
+# <a id="recommendation"></a>Recommendations for NYC?
+
+In alignment with New York City's Vision Zero initiative, the goal of this project is to identify the most common contributing factors to crashes and the factors that lead to the most severe crashes. This section will provide recommendations for policymakers and safety advocates based on the findings of the analysis.
+
+<!--
+-Statistics...
+-Location
+-Factors
+-->
+
+
+
+
 
 To conclude on the four plots, the policymakers in NYC should focus on addressing the most common contributing factors to crashes and the factors that lead to the most severe crashes.
 
