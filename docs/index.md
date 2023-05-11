@@ -12,9 +12,29 @@ permalink: /
 
 <br>
 
+# Vision Zero
+
+<div class="row">
+<div class="col-md-6">
+The Vision Zero of NYC is an initiative created by the City Mayor Bill de Blasio in 2014. With the initiative, the City of New York has invested in comprehensive engineering, enforcement, and education strategies to bring the city closer to the goal of zero deaths and zero serious injuries. The belief behind the Vision Zero project is that serious crashes are preventable, and that no one should be killed or seriosly injured on the roads of NYC.
+
+The Vision Zero believe that traffic safety goes beyond the government, thus they have multiple partnerships all focued on the goal of eliminating deaths and serious injuries in traffic. We have joined the party and hope to provide the Vision Zero with new insights to help them in the battle towards their goal of safer streets!
+</div>
+
+<div class="col-md-6">
+<div style="text-align:center;">
+  <img src="assets/nytwist.png">
+</div>
+</div>
+</div>
+
+
+
+
+
 # <a id="numbers"></a>New York Traffic by the Numbers
 
-Traffic accident data from [NYC OpenData](https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95) from July 2012 to April 2023 lay the foundation for the insights presented on this website. The dataset is called [Motor Vehicle Collisions - Crashes](https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95) and contains details on police reported motor vehicle collisions in NYC where people has been injured or killed, or if there has been a $1000 worth of damage. The data contains approximately 1.99M rows and 29 attributes. See the linked explainer notebook for descriptions of each attribute in the data.
+Traffic accident data from [NYC OpenData](https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95) from July 2012 to April 2023 lay the foundation for the insights presented on this website. The dataset is called [Motor Vehicle Collisions - Crashes](https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95) and contains details on police reported motor vehicle collisions in NYC where people has been injured or killed, or if there has been a $1000 worth of damage. The data contains approximately 1.99M rows and 29 attributes. See the [explainer notebook](https://nbviewer.org/github/jens-create/socialdata2023/blob/main/assignments/Final%20project/ExplainerNotebook_version2.ipynb) for descriptions of each attribute in the data.
 
 
 As of 2022, New York City is the most congested city in the US. Rush hour traffic can cause drivers to spend an average of [236 hours per year on the road](https://www.tomtom.com/traffic-index/united-states-of-america-country-traffic/), with an additional [117 hours lost to congestion](https://inrix.com/scorecard-city-2022/?city=New%20York%20City%20NY&index=5#form-download-the-full-report). With such high levels of traffic, it's no surprise that navigating the city's busy streets can be dangerous. But, how bad is the safety in New York City, really? Let’s look into some of the facts and figures you need to know!
@@ -52,66 +72,67 @@ According to recent data, New York City experiences an average of 131,000 crashe
 
         <div class="col-md-6" style="text-align: right;">
         <p
-            style="font-size: 25px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#3c3c3c !important; margin-bottom: 2px;">
-            <font style="color:#606c71">2013-2019</font>
+            style="font-size: 25px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#4c8f7e !important; margin-bottom: 2px;">
+            <font style="color:#008360">2013-2019</font>
           </p>
           <p
-            style="font-size: 20px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#ff5d49 !important; margin-bottom: 2px;">
-            <font style="color:#ff8e7f">178</font> deathly crashes per year
+            style="font-size: 20px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#4c8f7e !important; margin-bottom: 2px;">
+            <font style="color:#7fb9b3">178</font> deathly crashes per year
           </p>
           <p
-            style="font-size: 20px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#ff5d49 !important; margin-bottom: 2px;">
-            <font style="color:#ff8e7f">32,000</font> injury crashes per year
+            style="font-size: 20px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#4c8f7e !important; margin-bottom: 2px;">
+            <font style="color:#7fb9b3">32,000</font> injury crashes per year
           </p>
           <p
-            style="font-size: 20px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#ff5d49 !important">
-            <font style="color:#ff8e7f">134,500</font> material damage crashes per year
+            style="font-size: 20px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#4c8f7e !important">
+            <font style="color:#7fb9b3">134,500</font> material damage crashes per year
           </p>
 
         </div>
         <div class="col-md-6" style="text-align: left;">
         <p
-            style="font-size: 25px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#2f2f2f !important; margin-bottom: 2px;">
-            <font style="color:#606c71">Since 2020</font>
+            style="font-size: 25px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#4c8f7e !important; margin-bottom: 2px;">
+            <font style="color:#008360">Since 2020</font>
           </p>
           <p
-            style="font-size: 20px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#ff5d49 !important; margin-bottom: 2px;">
-            <font style="color:#ff8e7f">183</font> deathly crashes per year
+            style="font-size: 20px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#4c8f7e !important; margin-bottom: 2px;">
+            <font style="color:#7fb9b3">183</font> deathly crashes per year
           </p>
           <p
-            style="font-size: 20px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#ff5d49 !important; margin-bottom: 2px;">
-            <font style="color:#ff8e7f">28,500</font> injury crashes per year
+            style="font-size: 20px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#4c8f7e !important; margin-bottom: 2px;">
+            <font style="color:#7fb9b3">28,500</font> injury crashes per year
           </p>
           <p
-            style="font-size: 20px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#ff5d49 !important">
-            <font style="color:#ff8e7f">57,000</font> material damage crashes per year
+            style="font-size: 20px ;font-weight: 800 !important; font-family: 'Readex Pro', sans-serif; color:#4c8f7e !important">
+            <font style="color:#7fb9b3">57,000</font> material damage crashes per year
           </p>
 
         </div>
       </div>
 
-The number of material damage crashes has dropped significantly in recent years, from an average of 134,500 material damage crashes per year from 2013 to 2019 to an average of 57,000 material damage crashes per year since 2020. This decrease is likely due to the NYPD's "No Report" crash policy, which has led to fewer reported accidents overall. However, the average number of fatal crashes is actually increased since the covid-19 outbreak and the number of injury-related crashes has remained relatively consistent with pre-COVID levels, although with a slight decrease. These numbers might indicate that the overall safety of the city may not have improved over the recent years,  and may in fact have worsened. However, it's important to take a closer look at these numbers to gain a more complete understanding of the situation.
+The number of material damage crashes has dropped significantly in recent years, from an average of 134,500 material damage crashes per year from 2013 to 2019 to an average of 57,000 material damage crashes per year since 2020. This decrease is likely due to the NYPD's 'No Report' crash policy, which has led to fewer reported accidents overall. However, the average number of fatal crashes remains at a similar level, thus Vision Zero in NYC efforts have not yet brought down the number of killings in the traffic. In spite of that the numbers suggest that their efforts seem to have had an impact on the average number of injury-related crashes, as the average number has declined with approximately 10%. However, it's important to take a closer look at these numbers to gain a more complete understanding of the situation.
 
 <center>
 {% include fatalities_per_year.html %}
 </center>
 
-In general, the majority of road users killed in collisions in NYC are the pedestrians. The second largest group of fatalities is motorist, and since 2020 there has been an increase in motorists killed , which approaches the level of pedestrians. Looking at the number of fatalities in general over the past decase, we can see that the level of deadly crashes has not improved. In fact, we see a concerning trend of increasing pedestrian fatalities in the most recent years. To combat this trend, we should look into the causes of these crashes and identify ways to prevent them from happening in the future. Let us take a look at the number of crashes in each of the five boroughs of NYC to investigate where we should focus our efforts.
-
+In general, the majority of road users killed in collisions in NYC is the pedestrians. The second largest group of fatalities is motorists and since 2020 there has been an increase in motorists killed, which approaches the level of pedestrians. Looking at the number of fatalities in general over the past decade, we can see that the level of deadly crashes has not improved. In fact, we see a concerning trend of increasing pedestrian fatalities in the most recent years. To combat this trend, we should look into the causes of these crashes and identify ways to prevent them from happening in the future. Let us take a look at the number of crashes in each of the five boroughs of NYC to investigate where we should focus our efforts.
 
 
 {% include boxplot_collisions_per_day.html %}
 
 
-Overall, the trends in both time periods are similar, however there are fewer collisions in the more recent period, as previously noted. Consequently, the median number of collisions per day was consistently higher in the 2013-2019 period across all boroughs. Furter, Brooklyn has the highest number of collisions in both time periods, while the Staten Island has the lowest. Moreover, the number of crashes in Manhattan has decreased and is now more similar to the number of crashes in Bronx, whereas previously it was more similar to Brooklyn and Queens. We will look use these insights to investigate the crashes in each borough in more detail later on. Let's now take a closer look at the time trends, to see if there are any patterns in the number of crashes over the years, months, and days and hours of the week.
+Overall, the trends in both time periods are similar, however there are fewer collisions in the more recent period, as previously noted. Consequently, the median number of collisions per day was consistently higher in the 2013-2019 period across all boroughs. Furter, Brooklyn has the highest number of collisions in both time periods, while the Staten Island has the lowest. Moreover, the number of crashes in Manhattan has decreased and is now more similar to the number of crashes in Bronx, whereas previously it was more similar to Brooklyn and Queens. We will use these insights to investigate the crashes in each borough in more detail later on. Let's now take a closer look at the time trends, to see if there is any patterns in the number of crashes over the years, months, days and hours of the week.
 
 <br>
 
 # Does Time Matter? <!--Analyzing Trends in NYC Crashes Over Time-->
-### Analyzing crashes in different time perspectives
 
+Let's analyze crashes in different time perspectives to find out! Take a look at the <code class="language-plaintext highlighter-rouge">Yearly and Monthly</code> and <code class="language-plaintext highlighter-rouge">Weekly and Hourly</code> patterns in the buttons below. 
+
+<!--### Analyzing crashes in different time perspectives-->
  <div class="row" style="margin-top: 10px;">
-  <div class="col-sm-12">
+  <div class="col-sm-12" style="display: flex; justify-content: center">
     <button type="button" class="btn btn-primary btn-circle shadow-none active" id="ym"
       style="border-radius: 20px !important; background-color: #83c3b2; border-color: #ffffff; padding-left: 20px; padding-right: 20px; margin-top: 10px;color:white">Yearly
       and Monthly Patterns</button>
@@ -129,9 +150,9 @@ Overall, the trends in both time periods are similar, however there are fewer co
 {% include time_series_plot2_version4.html %}
 </div>
 
-Maybe rewrite the figure text.
-Write also something to sum up what we can conclude from the plots...
+<br>
 
+ Pedestrians are the most vulnerable group of people and at the same time they are more often involved in a fatal incident.
 
 <br><br>
 
@@ -145,22 +166,33 @@ Below map compares how each borough in NYC is affected by traffic incidents over
 ### Traffic unsafety by roads
 In the following map, we dive into specific trafic locations to identify where the traffic is most dangerous and thus where to prioritize safety enhancing initiatives for the people of NYC.<br>
 
-Click on specific locations for further information on injuries and fatalities at the locations of accidents.
+*Click* on specific locations for further information on injuries and fatalities at the locations of accidents. By using the dropdown menu, different analyses are presented according to the chosen map.
 {% include accidents_locations_map.html %}
 
 
-## At which locations is the traffic most unsafe in NYC?
+## Deep dive: The two most unsafe roads in NYC
+As found in the previous analysis, Atlantic Avenue and West Fordham Range are the most dangerous roads in NYC. We therefore take a closer look at the accidents on these roads.
 
-A quick look at the map reveals that some roads are more dangerous than others. We therefore take a closer look at the most dangerous roads in NYC - indicated by red circles on the above map.
 
-### Atlantic Avenue in Brooklyn
-The map reveals that the Atlantic Avenue is a road with a high number of accidents. We therefore take a closer look at the accidents on this road.
+ <div class="row" style="margin-top: 10px;">
+  <div class="col-sm-12" style="display: flex; justify-content: center">
+    <button type="button" class="btn btn-primary btn-circle shadow-none active" id="aa"
+      style="border-radius: 20px !important; background-color: #83c3b2; border-color: #ffffff; padding-left: 20px; padding-right: 20px; margin-top: 10px;color:white">Atlantic Avenue</button>
+    <button type="button" class="btn btn-primary btn-circle shadow-none" id="wfr"
+      style="border-radius: 20px !important; background-color: #ffffff; border-color: #ffffff; padding-left: 20px; padding-right: 20px; margin-top: 10px;color: black;">West Fordham Road</button>
+  </div>
+</div>
+
+<div id="div_aa" style="display: block;">
+
+
+
+<h3> Atlantic Avenue in Brooklyn</h3>
+
 
 A quick search on the net reveals that the road is a major thoroughfare in Brooklyn, New York City. It stretches from the Brooklyn waterfront on the East River all the way to Jamaica, Queens. The road is 17 kilometers long and is a major east–west street in Brooklyn. The avenue is known for its high traffic volume and is notorious for its high accident rate due to its design.
 
-An article from 2021, [SAFETY THIRD: Hit-and-Run Driver Kills Deaf Man on Notorious Speedway that DOT Failed to Fix](https://nyc.streetsblog.org/2021/10/16/safety-third-hit-and-run-driver-kills-deaf-man-on-notorious-speedway-that-dot-failed-to-fix/), sheds light upon the fact there has been renovation projects on improving the safety of `Atlantic Avenue` since 2014. The project, which aimed to improve safety for pedestrians and cyclists, involved adding high visibility crosswalks and curb extensions, but critics state that it has not fundamentally altered the geometry of the street or provided traffic calming measures. The article argues that despite the renovation, the number of injuries on the roadway has remained high, and the project's Phase II does not even have funding. Thus, in the future the policymakers should prioritize the renovation of Atlantic Avenue to improve the safety of the street.
-
-Let's look into the data and see if the work of the policymakers have made a change in the last 5 years or so...
+An article from 2021, <a href="https://nyc.streetsblog.org/2021/10/16/safety-third-hit-and-run-driver-kills-deaf-man-on-notorious-speedway-that-dot-failed-to-fix/">[SAFETY THIRD: Hit-and-Run Driver Kills Deaf Man on Notorious Speedway that DOT Failed to Fix]</a>, sheds light upon the fact there has been renovation projects on improving the safety of `Atlantic Avenue` since 2014. The project, which aimed to improve safety for pedestrians and cyclists, involved adding high visibility crosswalks and curb extensions, but critics state that it has not fundamentally altered the geometry of the street or provided traffic calming measures. The article argues that despite the renovation, the number of injuries on the roadway has remained high, and the project's Phase II does not even have funding. Thus, in the future the policymakers should prioritize the renovation of Atlantic Avenue to improve the safety of the street. We can validate this claim by looking at the number of accidents on Atlantic Avenue over time.
 
 
 <div class ="row" style="margin-top:20px;">
@@ -171,12 +203,36 @@ It's clear that the desired effect of the renovation project has not been achiev
 {% include atlantic_ave_crashes.html %}
 </div>
 </div>
+</div>
+
+
+<div id="div_wfr" style="display: none;">
+<h3>West Fordham Road</h3>
+
+A quick search on the net reveals that West Fordham Road is a major east-west thoroughfare in the Bronx, New York City. The road is 3.5 kilometers long and is known for its high traffic volume. The specific intersection between West Fordham Road and Major Deegan Expressway, which has resulted in more than 50 people injured, are located at an important junction in the Bronx. It is close to the Bronx Community campus and a hospital.
+
+<div class="row" style="margin-top: 20px;">
+
+<div class="col-md-6">
+<p>
+A thorough search on the net has not revealed any information on whether there has been a safety renovation on the West Fordham Road. Luckily for us, Google Maps provides a time capsule such that we can go back in time and see how the cross has evolved over the years. Try this for yourself by going to <em>clicking</em> <code class="language-plaintext highlighter-rouge">Show in Google Maps</code>, and <em>click</em> <code class="language-plaintext highlighter-rouge">See more dates</code> in the top right corner.
+</p>
+<p>
+A visual inspection of the last 10 years of the intersection between West Fordham Road and Major Deegan Expressway reveals that the intersection has not been renovated. The traffic lights, the road markings and the road signs are the same as they were 10 years ago. Furthermore, no safety enhancements have been made to the pavement, the sidewalks or the crosswalks. Thus, the intersection has not been improved to increase the safety of the intersection.
+</p>
+
+</div>
+
+<div class="col-md-6">
+
+  <iframe src="https://www.google.com/maps/embed?pb=!4v1683811132075!6m8!1m7!1sNubszY_SjrsD092DucbZuQ!2m2!1d40.8618223834883!2d-73.91216246099941!3f278.47550823298013!4f-6.833775355178005!5f0.7820865974627469" width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+</div>
+</div>
 
 
 
-
-
-<br><br>
+<br>
 
 # <a id="causes"></a>What Are the Main Causes of Accidents in NYC?
 
@@ -282,6 +338,28 @@ The analysis of the contributing factors pinpointed several key insights that ca
       $("#ym").css('background-color', 'white');
       $("#wh").css('background-color', '#83c3b2');
       $("#wh").css('color', 'white');
+
+    })
+
+
+    $("#aa").click(function () {
+      // #83c3b2
+      $("#div_aa").show();
+      $("#div_wfr").css('display', 'none');
+      $("#wfr").css('color', 'black');
+      $("#wfr").css('background-color', 'white');
+      $("#aa").css('background-color', '#83c3b2');
+      $("#aa").css('color', 'white');
+    })
+
+    $("#wfr").click(function () {
+      // #83c3b2
+      $("#div_wfr").show();
+      $("#div_aa").css('display', 'none');
+      $("#aa").css('color', 'black');
+      $("#aa").css('background-color', 'white');
+      $("#wfr").css('background-color', '#83c3b2');
+      $("#wfr").css('color', 'white');
 
     })
   })
