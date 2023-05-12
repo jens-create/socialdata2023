@@ -307,6 +307,11 @@ In alignment with New York City's Vision Zero initiative, the goal of this proje
 -Factors
 -->
 
+First, we recommend that safety enhancing initiatives are targeted at the Bronx and Brooklyn. The two boroughs can be approached with the same initiatives. As they are both neighboring boroughs to Manhatten, there is a heavy traffic load on the larger roads connincting to the Big Apple. Both boroughs have a few significantly impacted intersections at West Fordham Road and Atlantic Avenue, respectively. Hence the focus should be intesified for these locations. 
+
+We have seen that there tend to be collision peaks in rush hours late afternoon to early evening in weekdays. Moreover, the analysis showed that in general lack of attention causes many accidents. Based on these findings, we suggest a general campaign targeting people in rush hour commute that tends to zoom out and loose focus on the traffic. Next step should be to further investigate the contributing factors for the few high risk locations independently. 
+
+
 
 The analysis of the contributing factors pinpointed several key insights that can be used to inform policy decisions and improve road safety in New York City:
 
