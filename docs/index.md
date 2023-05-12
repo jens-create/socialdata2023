@@ -15,6 +15,27 @@ permalink: /
 # Vision Zero
 
 <div class="row">
+  <div class="col-md-6">
+    <p>
+      <a href="https://www.nyc.gov/content/visionzero/pages/">Vision Zero of NYC</a> is an initiative created by the City Mayor Bill de Blasio in 2014. With the initiative, the City of New York has invested in comprehensive engineering, enforcement, and education strategies to bring the city closer to the goal of zero deaths and zero serious injuries. The belief behind the Vision Zero project is that serious crashes are preventable, and that no one should be killed or seriously injured on the roads of NYC.
+    </p>
+    <p>
+      Vision Zero believes that traffic safety goes beyond the government, thus they have multiple partnerships all focused on the goal of eliminating deaths and serious injuries in traffic. We have joined the party and hope to provide Vision Zero with new insights to help them in the battle towards their goal of safer streets!
+    </p>
+  </div>
+
+  <div class="col-md-6">
+    <div style="text-align:center;">
+      <img src="assets/nytwist.png">
+    </div>
+  </div>
+</div>
+
+<!-- <br>
+
+# Vision Zero
+
+<div class="row">
 <div class="col-md-6">
 
 
@@ -28,7 +49,7 @@ Vision Zero believes that traffic safety goes beyond the government, thus they h
   <img src="assets/nytwist.png">
 </div>
 </div>
-</div>
+</div> -->
 
 
 
