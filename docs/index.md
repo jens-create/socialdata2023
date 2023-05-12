@@ -18,9 +18,9 @@ permalink: /
 <div class="col-md-6">
 
 
-The [Vision Zero of NYC](https://www.nyc.gov/content/visionzero/pages/) is an initiative created by the City Mayor Bill de Blasio in 2014. With the initiative, the City of New York has invested in comprehensive engineering, enforcement, and education strategies to bring the city closer to the goal of zero deaths and zero serious injuries. The belief behind the Vision Zero project is that serious crashes are preventable, and that no one should be killed or seriosly injured on the roads of NYC.
+The [Vision Zero of NYC](https://www.nyc.gov/content/visionzero/pages/) is an initiative created by the City Mayor Bill de Blasio in 2014. With the initiative, the City of New York has invested in comprehensive engineering, enforcement, and education strategies to bring the city closer to the goal of zero deaths and zero serious injuries. The belief behind the Vision Zero project is that serious crashes are preventable, and that no one should be killed or seriously injured on the roads of NYC. 
 
-The Vision Zero believe that traffic safety goes beyond the government, thus they have multiple partnerships all focued on the goal of eliminating deaths and serious injuries in traffic. We have joined the party and hope to provide the Vision Zero with new insights to help them in the battle towards their goal of safer streets!
+Vision Zero believes that traffic safety goes beyond the government, thus they have multiple partnerships all focused on the goal of eliminating deaths and serious injuries in traffic. We have joined the party and hope to provide Vision Zero with new insights to help them in the battle towards their goal of safer streets!
 </div>
 
 <div class="col-md-6">
@@ -36,10 +36,10 @@ The Vision Zero believe that traffic safety goes beyond the government, thus the
 
 # <a id="numbers"></a>New York Traffic by the Numbers
 
-Traffic accident data from [NYC OpenData](https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95) from July 2012 to April 2023 lay the foundation for the insights presented on this website. The dataset is called [Motor Vehicle Collisions - Crashes](https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95) and contains details on police reported motor vehicle collisions in NYC where people has been injured or killed, or if there has been a $1000 worth of damage. The data contains approximately 1.99M rows and 29 attributes. See the [explainer notebook](https://nbviewer.org/github/jens-create/socialdata2023/blob/main/assignments/Final%20project/ExplainerNotebook_version2.ipynb) for descriptions of each attribute in the data.
+Traffic accident data from [NYC OpenData](https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95) from July 2012 to April 2023 lay the foundation for the insights presented on this website. The dataset is called [Motor Vehicle Collisions - Crashes](https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95) and contains details on police reported motor vehicle collisions in NYC where people have been injured or killed, or if there has been a $1000 worth of damage. The data contains approximately 1.99M rows and 29 attributes. See the  [explainer notebook](https://nbviewer.org/github/jens-create/socialdata2023/blob/main/assignments/Final%20project/ExplainerNotebook_version2.ipynb) for descriptions of each attribute in the data.
 
+As of 2022, New York City is the most congested city in the US. Rush hour traffic can cause drivers to spend an average of  [236 hours per year on the road](https://www.tomtom.com/traffic-index/united-states-of-america-country-traffic/), with an additional [117 hours lost to congestion](https://inrix.com/scorecard-city-2022/?city=New%20York%20City%20NY&index=5#form-download-the-full-report). With such high levels of traffic, it’s no surprise that navigating the city’s busy streets can be dangerous. But, how bad is the safety in New York City, really? Let’s look into some of the facts and figures you need to know!
 
-As of 2022, New York City is the most congested city in the US. Rush hour traffic can cause drivers to spend an average of [236 hours per year on the road](https://www.tomtom.com/traffic-index/united-states-of-america-country-traffic/), with an additional [117 hours lost to congestion](https://inrix.com/scorecard-city-2022/?city=New%20York%20City%20NY&index=5#form-download-the-full-report). With such high levels of traffic, it's no surprise that navigating the city's busy streets can be dangerous. But, how bad is the safety in New York City, really? Let’s look into some of the facts and figures you need to know!
 <!-- In this section, we'll dive into the numbers and shed light on the current state of traffic in NYC.-->
 
 
@@ -118,13 +118,13 @@ The number of material damage crashes has dropped significantly in recent years,
 {% include fatalities_per_year.html %}
 </center>
 
-In general, the majority of road users killed in collisions in NYC is the pedestrians. The second largest group of fatalities is motorists and since 2020 there has been an increase in motorists killed, which approaches the level of pedestrians. Looking at the number of fatalities in general over the past decade, we can see that the level of deadly crashes has not improved. In fact, we see a concerning trend of increasing pedestrian fatalities in the most recent years. To combat this trend, we should look into the causes of these crashes and identify ways to prevent them from happening in the future. Let us take a look at the number of crashes in each of the five boroughs of NYC to investigate where we should focus our efforts.
+In general, the majority of road users killed in collisions in NYC are the pedestrians. The second largest group of fatalities is motorists and since 2020 there has been an increase in motorists killed, which approaches the level of pedestrians. Looking at the number of fatalities in general over the past decade, we can see that the level of deadly crashes has not improved. In fact, we see a concerning trend of increasing pedestrian fatalities in the most recent years. To combat this trend, we should look into the causes of these crashes and identify ways to prevent them from happening in the future. Let us take a look at the number of crashes in each of the five boroughs of NYC to investigate where we should focus our efforts.
 
 
 {% include boxplot_collisions_per_day.html %}
 
 
-Overall, the trends in both time periods are similar, however there are fewer collisions in the more recent period, as previously noted. Consequently, the median number of collisions per day was consistently higher in the 2013-2019 period across all boroughs. Furter, Brooklyn has the highest number of collisions in both time periods, while the Staten Island has the lowest. Moreover, the number of crashes in Manhattan has decreased and is now more similar to the number of crashes in Bronx, whereas previously it was more similar to Brooklyn and Queens. We will use these insights to investigate the crashes in each borough in more detail later on. Let's now take a closer look at the time trends, to see if there is any patterns in the number of crashes over the years, months, days and hours of the week.
+Overall, the trends in both time periods are similar, however there are fewer collisions in the more recent period, as previously noted. Consequently, the median number of collisions per day was consistently higher in the 2013-2019 period across all boroughs. Furter, Brooklyn has the highest number of collisions in both time periods, while Staten Island has the lowest. Moreover, the number of crashes in Manhattan has decreased and is now more similar to the number of crashes in the Bronx, whereas previously it was more similar to Brooklyn and Queens. We will use these insights to investigate the crashes in each borough in more detail later on. Let's now take a closer look at the time trends, to see if there are any patterns in the number of crashes over the years, months, days and hours of the week.
 
 <br>
 
@@ -154,9 +154,9 @@ Let's analyze crashes in different time perspectives to find out! Take a look at
 
 <br>
 
-The plots presented above reveal some important patterns and trends in NYC traffic incidents. All four plots highlight the importance of ensuring the safety of the pedestrians as they are the most vulnerable group of people and at the same time they are more often involved in a fatal incident. However, the injury-rate are higher for motorists than pedestrians. To reduce the number of deaths and severe injuries, Vision Zero should therefore look into the safety conditions for both of these groups. 
+The plots presented above reveal some important patterns and trends in NYC traffic incidents. All four plots highlight the importance of ensuring the safety of the pedestrians as they are the most vulnerable group of people and at the same time they are more often involved in a fatal incident. However, the injury-rate is higher for motorists than pedestrians. To reduce the number of deaths and severe injuries, Vision Zero should therefore look into the safety conditions for both of these groups. 
 
-Both fatalities and injuries occur more often during the winter months, which suggests that Vision Zero should look into how road conditions can be improved in bad weather. Moreover, severe accidents often happen during rush hours and at the weekend during the night out. These findings are not surprising, but nonetheless, they are important to keep in mind when working towards the goal of Vision Zero. 
+Both fatalities and injuries occur more often during the winter months, which suggests that Vision Zero should look into how road conditions can be improved in bad weather. Moreover, severe accidents often happen during rush hours and at the weekend during the night. These findings are not surprising, but nonetheless, they are important to keep in mind when working towards the goal of Vision Zero. 
 
 <br><br>
 
@@ -202,7 +202,7 @@ As found in the previous analysis, Atlantic Avenue and West Fordham Range are th
 
 A quick search on the net reveals that the road is a major thoroughfare in Brooklyn, New York City. It stretches from the Brooklyn waterfront on the East River all the way to Jamaica, Queens. The road is 17 kilometers long and is a major east–west street in Brooklyn. The avenue is known for its high traffic volume and is notorious for its high accident rate due to its design.
 
-An article from 2021, <a href="https://nyc.streetsblog.org/2021/10/16/safety-third-hit-and-run-driver-kills-deaf-man-on-notorious-speedway-that-dot-failed-to-fix/">[SAFETY THIRD: Hit-and-Run Driver Kills Deaf Man on Notorious Speedway that DOT Failed to Fix]</a>, sheds light upon the fact there has been renovation projects on improving the safety of `Atlantic Avenue` since 2014. The project, which aimed to improve safety for pedestrians and cyclists, involved adding high visibility crosswalks and curb extensions, but critics state that it has not fundamentally altered the geometry of the street or provided traffic calming measures. The article argues that despite the renovation, the number of injuries on the roadway has remained high, and the project's Phase II does not even have funding. Thus, in the future the policymakers should prioritize the renovation of Atlantic Avenue to improve the safety of the street. We can validate this claim by looking at the number of accidents on Atlantic Avenue over time.
+An article from 2021, <a href="https://nyc.streetsblog.org/2021/10/16/safety-third-hit-and-run-driver-kills-deaf-man-on-notorious-speedway-that-dot-failed-to-fix/">[SAFETY THIRD: Hit-and-Run Driver Kills Deaf Man on Notorious Speedway that DOT Failed to Fix]</a>, sheds light upon the fact there have been renovation projects on improving the safety of `Atlantic Avenue` since 2014. The project, which aimed to improve safety for pedestrians and cyclists, involved adding high visibility crosswalks and curb extensions, but critics state that it has not fundamentally altered the geometry of the street or provided traffic calming measures. The article argues that despite the renovation, the number of injuries on the roadway has remained high, and the project's Phase II does not even have funding. Thus, in the future the policymakers should prioritize the renovation of Atlantic Avenue to improve the safety of the street. We can validate this claim by looking at the number of accidents on Atlantic Avenue over time.
 
 
 <div class ="row" style="margin-top:20px;">
@@ -275,9 +275,9 @@ Based on the analysis of the three plots, there are several recommendations that
 
 - Address `driver inattention/distraction`: This is the leading contributing factor to both material damage-only accidents and pedestrian fatalities, and is a common factor in crashes involving injuries to motorists, cyclists, and pedestrians. Strategies to address this issue could include increased public education campaigns, stricter enforcement of distracted driving laws, and the development and promotion of new technologies that reduce driver distraction.
 
-- Improve pedestrian safety: Pedestrians are disproportionately affected by crashes leading to injuries and fatalities, and are often the victims of crashes involving `driver inattention/distriaction` and `failure to yield right of way`. To address this issue, policies could focus on improving pedestrian infrastructure, such as adding more crosswalks and pedestrian signals, and redesigning streets to slow down traffic and increase visibility.
+- Improve pedestrian safety: Pedestrians are disproportionately affected by crashes leading to injuries and fatalities, and are often the victims of crashes involving `driver inattention/distraction` and `failure to yield right of way`. To address this issue, policies could focus on improving pedestrian infrastructure, such as adding more crosswalks and pedestrian signals, and redesigning streets to slow down traffic and increase visibility.
 
-- Address speeding: `Unsafe speed` is one of the leading contributing factor to fatal crashes, particularly among motorists. Strategies to address this issue could include stricter enforcement of speed limits, the use of automated speed cameras, and roadway design changes such as road narrowing or speed humps.
+- Address speeding: `Unsafe speed` is one of the leading contributing factors to fatal crashes, particularly among motorists. Strategies to address this issue could include stricter enforcement of speed limits, the use of automated speed cameras, and roadway design changes such as road narrowing or speed humps.
 
 
 
@@ -292,7 +292,7 @@ The plot includes the top 14 contributing factors, with the size of the circle i
 
 - Secondly, the diagonal items of the scatter plots, which indicate when the same contributing factor is listed for both vehicle 1 and vehicle 2, are more frequent and more dangerous in terms of injuries and deaths. This finding suggests that when both drivers are engaging in the same risky behavior, the consequences are more severe.
 
-- Thirdly, the plot shows that even though the number of crashes with `unsafe speed` is relatively low, the number of injuries and fatalities is high. This suggests that crashes involving `unsafe speed` are more dangerous than other types of crashes. This is especailly true for a combination of `unsafe speed` and `failure to yield right of way`, `traffic control disregarded` or `driver inattention/distraction`.
+- Thirdly, the plot shows that even though the number of crashes with `unsafe speed` is relatively low, the number of injuries and fatalities is high. This suggests that crashes involving `unsafe speed` are more dangerous than other types of crashes. This is especially true for a combination of `unsafe speed` and `failure to yield right of way`, `traffic control disregarded` or `driver inattention/distraction`.
 
 
 Overall, this scatter plot provides valuable insights into the correlation between contributing factors in crashes, highlighting the importance of addressing driver inattention and distraction and the need to focus on risky behaviors when both drivers are engaging in them. By taking these insights into account, policymakers and safety advocates can make more informed decisions about how to improve road safety in New York City.
@@ -303,16 +303,15 @@ Overall, this scatter plot provides valuable insights into the correlation betwe
 
 In alignment with New York City's Vision Zero initiative, the goal of this project is to identify the most common contributing factors to crashes and the factors that lead to the most severe crashes. This section will provide recommendations for policymakers and safety advocates based on the findings of the analysis.
 
+
+First, we recommend that safety enhancing initiatives are targeted at the Bronx and Brooklyn. The two boroughs can be approached with the same initiatives. As they are both neighboring boroughs to Manhattan, there is a heavy traffic load on the larger roads connecting to the Big Apple. Both boroughs have a few significantly impacted intersections at West Fordham Road and Atlantic Avenue, respectively. Hence the focus should be intensified for these locations.
+
+We have seen that there tend to be collision peaks in rush hours late afternoon to early evening on weekdays. Moreover, the analysis showed that in general lack of attention causes many accidents. Based on these findings, we suggest a general campaign targeting people in rush hour commutes that tends to zoom out and lose focus on the traffic. Next step should be to further investigate the contributing factors for the few high risk locations independently.
+
 <!--
 -Statistics...
--Location
 -Factors
 -->
-
-First, we recommend that safety enhancing initiatives are targeted at the Bronx and Brooklyn. The two boroughs can be approached with the same initiatives. As they are both neighboring boroughs to Manhatten, there is a heavy traffic load on the larger roads connincting to the Big Apple. Both boroughs have a few significantly impacted intersections at West Fordham Road and Atlantic Avenue, respectively. Hence the focus should be intesified for these locations. 
-
-We have seen that there tend to be collision peaks in rush hours late afternoon to early evening in weekdays. Moreover, the analysis showed that in general lack of attention causes many accidents. Based on these findings, we suggest a general campaign targeting people in rush hour commute that tends to zoom out and loose focus on the traffic. Next step should be to further investigate the contributing factors for the few high risk locations independently. 
-
 
 
 The analysis of the contributing factors pinpointed several key insights that can be used to inform policy decisions and improve road safety in New York City:
