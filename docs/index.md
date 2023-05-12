@@ -249,7 +249,7 @@ A quick search on the net reveals that West Fordham Road is a major east-west th
 A thorough search on the net has not revealed any information on whether there has been a safety renovation on the West Fordham Road. Luckily for us, Google Maps provides a time capsule such that we can go back in time and see how the cross has evolved over the years. Try this for yourself by going to <em>clicking</em> <code class="language-plaintext highlighter-rouge">Show in Google Maps</code>, and <em>click</em> <code class="language-plaintext highlighter-rouge">See more dates</code> in the top right corner.
 </p>
 <p>
-A visual inspection of the last 10 years of the intersection between West Fordham Road and Major Deegan Expressway reveals that the intersection has not been renovated. The traffic lights, the road markings and the road signs are the same as they were 10 years ago. Furthermore, no safety enhancements have been made to the pavement, the sidewalks or the crosswalks. Thus, the intersection has not been improved to increase the safety of the intersection.
+A visual inspection of the last 10 years of the intersection between West Fordham Road and Major Deegan Expressway reveals that the intersection has not been renovated. The traffic lights, the road markings and the road signs are the same as they were 10 years ago. Furthermore, no safety enhancements have been made to the pavement, the sidewalks or the crosswalks. Thus, the intersection has not been improved to increase the safety of the intersection. Therefore, it is our strongest recommendation that the policymakers prioritize the renovation of the intersection to improve the safety of the intersection.
 </p>
 
 </div>
