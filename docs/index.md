@@ -297,7 +297,7 @@ Overall, this scatter plot provides valuable insights into the correlation betwe
 
 
 
-# <a id="recommendation"></a>Recommendations for NYC?
+# <a id="recommendation"></a>Towards Vision Zero for NYC
 
 In alignment with New York City's Vision Zero initiative, the goal of this project is to identify the most common contributing factors to crashes and the factors that lead to the most severe crashes. This section will provide recommendations for policymakers and safety advocates based on the findings of the analysis.
 
