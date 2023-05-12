@@ -39,7 +39,7 @@ permalink: /
 <div class="col-md-6">
 
 
-The [Vision Zero of NYC](https://www.nyc.gov/content/visionzero/pages/) is an initiative created by the City Mayor Bill de Blasio in 2014. With the initiative, the City of New York has invested in comprehensive engineering, enforcement, and education strategies to bring the city closer to the goal of zero deaths and zero serious injuries. The belief behind the Vision Zero project is that serious crashes are preventable, and that no one should be killed or seriously injured on the roads of NYC. 
+The [Vision Zero of NYC](https://www.nyc.gov/content/visionzero/pages/) is an initiative created by the City Mayor Bill de Blasio in 2014. With the initiative, the City of New York has invested in comprehensive engineering, enforcement, and education strategies to bring the city closer to the goal of zero deaths and zero serious injuries. The belief behind the Vision Zero project is that serious crashes are preventable, and that no one should be killed or seriously injured on the roads of NYC.
 
 Vision Zero believes that traffic safety goes beyond the government, thus they have multiple partnerships all focused on the goal of eliminating deaths and serious injuries in traffic. We have joined the party and hope to provide Vision Zero with new insights to help them in the battle towards their goal of safer streets!
 </div>
@@ -151,7 +151,7 @@ Overall, the trends in both time periods are similar, however there are fewer co
 
 # Does Time Matter? <!--Analyzing Trends in NYC Crashes Over Time-->
 
-Let's analyze crashes in different time perspectives to find out! Take a look at the <code class="language-plaintext highlighter-rouge">Yearly and Monthly</code> and <code class="language-plaintext highlighter-rouge">Weekly and Hourly</code> patterns in the buttons below. 
+Let's analyze crashes in different time perspectives to find out! Take a look at the <code class="language-plaintext highlighter-rouge">Yearly and Monthly</code> and <code class="language-plaintext highlighter-rouge">Weekly and Hourly</code> patterns in the buttons below.
 
 <!--### Analyzing crashes in different time perspectives-->
  <div class="row" style="margin-top: 10px;">
@@ -175,9 +175,9 @@ Let's analyze crashes in different time perspectives to find out! Take a look at
 
 <br>
 
-The plots presented above reveal some important patterns and trends in NYC traffic incidents. All four plots highlight the importance of ensuring the safety of the pedestrians as they are the most vulnerable group of people and at the same time they are more often involved in a fatal incident. However, the injury-rate is higher for motorists than pedestrians. To reduce the number of deaths and severe injuries, Vision Zero should therefore look into the safety conditions for both of these groups. 
+The plots presented above reveal some important patterns and trends in NYC traffic incidents. All four plots highlight the importance of ensuring the safety of the pedestrians as they are the most vulnerable group of people and at the same time they are more often involved in a fatal incident. However, the injury-rate is higher for motorists than pedestrians. To reduce the number of deaths and severe injuries, Vision Zero should therefore look into the safety conditions for both of these groups.
 
-Both fatalities and injuries occur more often during the winter months, which suggests that Vision Zero should look into how road conditions can be improved in bad weather. Moreover, severe accidents often happen during rush hours and at the weekend during the night. These findings are not surprising, but nonetheless, they are important to keep in mind when working towards the goal of Vision Zero. 
+Both fatalities and injuries occur more often during the winter months, which suggests that Vision Zero should look into how road conditions can be improved in bad weather. Moreover, severe accidents often happen during rush hours and at the weekend during the night. These findings are not surprising, but nonetheless, they are important to keep in mind when working towards the goal of Vision Zero.
 
 <br><br>
 
@@ -189,7 +189,7 @@ Due to the rapid evolution of big cities like NYC, we focus on analyzing the geo
 
 Below map compares how each borough in NYC is affected by collisions, which is reflected in different metrics such as accidents relative to area and population and moreover the severity of accidents.
 
-Use the dropdown to explore maps and the *findings below for each metric* of traffic unsafety; *total accidents*, *accidents per sq. km., accidents per capita* and *severe accident rate*.<br> 
+Use the dropdown to explore maps and the *findings below for each metric* of traffic unsafety; *total accidents*, *accidents per sq. km., accidents per capita* and *severe accident rate*.<br>
 
 {% include nyc_accidents_map.html %}
 
@@ -329,18 +329,20 @@ First, we recommend that safety enhancing initiatives are targeted at the Bronx 
 
 We have seen that there tend to be collision peaks in rush hours late afternoon to early evening on weekdays. Moreover, the analysis showed that in general lack of attention causes many accidents. Based on these findings, we suggest a general campaign targeting people in rush hour commutes that tends to zoom out and lose focus on the traffic. Next step should be to further investigate the contributing factors for the few high risk locations independently.
 
+Thirdly, we recommend the policy makers to focus on the following contributing factors; `Driver inattention/distraction`, `Failure to yield right-of-way`, `Unsafe speed` and `traffic control disregarded` as these are the most frequent and dangerous contributing factors. The policy makers should reach out to relevant stakeholders, such as the police, urban planners, Vision Zero and the public, to discuss how to address these factors.
+
+
+
+
+
+
+
 <!--
--Statistics...
--Factors
--->
-
-
-The analysis of the contributing factors pinpointed several key insights that can be used to inform policy decisions and improve road safety in New York City:
-
 - <code class="language-plaintext highlighter-rouge">Driver inattention/distraction</code> is the leading contributing factor to crashes in New York City, regardless of the severity.
 - <code class="language-plaintext highlighter-rouge">Failure to yield right-of-way</code> and <code class="language-plaintext highlighter-rouge">driver inattention/distraction</code> are the most common contributing factors to severe crashes and are also associated with the highest number of injuries and fatalities among pedestrians.
 - <code class="language-plaintext highlighter-rouge">Unsafe speed</code> and <code class="language-plaintext highlighter-rouge">traffic control disregarded</code> are relatively infrequent but are associated with the highest number of injuries and fatalities among motorists.
 - If vehicle 1 and vehicle 2 have the same contributing factor, the consequences are more severe.
+-->
 
 
 <script>
