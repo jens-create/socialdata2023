@@ -329,7 +329,7 @@ First, we recommend that safety enhancing initiatives are targeted at the Bronx 
 
 We have seen that there tend to be collision peaks in rush hours late afternoon to early evening on weekdays. Moreover, the analysis showed that in general lack of attention causes many accidents. Based on these findings, we suggest a general campaign targeting people in rush hour commutes that tends to zoom out and lose focus on the traffic. Next step should be to further investigate the contributing factors for the few high risk locations independently.
 
-Thirdly, we recommend the policy makers to focus on the following contributing factors; `Driver inattention/distraction`, `Failure to yield right-of-way`, `Unsafe speed` and `traffic control disregarded` as these are the most frequent and dangerous contributing factors. The policy makers should reach out to relevant stakeholders, such as the police, urban planners, Vision Zero and the public, to discuss how to address these factors.
+Thirdly, we recommend the policy makers to focus on the following contributing factors; `driver inattention/distraction`, `failure to yield right-of-way`, `unsafe speed` and `traffic control disregarded` as these are the most frequent and dangerous contributing factors. The policy makers should reach out to relevant stakeholders, such as the police, urban planners, Vision Zero and the public, to discuss how to address these factors.
 
 
 
